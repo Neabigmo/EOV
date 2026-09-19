@@ -1,14 +1,19 @@
 # RELEASE_AUDIT.md
 
 Pre-push audit of the public EOV release.
-Generated 2026-09-19. **Nothing has been pushed; the repository is local.**
+Generated 2026-09-19.
 
 ```
-commit      d66bf7b   (branch main, fresh repository — no prior history)
-tracked     182 files / 2.73 MB
-largest     654.3 KB   results/tables/M4_LAYER_DECOMPOSITION.csv
-source      packaged from the working analysis tree, not uploaded in place
+remote      https://github.com/Neabigmo/EOV.git   (public)
+commit      7d2d6b6   branch main
+tracked     183 files / 2.74 MB
+largest     654,300 bytes   results/tables/M4_LAYER_DECOMPOSITION.csv
+history     3 commits, fresh repository — no prior history anywhere
 ```
+
+> Counting note: the file count in this header includes this file itself, which
+> is why the figure here (183) differs from the 182 quoted at the bottom of
+> §8's clone table (measured before this file was added).
 
 ---
 
@@ -110,12 +115,12 @@ rewriting. `prereg/M1_SCHEMA_SPEC.md` is likewise shipped verbatim.
 ## 5. Large-file audit (whole history, not just `HEAD`)
 
 ```
-objects scanned (git rev-list --objects --all)   203
-largest single object                            639 KB
+objects scanned (git rev-list --objects --all)   204
+largest single object                            654,300 bytes (639.0 KiB)
 objects > 10 MB                                    0
 objects > 25 MB                                    0
 objects > 50 MB                                    0
-working tree, tracked, total                     2.73 MB
+working tree, tracked, total                     2.74 MB
 ```
 
 Because the repository is **newly initialised** (the working analysis tree was
@@ -200,7 +205,31 @@ thresholds, the task-cluster bootstrap and the within-system permutation.
 | item | value |
 |---|---|
 | remote | `https://github.com/Neabigmo/EOV.git` |
-| remote state before push | exists, public, default branch `main`, **no refs** |
-| local branch | `main` |
-| history | 2 commits, fresh repository (no prior history anywhere) |
+| remote state before push | exists, public, default branch `main`, **no refs** (`git ls-remote` exit 0, empty output) |
+| local branch pushed | `main` |
+| history | 3 commits, freshly initialised — the working analysis tree was never under version control, so no `git filter-repo` was needed and no purged-but-reachable blob can exist |
+
+## 12. Post-push verification (run against the remote, not the local copy)
+
+A fresh `git clone https://github.com/Neabigmo/EOV.git` into an empty directory:
+
+| check | result |
+|---|---|
+| local `HEAD` == `origin/main` | **`7d2d6b6` both** |
+| tracked files in the clone | **183** |
+| `scripts/verify_release.py` | **PASS** |
+| `pytest tests` (no third-party data) | **66 passed, 20 skipped**, exit 0 |
+| `eov/m7b_zero_measurement_gate.py` | **`ρ_zero = +0.3527`**, CI `[−0.1520, +0.6747]`, `p = 0.01600`, `NO-GO` — identical to the pre-package result |
+| `LICENSE` / `CITATION.cff` on GitHub | copyright holder and repository URL present, no placeholders in active fields |
+
+### 12.1 Two audit numbers that were wrong on first write, and are now fixed
+
+1. **File count.** The header originally said 182; that was the count *before
+   this file existed*. It is now 183, and the discrepancy is explained inline
+   rather than silently corrected — cross-file count drift is a known failure
+   mode in this project.
+2. **Largest object.** First reported as "639 KB"; the same file is 654.3 KB
+   decimal. The two figures differ only by the divisor (1024 vs 1000), and are
+   now stated as **654,300 bytes (639.0 KiB)** to be unambiguous.
+
 
