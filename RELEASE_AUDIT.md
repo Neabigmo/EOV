@@ -5,24 +5,27 @@ Generated 2026-09-19.
 
 ```
 remote      https://github.com/Neabigmo/EOV.git   (public, MIT)
-commit      6d92a05+  branch main
+commit      the commit that contains this file  (branch main)
+            verify:  git log -1 --format=%H
 tracked     184 files, 2,791,896 bytes
             (= 2.79 MB decimal / 2.66 MiB)
             verify:  git ls-files | wc -l
 largest     654,300 bytes (639.0 KiB)
             results/tables/M4_LAYER_DECOMPOSITION.csv
-history     5 commits, fresh repository — no prior history anywhere
+history     fresh repository — no prior history anywhere
 ```
 
-> **On hand-copied numbers.** Every figure in this header was measured with
-> `git ls-files` against the working tree, and every one of them moved while the
+> **On hand-copied numbers.** Every figure in this header is measured with
+> `git ls-files` against the working tree, and each of them moved while the
 > release was being finalised (the file count went 182 → 183 → 184 as files were
 > added, including this file itself). Rather than keep overwriting them, the
-> commands that reproduce each figure are given above. **All sizes in this
-> document are decimal (1 MB = 10⁶ bytes) unless a KiB/MiB label is shown** —
-> an earlier draft mixed the two divisors when reporting the largest object.
-> Silent count drift across documents is a known failure mode in this project;
-> §12.1 records what changed and why.
+> commands that reproduce each figure are given above.
+>
+> The commit hash is deliberately **not** written down: a file cannot contain the
+> hash of the commit that contains it, so any literal value here would be
+> guaranteed stale. **All sizes are decimal (1 MB = 10⁶ bytes) unless a KiB/MiB
+> label is shown.** Silent count drift across documents is a known failure mode
+> in this project; §12.1 records what changed and why.
 
 ---
 
@@ -233,17 +236,26 @@ A fresh `git clone https://github.com/Neabigmo/EOV.git` into an empty directory:
 
 ### 12.1 Audit numbers that were wrong on first write, and are now fixed
 
-1. **File count.** Written three times, each time correct only for the instant it
-   was measured (182 → 183 → 184) because files were still being added, including
-   this one. The header now pairs the number with the command that reproduces it.
-   Cross-document count drift is a known failure mode in this project; the values
-   are reconciled here rather than silently overwritten.
-2. **Largest object.** First reported as "639 KB"; the same file is 654.3 KB
-   decimal. The figures differ only by the divisor (1024 vs 1000) and are now
-   stated as **654,300 bytes (639.0 KiB)** to be unambiguous.
-3. **GitHub license detection.** The first `LICENSE` had a "scope" appendix
+Four self-inflicted defects, all caught before or shortly after the first push:
+
+1. **File count** — written three times, each correct only for the instant it was
+   measured (182 → 183 → 184) because files were still being added, including
+   this one. Now paired with the command that reproduces it.
+2. **Largest object** — first reported as "639 KB"; the same file is 654.3 KB
+   decimal. The two differ only by the divisor (1024 vs 1000) and are now stated
+   as **654,300 bytes (639.0 KiB)**.
+3. **GitHub license detection** — the first `LICENSE` had a "scope" appendix
    appended to the MIT text, which made GitHub report `NOASSERTION`. The appendix
-   moved to `LICENSE-SCOPE.md` and GitHub now reports **MIT**.
+   moved to `LICENSE-SCOPE.md`; GitHub now reports **MIT**.
+4. **Self-referential commit hash** — the header originally named the commit that
+   produced the file, which can never be correct for the file's own commit. The
+   field now names the *role* of the commit and gives `git log -1 --format=%H`
+   instead of a literal.
+
+Items 1–4 are the same failure mode in different clothing: **a value written into
+a document that is derived from a moving target.** The fix in each case is to
+publish the derivation command alongside the value, or to drop the value.
+
 
 
 
