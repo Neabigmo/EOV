@@ -5,22 +5,24 @@ Generated 2026-09-19.
 
 ```
 remote      https://github.com/Neabigmo/EOV.git   (public, MIT)
-commit      6d92a05   branch main
-tracked     184 files / 2.75 MB
+commit      6d92a05+  branch main
+tracked     184 files, 2,791,896 bytes
+            (= 2.79 MB decimal / 2.66 MiB)
             verify:  git ls-files | wc -l
 largest     654,300 bytes (639.0 KiB)
             results/tables/M4_LAYER_DECOMPOSITION.csv
 history     5 commits, fresh repository — no prior history anywhere
 ```
 
-> **On hand-copied counts.** Any file count written into a document is a snapshot
-> taken at some moment, and this one moved three times while the release was
-> being finalised (182 → 183 → 184) as files were added — including this file
-> itself. The number above is therefore paired with the command that reproduces
-> it, and the earlier values are not quietly overwritten but explained in §8's
-> clone table and §12.1. Silent count drift across documents is a known failure
-> mode in this project; this note exists so that a future reader can tell a stale
-> snapshot from an error.
+> **On hand-copied numbers.** Every figure in this header was measured with
+> `git ls-files` against the working tree, and every one of them moved while the
+> release was being finalised (the file count went 182 → 183 → 184 as files were
+> added, including this file itself). Rather than keep overwriting them, the
+> commands that reproduce each figure are given above. **All sizes in this
+> document are decimal (1 MB = 10⁶ bytes) unless a KiB/MiB label is shown** —
+> an earlier draft mixed the two divisors when reporting the largest object.
+> Silent count drift across documents is a known failure mode in this project;
+> §12.1 records what changed and why.
 
 ---
 
