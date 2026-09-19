@@ -163,8 +163,9 @@ Details: [`docs/REPRODUCIBILITY.md`](docs/REPRODUCIBILITY.md).
 
 ## 9. Citation
 
-See [`CITATION.cff`](CITATION.cff). **The author, ORCID and repository URL fields
-are placeholders and must be filled in before a public push.**
+See [`CITATION.cff`](CITATION.cff). The repository is
+<https://github.com/Neabigmo/EOV>. If this code accompanies a paper, fill in the
+commented-out `preferred-citation` block once the paper is available.
 
 ## 10. License
 

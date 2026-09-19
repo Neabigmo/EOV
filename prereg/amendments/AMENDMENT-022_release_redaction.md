@@ -86,3 +86,18 @@ duplicating the same fact in two files.
 3. M7-B re-run inside the packaged tree reproduced
    `ρ_zero = +0.3527`, CI `[−0.1520, +0.6747]`, `p = 0.01600`, `NO-GO`.
 4. `scripts/verify_release.py`: see `RELEASE_AUDIT.md`.
+
+## 7｜Publication record
+
+| item | value |
+|---|---|
+| remote | `https://github.com/Neabigmo/EOV.git` |
+| remote state before the first push | repository existed, **public**, default branch `main`, **no refs** (`git ls-remote` exit 0, empty output) |
+| local branch pushed | `main` |
+| history | a **freshly initialised** repository — the working analysis tree was never under version control, so no `git filter-repo` was needed and no purged-but-reachable blob can exist |
+| largest git object, whole history | **639 KB**; no object exceeds 10 MB |
+
+**No scientific content changed for the release.** The package is the working
+tree minus third-party data and large derived artifacts, plus the redactions in
+§3–§4. Every published number is produced by the code that ships with it, and the
+zero-download stage (`m7b`) reproduces bit-for-bit from a clean clone.

@@ -83,7 +83,7 @@ clone).
 | conda / miniconda paths | **0** |
 | email addresses | **0** |
 | IPv4 addresses | **0** |
-| token-like strings (`ghp_`, `sk-`, `AKIA…`) | **0** |
+| token-like strings (GitHub / OpenAI / Slack / AWS access-key prefixes) | **0** |
 | private-key blocks | **0** |
 
 ### 4.1 The one documented exception — and why
@@ -178,12 +178,29 @@ thresholds, the task-cluster bootstrap and the within-system permutation.
 3. **`CITATION.cff` and `LICENSE` contain placeholders** (author, ORCID,
    repository URL, copyright holder). They were deliberately left un-guessed.
 
-## 10. Required before a public push
+## 10. Pre-push checklist — status
 
-- [ ] Fill the placeholders in `CITATION.cff` and `LICENSE` (**required**).
-- [ ] Decide whether to keep the `tests/` verbatim exception from §4.1, or to
-      accept rewriting three chained hash constants instead.
-- [ ] Add the repository URL and confirm the license choice.
-- [ ] Optional: run `python scripts/fetch_public_data.py --dataset wu2020` and
-      `python scripts/reproduce_phase1.py --stage m6` to confirm the data path
-      end-to-end on a machine other than the author's.
+- [x] **Placeholders filled.** `LICENSE` copyright holder and `CITATION.cff`
+      author / repository URL are set from the target GitHub account
+      (`Neabigmo` / 杨一横). And the `main` branch of
+      <https://github.com/Neabigmo/EOV> was confirmed **empty** (`git ls-remote`
+      exit 0, no refs), so this is a first push with no history to reconcile.
+      → Read the two files and change them if the intended copyright holder or
+      author list differs.
+- [ ] **Decide the `tests/` verbatim exception** from §4.1: keep it, or accept
+      rewriting three chained hash constants instead.
+- [ ] Optional: on a second machine, run
+      `python scripts/fetch_public_data.py --dataset wu2020` and then
+      `python scripts/reproduce_phase1.py --stage m6` to confirm the download
+      path end-to-end outside the author's environment.
+- [ ] Optional: add an ORCID to `CITATION.cff` once available.
+
+## 11. Publication
+
+| item | value |
+|---|---|
+| remote | `https://github.com/Neabigmo/EOV.git` |
+| remote state before push | exists, public, default branch `main`, **no refs** |
+| local branch | `main` |
+| history | 2 commits, fresh repository (no prior history anywhere) |
+
