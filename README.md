@@ -169,6 +169,7 @@ commented-out `preferred-citation` block once the paper is available.
 
 ## 10. License
 
-MIT for the code and for this repository's own documents and derived tables
-(see [`LICENSE`](LICENSE)). Third-party datasets keep their own licenses and are
-not redistributed.
+MIT for the code, for this repository's own documents, and for the derived tables
+under `results/` — see [`LICENSE`](LICENSE). Third-party datasets keep their own
+licenses and are **not** redistributed; see [`LICENSE-SCOPE.md`](LICENSE-SCOPE.md)
+and [`docs/DATA_ACCESS.md`](docs/DATA_ACCESS.md).

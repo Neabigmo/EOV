@@ -19,18 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
--------------------------------------------------------------------------------
-SCOPE OF THIS LICENSE
--------------------------------------------------------------------------------
-This MIT license covers **the source code and the documents authored in this
-repository only**.
-
-It does NOT cover any third-party dataset. No third-party dataset is
-redistributed here: `data/external/` is deliberately absent and `.gitignore`d.
-Every dataset used by this project keeps its own license, is listed with its
-provenance in `data_registry/PROVENANCE_LEDGER.csv`, and must be obtained from
-its official source by the user. See `docs/DATA_ACCESS.md`.
-
-Files under `results/tables/` are derived numeric outputs of this project's own
-code and are covered by the MIT license above.

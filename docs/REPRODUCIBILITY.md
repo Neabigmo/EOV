@@ -82,4 +82,6 @@ data/manifests/ small checksum + run manifests
 figures/        figure builders
 scripts/        fetch / manifest / reproduce / verify entry points
 docs/           this file and its siblings
+LICENSE         MIT (kept as bare license text so GitHub can classify it)
+LICENSE-SCOPE.md what MIT covers here, and what it does not
 ```
