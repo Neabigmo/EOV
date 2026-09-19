@@ -1,0 +1,26 @@
+{
+  "script": "eov/exp1_stability.py",
+  "dataset": "Phillips2023_HA_CH65",
+  "tasks": [
+    "MA90",
+    "SI06",
+    "G189E"
+  ],
+  "space_size": 65536,
+  "topology_degree": 16,
+  "policies": [
+    "random",
+    "greedy_ssm",
+    "mlde_ridge"
+  ],
+  "budgets": [
+    24,
+    96,
+    384
+  ],
+  "utility": "PROTOCOL §3.3 OP-12 (q05/q95, NO clip; AMENDMENT-013 §1)",
+  "utility_sensitivity": "scale2max",
+  "n_parents": 1000,
+  "parent_pool": "MA90 informative (65530)",
+  "output": "data_registry/M4_EXP1_*.csv"
+}

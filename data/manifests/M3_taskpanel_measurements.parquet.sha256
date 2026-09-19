@@ -1,0 +1,9 @@
+# data manifest (PHASE1_PROTOCOL.md L272)
+# path: data/processed/M3_taskpanel_measurements.parquet
+# sha256: f6ff57222596d0ae703ab8b2aef23ac4b17888abe3ddefa2d3bffecdd1a9abf3
+# bytes: 13191441
+# recorded_at: 2026-09-19T16:13:16+0800
+# role: M3 任务面板产物
+# source_dataset: DAOx / TEV_ProtRec
+# produced_by: eov/m3_taskpanel_closeout.py
+# note: 非 graph_eligible

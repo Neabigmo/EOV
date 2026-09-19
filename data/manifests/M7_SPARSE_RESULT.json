@@ -1,0 +1,127 @@
+{
+  "n_pairs_total": 36,
+  "n_pairs_used": 36,
+  "dropped": [],
+  "m_grid": [
+    4,
+    8,
+    16,
+    32,
+    64,
+    128
+  ],
+  "m_star": 16,
+  "n_rep": 200,
+  "threshold": 0.45,
+  "curve": {
+    "4": {
+      "m": 4,
+      "rho_hat": 0.685457,
+      "ci_lo": 0.392957,
+      "ci_hi": 0.87923,
+      "retention": 1.0211,
+      "draw_q05": 0.0789,
+      "draw_median": 0.3278,
+      "draw_q95": 0.5159
+    },
+    "8": {
+      "m": 8,
+      "rho_hat": 0.674175,
+      "ci_lo": 0.387568,
+      "ci_hi": 0.875485,
+      "retention": 1.0043,
+      "draw_q05": 0.2131,
+      "draw_median": 0.4573,
+      "draw_q95": 0.638
+    },
+    "16": {
+      "m": 16,
+      "rho_hat": 0.665894,
+      "ci_lo": 0.34064,
+      "ci_hi": 0.873438,
+      "retention": 0.9919,
+      "draw_q05": 0.4005,
+      "draw_median": 0.5558,
+      "draw_q95": 0.6933
+    },
+    "32": {
+      "m": 32,
+      "rho_hat": 0.67825,
+      "ci_lo": 0.380622,
+      "ci_hi": 0.884722,
+      "retention": 1.0104,
+      "draw_q05": 0.5012,
+      "draw_median": 0.6165,
+      "draw_q95": 0.7105
+    },
+    "64": {
+      "m": 64,
+      "rho_hat": 0.672329,
+      "ci_lo": 0.361058,
+      "ci_hi": 0.867812,
+      "retention": 1.0015,
+      "draw_q05": 0.5619,
+      "draw_median": 0.6462,
+      "draw_q95": 0.7262
+    },
+    "128": {
+      "m": 128,
+      "rho_hat": 0.679537,
+      "ci_lo": 0.370241,
+      "ci_hi": 0.870802,
+      "retention": 1.0123,
+      "draw_q05": 0.61,
+      "draw_median": 0.6613,
+      "draw_q95": 0.7244
+    },
+    "full": {
+      "m": "full",
+      "rho_hat": 0.6713,
+      "ci_lo": 0.37655,
+      "ci_hi": 0.862756,
+      "retention": 1.0,
+      "draw_q05": 0.6713,
+      "draw_median": 0.6713,
+      "draw_q95": 0.6713
+    }
+  },
+  "full_rho_hat": 0.6712998712998713,
+  "terciles_m16": {
+    "low": {
+      "n": 12,
+      "f1_range": [
+        -0.2582,
+        0.27
+      ],
+      "rho_median": -0.003,
+      "rho_mean": 0.0017,
+      "rho_max": 0.1286
+    },
+    "mid": {
+      "n": 12,
+      "f1_range": [
+        0.2743,
+        0.4906
+      ],
+      "rho_median": 0.0397,
+      "rho_mean": 0.036,
+      "rho_max": 0.0934
+    },
+    "high": {
+      "n": 12,
+      "f1_range": [
+        0.5112,
+        0.904
+      ],
+      "rho_median": 0.0906,
+      "rho_mean": 0.1008,
+      "rho_max": 0.2119
+    }
+  },
+  "verdict": "PASS",
+  "seeds": {
+    "subsample": 20261020,
+    "bootstrap": 20261026
+  },
+  "label": "exploratory/design characterisation (NOT a confirmation)"
+}

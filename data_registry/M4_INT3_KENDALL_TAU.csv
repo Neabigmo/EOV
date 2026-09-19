@@ -1,0 +1,10 @@
+task_pair,policy,budget,n,kendall_tau,CI_lo,CI_hi,CI_covers_0,INT3_ordering_random,spearman
+AZT@0.44 ~ AZT@36.0,random,24,1000,0.036,-0.0062,0.0777,True,True,0.0547
+AZT@0.44 ~ AZT@36.0,random,96,1000,-0.0081,-0.049,0.0335,True,True,-0.0123
+AZT@0.44 ~ AZT@36.0,random,384,1000,0.0253,-0.0163,0.0671,True,True,0.0378
+AZT@0.44 ~ AZT@36.0,greedy_ssm,24,1000,0.3088,0.2704,0.3458,False,False,0.4509
+AZT@0.44 ~ AZT@36.0,greedy_ssm,96,1000,0.2301,0.192,0.2683,False,False,0.337
+AZT@0.44 ~ AZT@36.0,greedy_ssm,384,1000,0.2131,0.172,0.2522,False,False,0.316
+AZT@0.44 ~ AZT@36.0,mlde_ridge,24,1000,-0.0257,-0.0647,0.0147,True,True,-0.0393
+AZT@0.44 ~ AZT@36.0,mlde_ridge,96,1000,-0.0097,-0.0503,0.0304,True,True,-0.0154
+AZT@0.44 ~ AZT@36.0,mlde_ridge,384,1000,-0.0116,-0.0545,0.0313,True,True,-0.0168

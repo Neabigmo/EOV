@@ -1,0 +1,76 @@
+subset,n_pairs,feature,outcome,n_used,spearman
+ALL 21 对,21,f1_landscape_rho,rho,21,0.561
+ALL 21 对,21,f1_landscape_rho,reg,21,0.1273
+ALL 21 对,21,f1_landscape_rho,beta,21,0.6026
+ALL 21 对,21,f2_beneficial_overlap,rho,17,0.3163
+ALL 21 对,21,f2_beneficial_overlap,reg,17,-0.2479
+ALL 21 对,21,f2_beneficial_overlap,beta,17,0.298
+ALL 21 对,21,f3_sign_epistasis_agree,rho,18,-0.4118
+ALL 21 对,21,f3_sign_epistasis_agree,reg,18,0.716
+ALL 21 对,21,f3_sign_epistasis_agree,beta,18,-0.3745
+ALL 21 对,21,f4_neighborhood_agree,rho,21,0.3597
+ALL 21 对,21,f4_neighborhood_agree,reg,21,0.413
+ALL 21 对,21,f4_neighborhood_agree,beta,21,0.3649
+ALL 21 对,21,f6_robustness_consistency,rho,21,0.426
+ALL 21 对,21,f6_robustness_consistency,reg,21,0.0039
+ALL 21 对,21,f6_robustness_consistency,beta,21,0.5506
+TEM-1 全部 18 对,18,f1_landscape_rho,rho,18,0.451
+TEM-1 全部 18 对,18,f1_landscape_rho,reg,18,0.1476
+TEM-1 全部 18 对,18,f1_landscape_rho,beta,18,0.5501
+TEM-1 全部 18 对,18,f2_beneficial_overlap,rho,15,0.5507
+TEM-1 全部 18 对,18,f2_beneficial_overlap,reg,15,-0.2722
+TEM-1 全部 18 对,18,f2_beneficial_overlap,beta,15,0.4975
+TEM-1 全部 18 对,18,f3_sign_epistasis_agree,rho,18,-0.4118
+TEM-1 全部 18 对,18,f3_sign_epistasis_agree,reg,18,0.716
+TEM-1 全部 18 对,18,f3_sign_epistasis_agree,beta,18,-0.3745
+TEM-1 全部 18 对,18,f4_neighborhood_agree,rho,18,0.1311
+TEM-1 全部 18 对,18,f4_neighborhood_agree,reg,18,0.5542
+TEM-1 全部 18 对,18,f4_neighborhood_agree,beta,18,0.2116
+TEM-1 全部 18 对,18,f6_robustness_consistency,rho,18,0.4819
+TEM-1 全部 18 对,18,f6_robustness_consistency,reg,18,-0.0423
+TEM-1 全部 18 对,18,f6_robustness_consistency,beta,18,0.5872
+TEM-1 同药 15 对,16,f1_landscape_rho,rho,16,0.7441
+TEM-1 同药 15 对,16,f1_landscape_rho,reg,16,0.05
+TEM-1 同药 15 对,16,f1_landscape_rho,beta,16,0.7912
+TEM-1 同药 15 对,16,f2_beneficial_overlap,rho,13,0.3641
+TEM-1 同药 15 对,16,f2_beneficial_overlap,reg,13,-0.3158
+TEM-1 同药 15 对,16,f2_beneficial_overlap,beta,13,0.3641
+TEM-1 同药 15 对,16,f3_sign_epistasis_agree,rho,16,-0.3196
+TEM-1 同药 15 对,16,f3_sign_epistasis_agree,reg,16,0.6892
+TEM-1 同药 15 对,16,f3_sign_epistasis_agree,beta,16,-0.3034
+TEM-1 同药 15 对,16,f4_neighborhood_agree,rho,16,0.4676
+TEM-1 同药 15 对,16,f4_neighborhood_agree,reg,16,0.5147
+TEM-1 同药 15 对,16,f4_neighborhood_agree,beta,16,0.4676
+TEM-1 同药 15 对,16,f6_robustness_consistency,rho,16,0.6676
+TEM-1 同药 15 对,16,f6_robustness_consistency,reg,16,-0.0882
+TEM-1 同药 15 对,16,f6_robustness_consistency,beta,16,0.7353
+TEM-1 跨药 3 对,2,f1_landscape_rho,rho,2,
+TEM-1 跨药 3 对,2,f1_landscape_rho,reg,2,
+TEM-1 跨药 3 对,2,f1_landscape_rho,beta,2,
+TEM-1 跨药 3 对,2,f2_beneficial_overlap,rho,2,
+TEM-1 跨药 3 对,2,f2_beneficial_overlap,reg,2,
+TEM-1 跨药 3 对,2,f2_beneficial_overlap,beta,2,
+TEM-1 跨药 3 对,2,f3_sign_epistasis_agree,rho,2,
+TEM-1 跨药 3 对,2,f3_sign_epistasis_agree,reg,2,
+TEM-1 跨药 3 对,2,f3_sign_epistasis_agree,beta,2,
+TEM-1 跨药 3 对,2,f4_neighborhood_agree,rho,2,
+TEM-1 跨药 3 对,2,f4_neighborhood_agree,reg,2,
+TEM-1 跨药 3 对,2,f4_neighborhood_agree,beta,2,
+TEM-1 跨药 3 对,2,f6_robustness_consistency,rho,2,
+TEM-1 跨药 3 对,2,f6_robustness_consistency,reg,2,
+TEM-1 跨药 3 对,2,f6_robustness_consistency,beta,2,
+Phillips 3 对,3,f1_landscape_rho,rho,3,
+Phillips 3 对,3,f1_landscape_rho,reg,3,
+Phillips 3 对,3,f1_landscape_rho,beta,3,
+Phillips 3 对,3,f2_beneficial_overlap,rho,2,
+Phillips 3 对,3,f2_beneficial_overlap,reg,2,
+Phillips 3 对,3,f2_beneficial_overlap,beta,2,
+Phillips 3 对,3,f3_sign_epistasis_agree,rho,0,
+Phillips 3 对,3,f3_sign_epistasis_agree,reg,0,
+Phillips 3 对,3,f3_sign_epistasis_agree,beta,0,
+Phillips 3 对,3,f4_neighborhood_agree,rho,3,
+Phillips 3 对,3,f4_neighborhood_agree,reg,3,
+Phillips 3 对,3,f4_neighborhood_agree,beta,3,
+Phillips 3 对,3,f6_robustness_consistency,rho,3,
+Phillips 3 对,3,f6_robustness_consistency,reg,3,
+Phillips 3 对,3,f6_robustness_consistency,beta,3,

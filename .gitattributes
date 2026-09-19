@@ -1,0 +1,21 @@
+# Normalise line endings across platforms; keep CSVs diffable.
+* text=auto eol=lf
+
+*.py   text diff=python
+*.md   text diff=markdown
+*.csv  text eol=lf
+*.json text eol=lf
+*.yaml text eol=lf
+*.yml  text eol=lf
+*.cff  text eol=lf
+
+# Never treat these as text
+*.parquet binary
+*.npz     binary
+*.rda     binary
+*.xlsx    binary
+*.zip     binary
+
+# Generated result tables — keep them out of language statistics
+results/tables/*.csv  linguist-generated=true
+data/manifests/*.json linguist-generated=true

@@ -1,0 +1,115 @@
+# ============================================================================
+#  Phase-I frozen defaults.
+#
+#  These values are FROZEN by prereg/PHASE1_PROTOCOL.md,
+#  prereg/PHASE1_DECISION.md and prereg/amendments/*.md.  They are reproduced
+#  here as machine-readable metadata ONLY — the prose documents are
+#  authoritative.  Changing a value here without an amendment is a
+#  preregistration violation.
+#
+#  Every entry names the document that froze it.
+# ============================================================================
+schema_version: "1.4"
+frozen_on: "2026-09-19"
+
+# --- search simulation -------------------------------------------------------
+search:
+  policies: [random, greedy_ssm, mlde_ridge]
+  budget_tiers: [24, 96, 384]          # OP-2
+  rounds: 3                            # OP-1: b1=ceil(B/2), b2=ceil((B-b1)/2), b3=rest
+  start_counted_in_budget: false       # OP-1
+  mlde_ridge:
+    lambda: 1.0                        # dimensionless: y is standardised first
+    intercept_penalised: false
+    tie_breaking: random               # C3b
+  degree_definition: hamming1_amino_acid
+
+budget_rule:                           # OP-21
+  max_coverage: 0.25                   # B <= |space| / 4
+  coverage_must_be_reported: true
+  violating_tier: dropped_entirely
+  min_remaining_tiers: 2
+
+# --- utility scale -----------------------------------------------------------
+utility:
+  primary: op12_empirical_quantile     # AMENDMENT-013 §1 / AMENDMENT-014 §3
+  formula: "(z - q05) / (q95 - q05)"
+  clip: false                          # the frozen formula has NO clip
+  quantile_reference: task_informative_distribution
+  sensitivity_scale: scale2max         # u(z) = z / max
+
+# --- task admission ----------------------------------------------------------
+task_admission:
+  informative_frac:                    # CL-9
+    primary_min: 0.50
+    sensitivity_range: [0.20, 0.50]
+    exclude_below: 0.20
+  missingness:                         # OP-18
+    primary_max: 0.10
+    sensitivity_range: [0.10, 0.25]
+    exclude_above: 0.25
+  informative_definition: >-
+    measurement_state == 'exact' AND at_inferred_floor == False AND
+    value_group is not NaN
+
+# --- metrics -----------------------------------------------------------------
+metrics:
+  normalised_regret: >-
+    (V(x_oracle) - V(x_selected)) / (V(x_oracle) - V(x_robust_worst))
+  robust_worst_quantile: 0.05
+  primary_outcome_transfer: pair_level_rho_rank
+  pair_level_aggregation: nanmean_over_policy_x_budget_cells
+
+# --- milestone thresholds (frozen BEFORE the analyses were run) --------------
+thresholds:
+  m6_confirmatory:                     # AMENDMENT-017 §3
+    statistic: "Spearman(f1_landscape_rho, pair_level_rho_rank)"
+    min_rho: 0.45
+    ci: bootstrap_over_pairs_2000
+    ci_must_exclude_zero: true
+    structural_eligibility:
+      min_tasks: 3                     # E1
+      min_pairs: 10                    # E2
+  m7_sparse_probing:                   # AMENDMENT-020 §4
+    m_grid: [4, 8, 16, 32, 64, 128]
+    m_star: 16
+    min_rho: 0.45
+    reps: 200
+  m7b_zero_measurement:                # AMENDMENT-021 §5
+    primary_go_min_rho: 0.45
+    conditional_go_range: [0.25, 0.45]
+    permutation_p_max: 0.05
+    requires_low_tertile_screening: true
+
+# --- seeds -------------------------------------------------------------------
+seeds:
+  shared: 20260919
+  bootstrap_offset: 7
+  m6_bootstrap: 20260926
+  m7_subsample: 20261020               # 20260919 + 101
+  m7_bootstrap: 20261026               # 20260919 + 107
+  m7b_cluster: 20261130                # 20260919 + 211
+  m7b_permutation: 20261136            # 20260919 + 217
+
+# --- datasets by role (provenance: configs/dataset_manifest.csv) -------------
+datasets:
+  discovery:
+    - {id: TEM-1CML,             tasks: 8, space: 55296, degree: 18}
+    - {id: Phillips2023_HA_CH65, tasks: 3, space: 65536, degree: 16}
+  confirmation:
+    - {id: Wu2020_H3N2_siteB,    tasks: 6, space: 576,   degree: 12,
+       note: "OP-21 caps B at 144 -> tiers {24, 96}; B=96 coverage 16.67%"}
+  external_validation:
+    - {id: TrpB4_Johnston2024,   tasks: 1, space: 160000, degree: 76}
+    - {id: Bank2016_Hsp90_Dryad, tasks: 1, space: 640,    degree: null}
+  not_evaluable_in_this_release:
+    - {id: Phillips2023_HA_CH65,
+       reason: "antigen-sequence descriptors unavailable (M7-B §2.1)"}
+
+# --- prohibited (see data_registry/PHASE1_DECISION_REPORT.md) ----------------
+prohibited:
+  - "AdaptationPremium is NEVER an optimisation target"
+  - "EOV = R_B - R_0 is ABOLISHED"
+  - "no imputed values in any primary analysis"
+  - "no future-task phenotype in feature construction, hyperparameter selection, or parent ranking"
+  - "no post-hoc selection of the most favourable concentration/condition"

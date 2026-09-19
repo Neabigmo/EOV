@@ -1,0 +1,807 @@
+[
+  {
+    "file": "Moulana2022_ACE2.csv",
+    "n_rows": 32768,
+    "columns": [
+      "sequences",
+      "pos1",
+      "pos2",
+      "pos3",
+      "pos4",
+      "pos5",
+      "pos6",
+      "pos7",
+      "pos8",
+      "pos9",
+      "pos10",
+      "pos11",
+      "pos12",
+      "pos13",
+      "pos14",
+      "pos15",
+      "fitness"
+    ],
+    "genotype_column": null,
+    "verdict": "no sequence column detected"
+  },
+  {
+    "file": "Moulana2023_CB6.csv",
+    "n_rows": 32768,
+    "columns": [
+      "sequences",
+      "pos1",
+      "pos2",
+      "pos3",
+      "pos4",
+      "pos5",
+      "pos6",
+      "pos7",
+      "pos8",
+      "pos9",
+      "pos10",
+      "pos11",
+      "pos12",
+      "pos13",
+      "pos14",
+      "pos15",
+      "fitness"
+    ],
+    "genotype_column": null,
+    "verdict": "no sequence column detected"
+  },
+  {
+    "file": "Moulana2023_CoV555.csv",
+    "n_rows": 32768,
+    "columns": [
+      "sequences",
+      "pos1",
+      "pos2",
+      "pos3",
+      "pos4",
+      "pos5",
+      "pos6",
+      "pos7",
+      "pos8",
+      "pos9",
+      "pos10",
+      "pos11",
+      "pos12",
+      "pos13",
+      "pos14",
+      "pos15",
+      "fitness"
+    ],
+    "genotype_column": null,
+    "verdict": "no sequence column detected"
+  },
+  {
+    "file": "Moulana2023_REGN10987.csv",
+    "n_rows": 32768,
+    "columns": [
+      "sequences",
+      "pos1",
+      "pos2",
+      "pos3",
+      "pos4",
+      "pos5",
+      "pos6",
+      "pos7",
+      "pos8",
+      "pos9",
+      "pos10",
+      "pos11",
+      "pos12",
+      "pos13",
+      "pos14",
+      "pos15",
+      "fitness"
+    ],
+    "genotype_column": null,
+    "verdict": "no sequence column detected"
+  },
+  {
+    "file": "Moulana2023_S309.csv",
+    "n_rows": 32768,
+    "columns": [
+      "sequences",
+      "pos1",
+      "pos2",
+      "pos3",
+      "pos4",
+      "pos5",
+      "pos6",
+      "pos7",
+      "pos8",
+      "pos9",
+      "pos10",
+      "pos11",
+      "pos12",
+      "pos13",
+      "pos14",
+      "pos15",
+      "fitness"
+    ],
+    "genotype_column": null,
+    "verdict": "no sequence column detected"
+  },
+  {
+    "file": "Jalal2020_NBS.csv",
+    "n_rows": 160000,
+    "columns": [
+      "sequences",
+      "pos1",
+      "pos2",
+      "pos3",
+      "pos4",
+      "fitness"
+    ],
+    "genotype_column": "sequences",
+    "genotype_width": 4,
+    "n_unique_genotypes": 160000,
+    "n_sites": 4,
+    "states_per_site": [
+      20,
+      20,
+      20,
+      20
+    ],
+    "product_space_size": 160000,
+    "coverage_of_product": 1.0,
+    "is_complete_product": true,
+    "mean_degree_if_complete": 76,
+    "numeric_cols": [
+      "fitness"
+    ],
+    "n_numeric_cols": 1,
+    "na_frac_mean": 0.0
+  },
+  {
+    "file": "Jalal2020_parS.csv",
+    "n_rows": 160000,
+    "columns": [
+      "sequences",
+      "pos1",
+      "pos2",
+      "pos3",
+      "pos4",
+      "fitness"
+    ],
+    "genotype_column": "sequences",
+    "genotype_width": 4,
+    "n_unique_genotypes": 160000,
+    "n_sites": 4,
+    "states_per_site": [
+      20,
+      20,
+      20,
+      20
+    ],
+    "product_space_size": 160000,
+    "coverage_of_product": 1.0,
+    "is_complete_product": true,
+    "mean_degree_if_complete": 76,
+    "numeric_cols": [
+      "fitness"
+    ],
+    "n_numeric_cols": 1,
+    "na_frac_mean": 0.0
+  },
+  {
+    "file": "Phillips2021_CR6261_h1.csv",
+    "n_rows": 1917,
+    "columns": [
+      "sequences",
+      "pos1",
+      "pos2",
+      "pos3",
+      "pos4",
+      "pos5",
+      "pos6",
+      "pos7",
+      "pos8",
+      "pos9",
+      "pos10",
+      "pos11",
+      "fitness"
+    ],
+    "genotype_column": null,
+    "verdict": "no sequence column detected"
+  },
+  {
+    "file": "Phillips2021_CR6261_h9.csv",
+    "n_rows": 1917,
+    "columns": [
+      "sequences",
+      "pos1",
+      "pos2",
+      "pos3",
+      "pos4",
+      "pos5",
+      "pos6",
+      "pos7",
+      "pos8",
+      "pos9",
+      "pos10",
+      "pos11",
+      "fitness"
+    ],
+    "genotype_column": null,
+    "verdict": "no sequence column detected"
+  },
+  {
+    "file": "Phillips2021_CR9114_h1.csv",
+    "n_rows": 65536,
+    "columns": [
+      "sequences",
+      "pos1",
+      "pos2",
+      "pos3",
+      "pos4",
+      "pos5",
+      "pos6",
+      "pos7",
+      "pos8",
+      "pos9",
+      "pos10",
+      "pos11",
+      "pos12",
+      "pos13",
+      "pos14",
+      "pos15",
+      "pos16",
+      "fitness"
+    ],
+    "genotype_column": null,
+    "verdict": "no sequence column detected"
+  },
+  {
+    "file": "Phillips2021_CR9114_h3.csv",
+    "n_rows": 65536,
+    "columns": [
+      "sequences",
+      "pos1",
+      "pos2",
+      "pos3",
+      "pos4",
+      "pos5",
+      "pos6",
+      "pos7",
+      "pos8",
+      "pos9",
+      "pos10",
+      "pos11",
+      "pos12",
+      "pos13",
+      "pos14",
+      "pos15",
+      "pos16",
+      "fitness"
+    ],
+    "genotype_column": null,
+    "verdict": "no sequence column detected"
+  },
+  {
+    "file": "Phillips2021_CR9114_fluB.csv",
+    "n_rows": 65536,
+    "columns": [
+      "sequences",
+      "pos1",
+      "pos2",
+      "pos3",
+      "pos4",
+      "pos5",
+      "pos6",
+      "pos7",
+      "pos8",
+      "pos9",
+      "pos10",
+      "pos11",
+      "pos12",
+      "pos13",
+      "pos14",
+      "pos15",
+      "pos16",
+      "fitness"
+    ],
+    "genotype_column": null,
+    "verdict": "no sequence column detected"
+  },
+  {
+    "file": "Wu2020_Bei89.csv",
+    "n_rows": 576,
+    "columns": [
+      "sequences",
+      "pos1",
+      "pos2",
+      "pos3",
+      "pos4",
+      "pos5",
+      "pos6",
+      "fitness"
+    ],
+    "genotype_column": "sequences",
+    "genotype_width": 6,
+    "n_unique_genotypes": 576,
+    "n_sites": 6,
+    "states_per_site": [
+      4,
+      4,
+      3,
+      2,
+      3,
+      2
+    ],
+    "product_space_size": 576,
+    "coverage_of_product": 1.0,
+    "is_complete_product": true,
+    "mean_degree_if_complete": 12,
+    "numeric_cols": [
+      "fitness"
+    ],
+    "n_numeric_cols": 1,
+    "na_frac_mean": 0.0
+  },
+  {
+    "file": "Wu2020_Bk79.csv",
+    "n_rows": 576,
+    "columns": [
+      "sequences",
+      "pos1",
+      "pos2",
+      "pos3",
+      "pos4",
+      "pos5",
+      "pos6",
+      "fitness"
+    ],
+    "genotype_column": "sequences",
+    "genotype_width": 6,
+    "n_unique_genotypes": 576,
+    "n_sites": 6,
+    "states_per_site": [
+      4,
+      4,
+      3,
+      2,
+      3,
+      2
+    ],
+    "product_space_size": 576,
+    "coverage_of_product": 1.0,
+    "is_complete_product": true,
+    "mean_degree_if_complete": 12,
+    "numeric_cols": [
+      "fitness"
+    ],
+    "n_numeric_cols": 1,
+    "na_frac_mean": 0.0
+  },
+  {
+    "file": "Wu2020_HK68.csv",
+    "n_rows": 576,
+    "columns": [
+      "sequences",
+      "pos1",
+      "pos2",
+      "pos3",
+      "pos4",
+      "pos5",
+      "pos6",
+      "fitness"
+    ],
+    "genotype_column": "sequences",
+    "genotype_width": 6,
+    "n_unique_genotypes": 576,
+    "n_sites": 6,
+    "states_per_site": [
+      4,
+      4,
+      3,
+      2,
+      3,
+      2
+    ],
+    "product_space_size": 576,
+    "coverage_of_product": 1.0,
+    "is_complete_product": true,
+    "mean_degree_if_complete": 12,
+    "numeric_cols": [
+      "fitness"
+    ],
+    "n_numeric_cols": 1,
+    "na_frac_mean": 0.0
+  },
+  {
+    "file": "Wu2020_Mos99.csv",
+    "n_rows": 576,
+    "columns": [
+      "sequences",
+      "pos1",
+      "pos2",
+      "pos3",
+      "pos4",
+      "pos5",
+      "pos6",
+      "fitness"
+    ],
+    "genotype_column": "sequences",
+    "genotype_width": 6,
+    "n_unique_genotypes": 576,
+    "n_sites": 6,
+    "states_per_site": [
+      4,
+      4,
+      3,
+      2,
+      3,
+      2
+    ],
+    "product_space_size": 576,
+    "coverage_of_product": 1.0,
+    "is_complete_product": true,
+    "mean_degree_if_complete": 12,
+    "numeric_cols": [
+      "fitness"
+    ],
+    "n_numeric_cols": 1,
+    "na_frac_mean": 0.0
+  },
+  {
+    "file": "Wu2020_NDako16.csv",
+    "n_rows": 576,
+    "columns": [
+      "sequences",
+      "pos1",
+      "pos2",
+      "pos3",
+      "pos4",
+      "pos5",
+      "pos6",
+      "fitness"
+    ],
+    "genotype_column": "sequences",
+    "genotype_width": 6,
+    "n_unique_genotypes": 576,
+    "n_sites": 6,
+    "states_per_site": [
+      4,
+      4,
+      3,
+      2,
+      3,
+      2
+    ],
+    "product_space_size": 576,
+    "coverage_of_product": 1.0,
+    "is_complete_product": true,
+    "mean_degree_if_complete": 12,
+    "numeric_cols": [
+      "fitness"
+    ],
+    "n_numeric_cols": 1,
+    "na_frac_mean": 0.0
+  },
+  {
+    "file": "Hall2019_Acetate.csv",
+    "n_rows": 32,
+    "columns": [
+      "sequences",
+      "pos1",
+      "pos2",
+      "pos3",
+      "pos4",
+      "pos5",
+      "fitness"
+    ],
+    "genotype_column": null,
+    "verdict": "no sequence column detected"
+  },
+  {
+    "file": "Hall2019_Beef.csv",
+    "n_rows": 32,
+    "columns": [
+      "sequences",
+      "pos1",
+      "pos2",
+      "pos3",
+      "pos4",
+      "pos5",
+      "fitness"
+    ],
+    "genotype_column": null,
+    "verdict": "no sequence column detected"
+  },
+  {
+    "file": "Hall2019_Casinino.csv",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "file": "Bakerlee2022_hap_37C.csv",
+    "n_rows": 1022,
+    "columns": [
+      "sequences",
+      "pos1",
+      "pos2",
+      "pos3",
+      "pos4",
+      "pos5",
+      "pos6",
+      "pos7",
+      "pos8",
+      "pos9",
+      "pos10",
+      "fitness"
+    ],
+    "genotype_column": null,
+    "verdict": "no sequence column detected"
+  },
+  {
+    "file": "Bakerlee2022_hap_salt.csv",
+    "n_rows": 1022,
+    "columns": [
+      "sequences",
+      "pos1",
+      "pos2",
+      "pos3",
+      "pos4",
+      "pos5",
+      "pos6",
+      "pos7",
+      "pos8",
+      "pos9",
+      "pos10",
+      "fitness"
+    ],
+    "genotype_column": null,
+    "verdict": "no sequence column detected"
+  },
+  {
+    "file": "Guerrero2019_E_coli_WT.csv",
+    "n_rows": 8,
+    "columns": [
+      "sequences",
+      "pos1",
+      "pos2",
+      "pos3",
+      "fitness"
+    ],
+    "genotype_column": null,
+    "verdict": "no sequence column detected"
+  },
+  {
+    "file": "Guerrero2019_E_coli_GroEL.csv",
+    "n_rows": 8,
+    "columns": [
+      "sequences",
+      "pos1",
+      "pos2",
+      "pos3",
+      "fitness"
+    ],
+    "genotype_column": null,
+    "verdict": "no sequence column detected"
+  },
+  {
+    "file": "Skwara2023_Butyrate.csv",
+    "n_rows": 1561,
+    "columns": [
+      "sequences",
+      "pos1",
+      "pos2",
+      "pos3",
+      "pos4",
+      "pos5",
+      "pos6",
+      "pos7",
+      "pos8",
+      "pos9",
+      "pos10",
+      "pos11",
+      "pos12",
+      "pos13",
+      "pos14",
+      "pos15",
+      "pos16",
+      "pos17",
+      "pos18",
+      "pos19",
+      "pos20",
+      "pos21",
+      "pos22",
+      "pos23",
+      "pos24",
+      "pos25",
+      "fitness"
+    ],
+    "genotype_column": null,
+    "verdict": "no sequence column detected"
+  },
+  {
+    "file": "Skwara2023_pyoverdine.csv",
+    "n_rows": 614,
+    "columns": [
+      "sequences",
+      "pos1",
+      "pos2",
+      "pos3",
+      "pos4",
+      "pos5",
+      "pos6",
+      "pos7",
+      "pos8",
+      "fitness"
+    ],
+    "genotype_column": null,
+    "verdict": "no sequence column detected"
+  },
+  {
+    "file": "Soo2021_30C.csv",
+    "n_rows": 65536,
+    "columns": [
+      "sequences",
+      "pos1",
+      "pos2",
+      "pos3",
+      "pos4",
+      "pos5",
+      "pos6",
+      "pos7",
+      "pos8",
+      "fitness"
+    ],
+    "genotype_column": "sequences",
+    "genotype_width": 8,
+    "n_unique_genotypes": 65536,
+    "n_sites": 8,
+    "states_per_site": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "product_space_size": 65536,
+    "coverage_of_product": 1.0,
+    "is_complete_product": true,
+    "mean_degree_if_complete": 24,
+    "numeric_cols": [
+      "fitness"
+    ],
+    "n_numeric_cols": 1,
+    "na_frac_mean": 0.002313232421875
+  },
+  {
+    "file": "Soo2021_37C.csv",
+    "n_rows": 65536,
+    "columns": [
+      "sequences",
+      "pos1",
+      "pos2",
+      "pos3",
+      "pos4",
+      "pos5",
+      "pos6",
+      "pos7",
+      "pos8",
+      "fitness"
+    ],
+    "genotype_column": "sequences",
+    "genotype_width": 8,
+    "n_unique_genotypes": 65536,
+    "n_sites": 8,
+    "states_per_site": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "product_space_size": 65536,
+    "coverage_of_product": 1.0,
+    "is_complete_product": true,
+    "mean_degree_if_complete": 24,
+    "numeric_cols": [
+      "fitness"
+    ],
+    "n_numeric_cols": 1,
+    "na_frac_mean": 0.001507568359375
+  },
+  {
+    "file": "Khan2011Flynn2013_DM25.csv",
+    "n_rows": 32,
+    "columns": [
+      "sequences",
+      "pos1",
+      "pos2",
+      "pos3",
+      "pos4",
+      "pos5",
+      "fitness"
+    ],
+    "genotype_column": null,
+    "verdict": "no sequence column detected"
+  },
+  {
+    "file": "Khan2011Flynn2013_DM25_EGTA.csv",
+    "n_rows": 32,
+    "columns": [
+      "sequences",
+      "pos1",
+      "pos2",
+      "pos3",
+      "pos4",
+      "pos5",
+      "fitness"
+    ],
+    "genotype_column": null,
+    "verdict": "no sequence column detected"
+  },
+  {
+    "file": "Lozovsky_DHFR_ic50_c57.csv",
+    "n_rows": 16,
+    "columns": [
+      "sequences",
+      "pos1",
+      "pos2",
+      "pos3",
+      "pos4",
+      "fitness"
+    ],
+    "genotype_column": "sequences",
+    "genotype_width": 4,
+    "n_unique_genotypes": 16,
+    "n_sites": 4,
+    "states_per_site": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "product_space_size": 16,
+    "coverage_of_product": 1.0,
+    "is_complete_product": true,
+    "mean_degree_if_complete": 4,
+    "numeric_cols": [
+      "fitness"
+    ],
+    "n_numeric_cols": 1,
+    "na_frac_mean": 0.0
+  },
+  {
+    "file": "Lozovsky_DHFR_ic50_c61.csv",
+    "n_rows": 16,
+    "columns": [
+      "sequences",
+      "pos1",
+      "pos2",
+      "pos3",
+      "pos4",
+      "fitness"
+    ],
+    "genotype_column": "sequences",
+    "genotype_width": 4,
+    "n_unique_genotypes": 16,
+    "n_sites": 4,
+    "states_per_site": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "product_space_size": 16,
+    "coverage_of_product": 1.0,
+    "is_complete_product": true,
+    "mean_degree_if_complete": 4,
+    "numeric_cols": [
+      "fitness"
+    ],
+    "n_numeric_cols": 1,
+    "na_frac_mean": 0.0
+  }
+]

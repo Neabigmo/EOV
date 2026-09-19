@@ -1,0 +1,1774 @@
+{
+  "AA.SEQ.rda": {
+    "parse": "ok",
+    "objects": {
+      "AA.SEQ": {
+        "py_type": "DataFrame",
+        "kind": "DataFrame",
+        "shape": [
+          320000,
+          85
+        ],
+        "columns": [
+          "RE",
+          "X1",
+          "X2",
+          "X3",
+          "X4",
+          "X1A",
+          "X1C",
+          "X1D",
+          "X1E",
+          "X1F",
+          "X1G",
+          "X1H",
+          "X1I",
+          "X1K",
+          "X1L",
+          "X1M",
+          "X1N",
+          "X1P",
+          "X1Q",
+          "X1R",
+          "X1S",
+          "X1T",
+          "X1V",
+          "X1W",
+          "X1Y",
+          "X2A",
+          "X2C",
+          "X2D",
+          "X2E",
+          "X2F",
+          "X2G",
+          "X2H",
+          "X2I",
+          "X2K",
+          "X2L",
+          "X2M",
+          "X2N",
+          "X2P",
+          "X2Q",
+          "X2R",
+          "X2S",
+          "X2T",
+          "X2V",
+          "X2W",
+          "X2Y",
+          "X3A",
+          "X3C",
+          "X3D",
+          "X3E",
+          "X3F",
+          "X3G",
+          "X3H",
+          "X3I",
+          "X3K",
+          "X3L",
+          "X3M",
+          "X3N",
+          "X3P",
+          "X3Q",
+          "X3R",
+          "X3S",
+          "X3T",
+          "X3V",
+          "X3W",
+          "X3Y",
+          "X4A",
+          "X4C",
+          "X4D",
+          "X4E",
+          "X4F",
+          "X4G",
+          "X4H",
+          "X4I",
+          "X4K",
+          "X4L",
+          "X4M",
+          "X4N",
+          "X4P",
+          "X4Q",
+          "X4R",
+          "X4S",
+          "X4T",
+          "X4V",
+          "X4W",
+          "X4Y"
+        ],
+        "index_name": "None",
+        "index_dtype": "str",
+        "dtypes": {
+          "RE": "category",
+          "X1": "category",
+          "X2": "category",
+          "X3": "category",
+          "X4": "category",
+          "X1A": "float64",
+          "X1C": "float64",
+          "X1D": "float64",
+          "X1E": "float64",
+          "X1F": "float64",
+          "X1G": "float64",
+          "X1H": "float64",
+          "X1I": "float64",
+          "X1K": "float64",
+          "X1L": "float64",
+          "X1M": "float64",
+          "X1N": "float64",
+          "X1P": "float64",
+          "X1Q": "float64",
+          "X1R": "float64",
+          "X1S": "float64",
+          "X1T": "float64",
+          "X1V": "float64",
+          "X1W": "float64",
+          "X1Y": "float64",
+          "X2A": "float64",
+          "X2C": "float64",
+          "X2D": "float64",
+          "X2E": "float64",
+          "X2F": "float64",
+          "X2G": "float64",
+          "X2H": "float64",
+          "X2I": "float64",
+          "X2K": "float64",
+          "X2L": "float64",
+          "X2M": "float64",
+          "X2N": "float64",
+          "X2P": "float64",
+          "X2Q": "float64",
+          "X2R": "float64",
+          "X2S": "float64",
+          "X2T": "float64",
+          "X2V": "float64",
+          "X2W": "float64",
+          "X2Y": "float64",
+          "X3A": "float64",
+          "X3C": "float64",
+          "X3D": "float64",
+          "X3E": "float64",
+          "X3F": "float64",
+          "X3G": "float64",
+          "X3H": "float64",
+          "X3I": "float64",
+          "X3K": "float64",
+          "X3L": "float64",
+          "X3M": "float64",
+          "X3N": "float64",
+          "X3P": "float64",
+          "X3Q": "float64",
+          "X3R": "float64",
+          "X3S": "float64",
+          "X3T": "float64",
+          "X3V": "float64",
+          "X3W": "float64",
+          "X3Y": "float64",
+          "X4A": "float64",
+          "X4C": "float64",
+          "X4D": "float64",
+          "X4E": "float64",
+          "X4F": "float64",
+          "X4G": "float64",
+          "X4H": "float64",
+          "X4I": "float64",
+          "X4K": "float64",
+          "X4L": "float64",
+          "X4M": "float64",
+          "X4N": "float64",
+          "X4P": "float64",
+          "X4Q": "float64",
+          "X4R": "float64",
+          "X4S": "float64",
+          "X4T": "float64",
+          "X4V": "float64",
+          "X4W": "float64",
+          "X4Y": "float64"
+        },
+        "non_null": {
+          "RE": 320000,
+          "X1": 320000,
+          "X2": 320000,
+          "X3": 320000,
+          "X4": 320000,
+          "X1A": 320000,
+          "X1C": 320000,
+          "X1D": 320000,
+          "X1E": 320000,
+          "X1F": 320000,
+          "X1G": 320000,
+          "X1H": 320000,
+          "X1I": 320000,
+          "X1K": 320000,
+          "X1L": 320000,
+          "X1M": 320000,
+          "X1N": 320000,
+          "X1P": 320000,
+          "X1Q": 320000,
+          "X1R": 320000,
+          "X1S": 320000,
+          "X1T": 320000,
+          "X1V": 320000,
+          "X1W": 320000,
+          "X1Y": 320000,
+          "X2A": 320000,
+          "X2C": 320000,
+          "X2D": 320000,
+          "X2E": 320000,
+          "X2F": 320000,
+          "X2G": 320000,
+          "X2H": 320000,
+          "X2I": 320000,
+          "X2K": 320000,
+          "X2L": 320000,
+          "X2M": 320000,
+          "X2N": 320000,
+          "X2P": 320000,
+          "X2Q": 320000,
+          "X2R": 320000,
+          "X2S": 320000,
+          "X2T": 320000,
+          "X2V": 320000,
+          "X2W": 320000,
+          "X2Y": 320000,
+          "X3A": 320000,
+          "X3C": 320000,
+          "X3D": 320000,
+          "X3E": 320000,
+          "X3F": 320000,
+          "X3G": 320000,
+          "X3H": 320000,
+          "X3I": 320000,
+          "X3K": 320000,
+          "X3L": 320000,
+          "X3M": 320000,
+          "X3N": 320000,
+          "X3P": 320000,
+          "X3Q": 320000,
+          "X3R": 320000,
+          "X3S": 320000,
+          "X3T": 320000,
+          "X3V": 320000,
+          "X3W": 320000,
+          "X3Y": 320000,
+          "X4A": 320000,
+          "X4C": 320000,
+          "X4D": 320000,
+          "X4E": 320000,
+          "X4F": 320000,
+          "X4G": 320000,
+          "X4H": 320000,
+          "X4I": 320000,
+          "X4K": 320000,
+          "X4L": 320000,
+          "X4M": 320000,
+          "X4N": 320000,
+          "X4P": 320000,
+          "X4Q": 320000,
+          "X4R": 320000,
+          "X4S": 320000,
+          "X4T": 320000,
+          "X4V": 320000,
+          "X4W": 320000,
+          "X4Y": 320000
+        },
+        "small_domains": {
+          "RE": [
+            "E",
+            "S"
+          ],
+          "X1": [
+            "A",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "K",
+            "L",
+            "M",
+            "N",
+            "P",
+            "Q",
+            "R",
+            "S",
+            "T",
+            "V",
+            "W",
+            "Y"
+          ],
+          "X2": [
+            "A",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "K",
+            "L",
+            "M",
+            "N",
+            "P",
+            "Q",
+            "R",
+            "S",
+            "T",
+            "V",
+            "W",
+            "Y"
+          ],
+          "X3": [
+            "A",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "K",
+            "L",
+            "M",
+            "N",
+            "P",
+            "Q",
+            "R",
+            "S",
+            "T",
+            "V",
+            "W",
+            "Y"
+          ],
+          "X4": [
+            "A",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "K",
+            "L",
+            "M",
+            "N",
+            "P",
+            "Q",
+            "R",
+            "S",
+            "T",
+            "V",
+            "W",
+            "Y"
+          ],
+          "X1A": [
+            "1.0",
+            "0.0"
+          ],
+          "X1C": [
+            "0.0",
+            "1.0"
+          ],
+          "X1D": [
+            "0.0",
+            "1.0"
+          ],
+          "X1E": [
+            "0.0",
+            "1.0"
+          ],
+          "X1F": [
+            "0.0",
+            "1.0"
+          ],
+          "X1G": [
+            "0.0",
+            "1.0"
+          ],
+          "X1H": [
+            "0.0",
+            "1.0"
+          ],
+          "X1I": [
+            "0.0",
+            "1.0"
+          ],
+          "X1K": [
+            "0.0",
+            "1.0"
+          ],
+          "X1L": [
+            "0.0",
+            "1.0"
+          ],
+          "X1M": [
+            "0.0",
+            "1.0"
+          ],
+          "X1N": [
+            "0.0",
+            "1.0"
+          ],
+          "X1P": [
+            "0.0",
+            "1.0"
+          ],
+          "X1Q": [
+            "0.0",
+            "1.0"
+          ],
+          "X1R": [
+            "0.0",
+            "1.0"
+          ],
+          "X1S": [
+            "0.0",
+            "1.0"
+          ],
+          "X1T": [
+            "0.0",
+            "1.0"
+          ],
+          "X1V": [
+            "0.0",
+            "1.0"
+          ],
+          "X1W": [
+            "0.0",
+            "1.0"
+          ],
+          "X1Y": [
+            "0.0",
+            "1.0"
+          ],
+          "X2A": [
+            "1.0",
+            "0.0"
+          ],
+          "X2C": [
+            "0.0",
+            "1.0"
+          ],
+          "X2D": [
+            "0.0",
+            "1.0"
+          ],
+          "X2E": [
+            "0.0",
+            "1.0"
+          ],
+          "X2F": [
+            "0.0",
+            "1.0"
+          ],
+          "X2G": [
+            "0.0",
+            "1.0"
+          ],
+          "X2H": [
+            "0.0",
+            "1.0"
+          ],
+          "X2I": [
+            "0.0",
+            "1.0"
+          ],
+          "X2K": [
+            "0.0",
+            "1.0"
+          ],
+          "X2L": [
+            "0.0",
+            "1.0"
+          ],
+          "X2M": [
+            "0.0",
+            "1.0"
+          ],
+          "X2N": [
+            "0.0",
+            "1.0"
+          ],
+          "X2P": [
+            "0.0",
+            "1.0"
+          ],
+          "X2Q": [
+            "0.0",
+            "1.0"
+          ],
+          "X2R": [
+            "0.0",
+            "1.0"
+          ],
+          "X2S": [
+            "0.0",
+            "1.0"
+          ],
+          "X2T": [
+            "0.0",
+            "1.0"
+          ],
+          "X2V": [
+            "0.0",
+            "1.0"
+          ],
+          "X2W": [
+            "0.0",
+            "1.0"
+          ],
+          "X2Y": [
+            "0.0",
+            "1.0"
+          ],
+          "X3A": [
+            "1.0",
+            "0.0"
+          ],
+          "X3C": [
+            "0.0",
+            "1.0"
+          ],
+          "X3D": [
+            "0.0",
+            "1.0"
+          ],
+          "X3E": [
+            "0.0",
+            "1.0"
+          ],
+          "X3F": [
+            "0.0",
+            "1.0"
+          ],
+          "X3G": [
+            "0.0",
+            "1.0"
+          ],
+          "X3H": [
+            "0.0",
+            "1.0"
+          ],
+          "X3I": [
+            "0.0",
+            "1.0"
+          ],
+          "X3K": [
+            "0.0",
+            "1.0"
+          ],
+          "X3L": [
+            "0.0",
+            "1.0"
+          ],
+          "X3M": [
+            "0.0",
+            "1.0"
+          ],
+          "X3N": [
+            "0.0",
+            "1.0"
+          ],
+          "X3P": [
+            "0.0",
+            "1.0"
+          ],
+          "X3Q": [
+            "0.0",
+            "1.0"
+          ],
+          "X3R": [
+            "0.0",
+            "1.0"
+          ],
+          "X3S": [
+            "0.0",
+            "1.0"
+          ],
+          "X3T": [
+            "0.0",
+            "1.0"
+          ],
+          "X3V": [
+            "0.0",
+            "1.0"
+          ],
+          "X3W": [
+            "0.0",
+            "1.0"
+          ],
+          "X3Y": [
+            "0.0",
+            "1.0"
+          ],
+          "X4A": [
+            "1.0",
+            "0.0"
+          ],
+          "X4C": [
+            "0.0",
+            "1.0"
+          ],
+          "X4D": [
+            "0.0",
+            "1.0"
+          ],
+          "X4E": [
+            "0.0",
+            "1.0"
+          ],
+          "X4F": [
+            "0.0",
+            "1.0"
+          ],
+          "X4G": [
+            "0.0",
+            "1.0"
+          ],
+          "X4H": [
+            "0.0",
+            "1.0"
+          ],
+          "X4I": [
+            "0.0",
+            "1.0"
+          ],
+          "X4K": [
+            "0.0",
+            "1.0"
+          ],
+          "X4L": [
+            "0.0",
+            "1.0"
+          ],
+          "X4M": [
+            "0.0",
+            "1.0"
+          ],
+          "X4N": [
+            "0.0",
+            "1.0"
+          ],
+          "X4P": [
+            "0.0",
+            "1.0"
+          ],
+          "X4Q": [
+            "0.0",
+            "1.0"
+          ],
+          "X4R": [
+            "0.0",
+            "1.0"
+          ],
+          "X4S": [
+            "0.0",
+            "1.0"
+          ],
+          "X4T": [
+            "0.0",
+            "1.0"
+          ],
+          "X4V": [
+            "0.0",
+            "1.0"
+          ],
+          "X4W": [
+            "0.0",
+            "1.0"
+          ],
+          "X4Y": [
+            "0.0",
+            "1.0"
+          ]
+        },
+        "index_head": [
+          "EAAAA",
+          "EAAAC",
+          "EAAAD"
+        ]
+      }
+    }
+  },
+  "DT.JOINT.rda": {
+    "parse": "ok",
+    "objects": {
+      "DT.JOINT": {
+        "py_type": "DataFrame",
+        "kind": "DataFrame",
+        "shape": [
+          320000,
+          10
+        ],
+        "columns": [
+          "AAseq",
+          "AA1",
+          "AA2",
+          "AA3",
+          "AA4",
+          "pooled.cfu",
+          "pooled.meanF",
+          "SE.meanF",
+          "pooled.class",
+          "RE"
+        ],
+        "index_name": "None",
+        "index_dtype": "int64",
+        "dtypes": {
+          "AAseq": "string",
+          "AA1": "category",
+          "AA2": "category",
+          "AA3": "category",
+          "AA4": "category",
+          "pooled.cfu": "float64",
+          "pooled.meanF": "float64",
+          "SE.meanF": "float64",
+          "pooled.class": "category",
+          "RE": "category"
+        },
+        "non_null": {
+          "AAseq": 320000,
+          "AA1": 320000,
+          "AA2": 320000,
+          "AA3": 320000,
+          "AA4": 320000,
+          "pooled.cfu": 320000,
+          "pooled.meanF": 296343,
+          "SE.meanF": 318427,
+          "pooled.class": 296343,
+          "RE": 320000
+        },
+        "n_unique": {
+          "AAseq": 320000,
+          "pooled.cfu": 310986,
+          "pooled.meanF": 292937,
+          "SE.meanF": 60
+        },
+        "small_domains": {
+          "AA1": [
+            "A",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "K",
+            "L",
+            "M",
+            "N",
+            "P",
+            "Q",
+            "R",
+            "S",
+            "T",
+            "V",
+            "W",
+            "Y"
+          ],
+          "AA2": [
+            "A",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "K",
+            "L",
+            "M",
+            "N",
+            "P",
+            "Q",
+            "R",
+            "S",
+            "T",
+            "V",
+            "W",
+            "Y"
+          ],
+          "AA3": [
+            "A",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "K",
+            "L",
+            "M",
+            "N",
+            "P",
+            "Q",
+            "R",
+            "S",
+            "T",
+            "V",
+            "W",
+            "Y"
+          ],
+          "AA4": [
+            "A",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "K",
+            "L",
+            "M",
+            "N",
+            "P",
+            "Q",
+            "R",
+            "S",
+            "T",
+            "V",
+            "W",
+            "Y"
+          ],
+          "pooled.class": [
+            "null",
+            "weak",
+            "strong"
+          ],
+          "RE": [
+            "E",
+            "S"
+          ]
+        },
+        "index_head": [
+          "1",
+          "2",
+          "3"
+        ]
+      }
+    }
+  },
+  "DT.11P.CODING.rda": {
+    "parse": "ok",
+    "objects": {
+      "dt.11P.coding": {
+        "py_type": "DataFrame",
+        "kind": "DataFrame",
+        "shape": [
+          160000,
+          46
+        ],
+        "columns": [
+          "AAseq",
+          "ERE.rep1.b1",
+          "ERE.rep1.b2",
+          "ERE.rep1.b3",
+          "ERE.rep1.b4",
+          "ERE.rep2.b1",
+          "ERE.rep2.b2",
+          "ERE.rep2.b3",
+          "ERE.rep2.b4",
+          "SRE.rep1.b1",
+          "SRE.rep1.b2",
+          "SRE.rep1.b3",
+          "SRE.rep1.b4",
+          "SRE.rep2.b1",
+          "SRE.rep2.b2",
+          "SRE.rep2.b3",
+          "SRE.rep2.b4",
+          "ERE.rep1.cfu",
+          "ERE.rep2.cfu",
+          "ERE.pooled.cfu",
+          "SRE.rep1.cfu",
+          "SRE.rep2.cfu",
+          "SRE.pooled.cfu",
+          "ERE.rep1.meanF",
+          "ERE.rep2.meanF",
+          "ERE.pooled.meanF",
+          "SRE.rep1.meanF",
+          "SRE.rep2.meanF",
+          "SRE.pooled.meanF",
+          "ERE.rep1.class",
+          "ERE.rep2.class",
+          "ERE.pooled.class",
+          "SRE.rep1.class",
+          "SRE.rep2.class",
+          "SRE.pooled.class",
+          "AA1",
+          "AA2",
+          "AA3",
+          "AA4",
+          "ERE.prediction",
+          "SRE.prediction",
+          "ERE.full.class",
+          "SRE.full.class",
+          "specificity",
+          "ERE.SE.meanF",
+          "SRE.SE.meanF"
+        ],
+        "index_name": "None",
+        "index_dtype": "int64",
+        "dtypes": {
+          "AAseq": "category",
+          "ERE.rep1.b1": "float64",
+          "ERE.rep1.b2": "float64",
+          "ERE.rep1.b3": "float64",
+          "ERE.rep1.b4": "float64",
+          "ERE.rep2.b1": "float64",
+          "ERE.rep2.b2": "float64",
+          "ERE.rep2.b3": "float64",
+          "ERE.rep2.b4": "float64",
+          "SRE.rep1.b1": "float64",
+          "SRE.rep1.b2": "float64",
+          "SRE.rep1.b3": "float64",
+          "SRE.rep1.b4": "float64",
+          "SRE.rep2.b1": "float64",
+          "SRE.rep2.b2": "float64",
+          "SRE.rep2.b3": "float64",
+          "SRE.rep2.b4": "float64",
+          "ERE.rep1.cfu": "float64",
+          "ERE.rep2.cfu": "float64",
+          "ERE.pooled.cfu": "float64",
+          "SRE.rep1.cfu": "float64",
+          "SRE.rep2.cfu": "float64",
+          "SRE.pooled.cfu": "float64",
+          "ERE.rep1.meanF": "float64",
+          "ERE.rep2.meanF": "float64",
+          "ERE.pooled.meanF": "float64",
+          "SRE.rep1.meanF": "float64",
+          "SRE.rep2.meanF": "float64",
+          "SRE.pooled.meanF": "float64",
+          "ERE.rep1.class": "category",
+          "ERE.rep2.class": "category",
+          "ERE.pooled.class": "category",
+          "SRE.rep1.class": "category",
+          "SRE.rep2.class": "category",
+          "SRE.pooled.class": "category",
+          "AA1": "category",
+          "AA2": "category",
+          "AA3": "category",
+          "AA4": "category",
+          "ERE.prediction": "category",
+          "SRE.prediction": "category",
+          "ERE.full.class": "category",
+          "SRE.full.class": "category",
+          "specificity": "category",
+          "ERE.SE.meanF": "float64",
+          "SRE.SE.meanF": "float64"
+        },
+        "non_null": {
+          "AAseq": 160000,
+          "ERE.rep1.b1": 160000,
+          "ERE.rep1.b2": 160000,
+          "ERE.rep1.b3": 160000,
+          "ERE.rep1.b4": 160000,
+          "ERE.rep2.b1": 160000,
+          "ERE.rep2.b2": 160000,
+          "ERE.rep2.b3": 160000,
+          "ERE.rep2.b4": 160000,
+          "SRE.rep1.b1": 160000,
+          "SRE.rep1.b2": 160000,
+          "SRE.rep1.b3": 160000,
+          "SRE.rep1.b4": 160000,
+          "SRE.rep2.b1": 160000,
+          "SRE.rep2.b2": 160000,
+          "SRE.rep2.b3": 160000,
+          "SRE.rep2.b4": 160000,
+          "ERE.rep1.cfu": 160000,
+          "ERE.rep2.cfu": 160000,
+          "ERE.pooled.cfu": 160000,
+          "SRE.rep1.cfu": 160000,
+          "SRE.rep2.cfu": 160000,
+          "SRE.pooled.cfu": 160000,
+          "ERE.rep1.meanF": 148069,
+          "ERE.rep2.meanF": 151717,
+          "ERE.pooled.meanF": 156387,
+          "SRE.rep1.meanF": 149807,
+          "SRE.rep2.meanF": 155152,
+          "SRE.pooled.meanF": 157747,
+          "ERE.rep1.class": 127431,
+          "ERE.rep2.class": 134815,
+          "ERE.pooled.class": 147349,
+          "SRE.rep1.class": 132098,
+          "SRE.rep2.class": 136208,
+          "SRE.pooled.class": 148994,
+          "AA1": 160000,
+          "AA2": 160000,
+          "AA3": 160000,
+          "AA4": 160000,
+          "ERE.prediction": 160000,
+          "SRE.prediction": 160000,
+          "ERE.full.class": 160000,
+          "SRE.full.class": 160000,
+          "specificity": 160000,
+          "ERE.SE.meanF": 158777,
+          "SRE.SE.meanF": 159650
+        },
+        "n_unique": {
+          "AAseq": 160000,
+          "ERE.rep1.b1": 3816,
+          "ERE.rep1.b2": 4226,
+          "ERE.rep1.b3": 1157,
+          "ERE.rep1.b4": 3172,
+          "ERE.rep2.b1": 2941,
+          "ERE.rep2.b2": 2951,
+          "ERE.rep2.b3": 873,
+          "ERE.rep2.b4": 848,
+          "SRE.rep1.b1": 2427,
+          "SRE.rep1.b2": 1342,
+          "SRE.rep1.b3": 395,
+          "SRE.rep1.b4": 860,
+          "SRE.rep2.b1": 3285,
+          "SRE.rep2.b2": 5693,
+          "SRE.rep2.b3": 2080,
+          "SRE.rep2.b4": 1272,
+          "ERE.rep1.cfu": 115342,
+          "ERE.rep2.cfu": 123600,
+          "ERE.pooled.cfu": 155761,
+          "SRE.rep1.cfu": 104498,
+          "SRE.rep2.cfu": 111975,
+          "SRE.pooled.cfu": 155226,
+          "ERE.rep1.meanF": 74132,
+          "ERE.rep2.meanF": 73147,
+          "ERE.pooled.meanF": 149136,
+          "SRE.rep1.meanF": 73018,
+          "SRE.rep2.meanF": 72705,
+          "SRE.pooled.meanF": 149801
+        },
+        "small_domains": {
+          "ERE.rep1.class": [
+            "null",
+            "strong",
+            "weak"
+          ],
+          "ERE.rep2.class": [
+            "null",
+            "strong",
+            "weak"
+          ],
+          "ERE.pooled.class": [
+            "null",
+            "weak",
+            "strong"
+          ],
+          "SRE.rep1.class": [
+            "null",
+            "weak",
+            "strong"
+          ],
+          "SRE.rep2.class": [
+            "null",
+            "strong",
+            "weak"
+          ],
+          "SRE.pooled.class": [
+            "null",
+            "strong",
+            "weak"
+          ],
+          "AA1": [
+            "A",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "K",
+            "L",
+            "M",
+            "N",
+            "P",
+            "Q",
+            "R",
+            "S",
+            "T",
+            "V",
+            "W",
+            "Y"
+          ],
+          "AA2": [
+            "A",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "K",
+            "L",
+            "M",
+            "N",
+            "P",
+            "Q",
+            "R",
+            "S",
+            "T",
+            "V",
+            "W",
+            "Y"
+          ],
+          "AA3": [
+            "A",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "K",
+            "L",
+            "M",
+            "N",
+            "P",
+            "Q",
+            "R",
+            "S",
+            "T",
+            "V",
+            "W",
+            "Y"
+          ],
+          "AA4": [
+            "A",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "K",
+            "L",
+            "M",
+            "N",
+            "P",
+            "Q",
+            "R",
+            "S",
+            "T",
+            "V",
+            "W",
+            "Y"
+          ],
+          "ERE.prediction": [
+            "null",
+            "weak",
+            "strong"
+          ],
+          "SRE.prediction": [
+            "weak",
+            "strong",
+            "null"
+          ],
+          "ERE.full.class": [
+            "null",
+            "weak",
+            "strong"
+          ],
+          "SRE.full.class": [
+            "null",
+            "strong",
+            "weak"
+          ],
+          "specificity": [
+            "null",
+            "promiscuous",
+            "SRE-specific",
+            "ERE-specific"
+          ],
+          "ERE.SE.meanF": [
+            "0.22715083753388035",
+            "0.18094992698525525",
+            "0.1524067400637673",
+            "0.1583120130496527",
+            "0.23096850090667415",
+            "0.16493105942401703",
+            "0.2535239235141636",
+            "0.33828439862107923",
+            "0.18388264872416385",
+            "0.16047168463460626",
+            "0.15522749687660514",
+            "0.17907295462011696",
+            "0.2108067688346908",
+            "0.17589751837831305",
+            "0.17592651695757194",
+            "0.15948394811016423",
+            "0.17685819211809176",
+            "0.152691096152552",
+            "0.20096233915440465",
+            "0.15543883735408495",
+            "0.14708178597439417",
+            "0.15320558832372144",
+            "0.2895395501169144",
+            "0.1653250815092113",
+            "0.1783727995572193",
+            "0.20068881303615332",
+            "0.165239447734785",
+            "0.18989462601594978",
+            "0.16874916087972994",
+            "0.1577738850289249"
+          ],
+          "SRE.SE.meanF": [
+            "0.22593937857052115",
+            "0.20233822512061403",
+            "0.13479612353475467",
+            "0.1341812476231222",
+            "0.1344016380094099",
+            "0.20132706688105206",
+            "0.13823431249693668",
+            "0.24108097444497043",
+            "0.1830286646533481",
+            "0.13865028114022665",
+            "0.2708515069707017",
+            "0.1381568979134736",
+            "0.14076146160601397",
+            "0.15756615895756182",
+            "0.16053482862259333",
+            "0.23709104690898875",
+            "0.1880004399185989",
+            "0.17243616154905572",
+            "0.1658256262959788",
+            "0.13551607292122553",
+            "0.12817121736404144",
+            "0.14080678344043096",
+            "0.14609884169637327",
+            "0.16033825559529813",
+            "0.1769358728803341",
+            "0.16780210351736638",
+            "0.1397050020358437",
+            "0.13132921994633226",
+            "0.1441403894058186",
+            "0.1333985520687021"
+          ]
+        },
+        "index_head": [
+          "1",
+          "2",
+          "3"
+        ]
+      }
+    }
+  },
+  "DT.JOINT.APPEND.rda": {
+    "parse": "ok",
+    "objects": {
+      "DT.JOINT": {
+        "py_type": "DataFrame",
+        "kind": "DataFrame",
+        "shape": [
+          388962,
+          19
+        ],
+        "columns": [
+          "AAseq",
+          "AA1",
+          "AA2",
+          "AA3",
+          "AA4",
+          "pooled.cfu",
+          "pooled.meanF",
+          "SE.meanF",
+          "pooled.class",
+          "RE",
+          "PRED.TE.CLASS",
+          "PRED.TE.LINK",
+          "TE.JOINT.CLASS",
+          "PRED.PE.CLASS",
+          "PRED.PE.LINK",
+          "PE.JOINT.CLASS",
+          "PRED.ME.CLASS",
+          "PRED.ME.LINK",
+          "ME.JOINT.CLASS"
+        ],
+        "index_name": "None",
+        "index_dtype": "int64",
+        "dtypes": {
+          "AAseq": "string",
+          "AA1": "category",
+          "AA2": "category",
+          "AA3": "category",
+          "AA4": "category",
+          "pooled.cfu": "float64",
+          "pooled.meanF": "float64",
+          "SE.meanF": "float64",
+          "pooled.class": "category",
+          "RE": "category",
+          "PRED.TE.CLASS": "category",
+          "PRED.TE.LINK": "float64",
+          "TE.JOINT.CLASS": "category",
+          "PRED.PE.CLASS": "category",
+          "PRED.PE.LINK": "float64",
+          "PE.JOINT.CLASS": "category",
+          "PRED.ME.CLASS": "category",
+          "PRED.ME.LINK": "float64",
+          "ME.JOINT.CLASS": "category"
+        },
+        "non_null": {
+          "AAseq": 388962,
+          "AA1": 388962,
+          "AA2": 388962,
+          "AA3": 388962,
+          "AA4": 388962,
+          "pooled.cfu": 388962,
+          "pooled.meanF": 364743,
+          "SE.meanF": 387382,
+          "pooled.class": 364743,
+          "RE": 388962,
+          "PRED.TE.CLASS": 388962,
+          "PRED.TE.LINK": 388962,
+          "TE.JOINT.CLASS": 388962,
+          "PRED.PE.CLASS": 388962,
+          "PRED.PE.LINK": 388962,
+          "PE.JOINT.CLASS": 388962,
+          "PRED.ME.CLASS": 388962,
+          "PRED.ME.LINK": 388962,
+          "ME.JOINT.CLASS": 388962
+        },
+        "n_unique": {
+          "AAseq": 388962,
+          "pooled.cfu": 310986,
+          "pooled.meanF": 292937,
+          "SE.meanF": 60,
+          "PRED.TE.LINK": 320000,
+          "PRED.PE.LINK": 320000,
+          "PRED.ME.LINK": 320000
+        },
+        "small_domains": {
+          "AA1": [
+            "A",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "K",
+            "L",
+            "M",
+            "N",
+            "P",
+            "Q",
+            "R",
+            "S",
+            "T",
+            "V",
+            "W",
+            "Y",
+            "Z"
+          ],
+          "AA2": [
+            "A",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "K",
+            "L",
+            "M",
+            "N",
+            "P",
+            "Q",
+            "R",
+            "S",
+            "T",
+            "V",
+            "W",
+            "Y",
+            "Z"
+          ],
+          "AA3": [
+            "A",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "K",
+            "L",
+            "M",
+            "N",
+            "P",
+            "Q",
+            "R",
+            "S",
+            "T",
+            "V",
+            "W",
+            "Y",
+            "Z"
+          ],
+          "AA4": [
+            "A",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "K",
+            "L",
+            "M",
+            "N",
+            "P",
+            "Q",
+            "R",
+            "S",
+            "T",
+            "V",
+            "W",
+            "Y",
+            "Z"
+          ],
+          "pooled.class": [
+            "null",
+            "weak",
+            "strong"
+          ],
+          "RE": [
+            "E",
+            "S"
+          ],
+          "PRED.TE.CLASS": [
+            "null",
+            "weak",
+            "strong"
+          ],
+          "TE.JOINT.CLASS": [
+            "null",
+            "SRE-specific",
+            "ERE-specific",
+            "promiscuous"
+          ],
+          "PRED.PE.CLASS": [
+            "null",
+            "weak",
+            "strong"
+          ],
+          "PE.JOINT.CLASS": [
+            "null",
+            "SRE-specific",
+            "ERE-specific",
+            "promiscuous"
+          ],
+          "PRED.ME.CLASS": [
+            "null",
+            "weak",
+            "strong"
+          ],
+          "ME.JOINT.CLASS": [
+            "SRE-specific",
+            "null",
+            "promiscuous",
+            "ERE-specific"
+          ]
+        },
+        "index_head": [
+          "1",
+          "2",
+          "3"
+        ]
+      }
+    }
+  },
+  "NH.ACT.ADJM.rda": {
+    "parse": "ok",
+    "objects": {
+      "NH.ACT.ADJM": {
+        "py_type": "SimpleNamespace",
+        "repr_head": "namespace(i=array([     1,      2,      3, ..., 159996, 159997, 159998],\n      shape=(12160000,), dtype=int32), p=array([       0,       76,      152, ..., 12159848, 12159924, 12160000],\n      shape=("
+      }
+    }
+  },
+  "MG.ACT.ADJM.rda": {
+    "parse": "ok",
+    "objects": {
+      "MG.ACT.ADJM": {
+        "py_type": "SimpleNamespace",
+        "repr_head": "namespace(i=array([   3,    4,   32, ..., 1069, 1074, 1078],\n      shape=(9454,), dtype=int32), p=array([   0,    6,   16, ..., 9441, 9449, 9454],\n      shape=(1081,), dtype=int32), Dim=array([1080, 1"
+      }
+    }
+  },
+  "NG.ACT.ADJM.rda": {
+    "parse": "ok",
+    "objects": {
+      "NG.ACT.ADJM": {
+        "py_type": "SimpleNamespace",
+        "repr_head": "namespace(i=array([     2,      3,      5, ..., 194471, 194474, 194476],\n      shape=(5704776,), dtype=int32), p=array([      0,      28,      56, ..., 5704728, 5704752, 5704776],\n      shape=(194482,"
+      }
+    }
+  },
+  "EFFECT.TABLE.TE.rda": {
+    "parse": "ok",
+    "objects": {
+      "EFFECT.TABLE.TE": {
+        "py_type": "DataFrame",
+        "kind": "DataFrame",
+        "shape": [
+          320000,
+          32
+        ],
+        "columns": [
+          "SEQ",
+          "LINK",
+          "B0",
+          "S0",
+          "BX1",
+          "BX2",
+          "BX3",
+          "BX4",
+          "SX1",
+          "SX2",
+          "SX3",
+          "SX4",
+          "BX1X2",
+          "BX1X3",
+          "BX1X4",
+          "BX2X3",
+          "BX2X4",
+          "BX3X4",
+          "SX1X2",
+          "SX1X3",
+          "SX1X4",
+          "SX2X3",
+          "SX2X4",
+          "SX3X4",
+          "BX1X2X3",
+          "BX1X2X4",
+          "BX1X3X4",
+          "BX2X3X4",
+          "SX1X2X3",
+          "SX1X2X4",
+          "SX1X3X4",
+          "SX2X3X4"
+        ],
+        "index_name": "None",
+        "index_dtype": "int64",
+        "dtypes": {
+          "SEQ": "string",
+          "LINK": "float64",
+          "B0": "float64",
+          "S0": "float64",
+          "BX1": "float64",
+          "BX2": "float64",
+          "BX3": "float64",
+          "BX4": "float64",
+          "SX1": "float64",
+          "SX2": "float64",
+          "SX3": "float64",
+          "SX4": "float64",
+          "BX1X2": "float64",
+          "BX1X3": "float64",
+          "BX1X4": "float64",
+          "BX2X3": "float64",
+          "BX2X4": "float64",
+          "BX3X4": "float64",
+          "SX1X2": "float64",
+          "SX1X3": "float64",
+          "SX1X4": "float64",
+          "SX2X3": "float64",
+          "SX2X4": "float64",
+          "SX3X4": "float64",
+          "BX1X2X3": "float64",
+          "BX1X2X4": "float64",
+          "BX1X3X4": "float64",
+          "BX2X3X4": "float64",
+          "SX1X2X3": "float64",
+          "SX1X2X4": "float64",
+          "SX1X3X4": "float64",
+          "SX2X3X4": "float64"
+        },
+        "non_null": {
+          "SEQ": 320000,
+          "LINK": 320000,
+          "B0": 320000,
+          "S0": 320000,
+          "BX1": 320000,
+          "BX2": 320000,
+          "BX3": 320000,
+          "BX4": 320000,
+          "SX1": 320000,
+          "SX2": 320000,
+          "SX3": 320000,
+          "SX4": 320000,
+          "BX1X2": 320000,
+          "BX1X3": 320000,
+          "BX1X4": 320000,
+          "BX2X3": 320000,
+          "BX2X4": 320000,
+          "BX3X4": 320000,
+          "SX1X2": 320000,
+          "SX1X3": 320000,
+          "SX1X4": 320000,
+          "SX2X3": 320000,
+          "SX2X4": 320000,
+          "SX3X4": 320000,
+          "BX1X2X3": 320000,
+          "BX1X2X4": 320000,
+          "BX1X3X4": 320000,
+          "BX2X3X4": 320000,
+          "SX1X2X3": 320000,
+          "SX1X2X4": 320000,
+          "SX1X3X4": 320000,
+          "SX2X3X4": 320000
+        },
+        "n_unique": {
+          "SEQ": 320000,
+          "LINK": 320000,
+          "SX1": 40,
+          "SX2": 40,
+          "SX3": 40,
+          "SX4": 40,
+          "BX1X2": 400,
+          "BX1X3": 400,
+          "BX1X4": 400,
+          "BX2X3": 400,
+          "BX2X4": 400,
+          "BX3X4": 400,
+          "SX1X2": 800,
+          "SX1X3": 800,
+          "SX1X4": 800,
+          "SX2X3": 800,
+          "SX2X4": 800,
+          "SX3X4": 800,
+          "BX1X2X3": 8000,
+          "BX1X2X4": 8000,
+          "BX1X3X4": 8000,
+          "BX2X3X4": 8000,
+          "SX1X2X3": 16000,
+          "SX1X2X4": 16000,
+          "SX1X3X4": 16000,
+          "SX2X3X4": 16000
+        },
+        "small_domains": {
+          "B0": [
+            "0.043786159304741404"
+          ],
+          "S0": [
+            "-0.6331307999512064",
+            "0.6331307999512064"
+          ],
+          "BX1": [
+            "-0.021974742702193437",
+            "0.3099300989995305",
+            "0.6701995701185889",
+            "0.4820342468766829",
+            "-0.29897970353788794",
+            "0.3359579094160958",
+            "0.5691831004428898",
+            "-0.40815496200665735",
+            "-0.3705207396507584",
+            "-0.8744001359592185",
+            "-0.19171384677644548",
+            "1.116660430510387",
+            "-0.471150937175698",
+            "-0.15048398278949843",
+            "-1.0652964083515517",
+            "0.5835147196766629",
+            "-0.16849709620511397",
+            "-0.13713904684030342",
+            "0.16079589382595175",
+            "-0.06996436787146292"
+          ],
+          "BX2": [
+            "3.978452875322202",
+            "-0.12267046266308966",
+            "-0.5744566324727544",
+            "0.17796810219479706",
+            "-0.8566559773967084",
+            "2.6678471162928044",
+            "-0.7579026082403563",
+            "-0.6172933552380979",
+            "-0.9064756453616447",
+            "-0.5472535232825841",
+            "-0.21371376084011265",
+            "-0.29519458503650753",
+            "1.0505092589829501",
+            "-0.12955530364239312",
+            "-0.3226747963698806",
+            "0.2785431665807208",
+            "-0.8384595651080827",
+            "-0.6498029661569722",
+            "-0.4601096604242001",
+            "-0.8611016771400891"
+          ],
+          "BX3": [
+            "1.0171288619149041",
+            "0.5372831183624759",
+            "-0.38401190251875994",
+            "-0.045263724933562954",
+            "-0.5190139589283128",
+            "0.8151506737516933",
+            "-0.21222769185340581",
+            "-1.3606836309886456",
+            "1.0850040476612597",
+            "-1.37038730680483",
+            "-0.05541363550108188",
+            "-0.2673125474437335",
+            "0.41871975785759324",
+            "-0.35857637770941936",
+            "1.471697924314594",
+            "0.5917755118317504",
+            "-0.03012879307188205",
+            "-0.301403175278893",
+            "-0.6853164879192253",
+            "-0.3470206627425171"
+          ],
+          "BX4": [
+            "0.9479937953905968",
+            "0.8758015080412775",
+            "-0.2674333429771492",
+            "-0.97522183199309",
+            "-0.6403065700837205",
+            "0.16435942290135447",
+            "-0.11582921552473613",
+            "0.2162442904985789",
+            "-0.5332458977784962",
+            "-0.6436354334627801",
+            "0.6559617008477523",
+            "-0.15518488283031337",
+            "-0.47773263030319774",
+            "0.7365257233281821",
+            "-0.43084217611660447",
+            "1.1965310124363595",
+            "0.5574010950240104",
+            "0.05366097485208371",
+            "-0.0058729090241035915",
+            "-1.1591746332260056"
+          ]
+        },
+        "index_head": [
+          "1",
+          "2",
+          "3"
+        ]
+      }
+    }
+  },
+  "ME.ONE.STEP.rda": {
+    "parse": "ok",
+    "objects": {
+      "ME.OUT": {
+        "py_type": "DataArray",
+        "repr_head": "<xarray.DataArray (dim_0: 250, dim_1: 8)> Size: 16kB\narray([[-13.34990831, -11.77139832,   1.57850998, ..., -10.32821789,\n         -1.60449566,   0.        ],\n       [-14.14269303, -12.56418305,   1.5"
+      }
+    }
+  }
+}

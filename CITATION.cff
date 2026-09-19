@@ -1,0 +1,39 @@
+# CITATION metadata.
+#
+# NOTE: fields in <...> are PLACEHOLDERS and MUST be filled in before a public
+#       push. They are deliberately left un-guessed rather than invented.
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite it as below."
+title: "EOV: Evolutionary Option Value is budget-stable but task-conditional"
+abstract: >-
+  Starting-point value in a fitness landscape is stable across search budgets,
+  but transfers poorly across tasks. The degree of transfer is predictable from
+  landscape similarity: Spearman rho = 0.744 in discovery and 0.754 in an
+  independent confirmation (bootstrap 95% CI [0.232, 0.944]). About 16 shared
+  genotype measurements suffice to decide whether an existing starting-point
+  ranking is worth carrying into a new task. A zero-measurement gate built only
+  from task metadata failed (NO-GO).
+type: software
+license: MIT
+repository-code: "<REPOSITORY URL — FILL IN BEFORE PUBLIC PUSH>"
+authors:
+  - family-names: "<FAMILY NAME>"
+    given-names: "<GIVEN NAME>"
+    orcid: "<ORCID — optional>"
+# If this code accompanies a paper, uncomment and fill in once available:
+# preferred-citation:
+#   type: article
+#   title: "<PAPER TITLE>"
+#   doi: "<DOI>"
+#   authors:
+#     - family-names: "<...>"
+#       given-names: "<...>"
+keywords:
+  - fitness landscape
+  - evolutionary option value
+  - starting-point value
+  - transferability
+  - preregistration
+  - reproducibility
+version: "1.0.0"
+date-released: "2026-09-19"

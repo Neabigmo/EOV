@@ -1,0 +1,84 @@
+# ============================================================
+#  Raw / third-party data  —  NEVER committed (license + size)
+# ============================================================
+data/raw/
+data/external/
+data/downloads/
+data/processed/
+*.rda
+*.xlsx
+*.xls
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.parquet
+
+# ============================================================
+#  Generated large artifacts
+# ============================================================
+checkpoints/
+cache/
+outputs/
+*.npy
+*.npz
+*.pt
+*.pth
+*.pkl
+*.joblib
+*.h5
+
+# ============================================================
+#  Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# ============================================================
+#  IDE / OS
+# ============================================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================================================
+#  Secrets / local config  — never commit
+# ============================================================
+.env
+.env.*
+*.pem
+*.key
+id_rsa*
+config.local.*
+paths.local.*
+
+# ============================================================
+#  Logs / scratch
+# ============================================================
+*.log
+*.tmp
+*.bak
+*.orig
+*.rej
+_build_log.json
+RELEASE_CHECK.json
+scratch/
+figures/out/
+
+# ============================================================
+#  Explicit whitelist: these small, reproducible outputs ARE
+#  tracked (they are the paper's result tables).
+# ============================================================
+!results/tables/*.csv
+!data/manifests/*.json
+!data/manifests/*.sha256

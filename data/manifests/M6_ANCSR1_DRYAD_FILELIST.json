@@ -1,0 +1,1304 @@
+{
+  "doi": "10.5061/dryad.jsxksn0hk",
+  "version_id": 272141,
+  "n_files": 184,
+  "total_bytes": 6312162041,
+  "extension_histogram": {
+    ".rda": 181,
+    ".gexf": 2,
+    ".md": 1
+  },
+  "toplevel_histogram": {
+    "<root>": 184
+  },
+  "files": [
+    {
+      "file_id": "2821527",
+      "path": "AA.EFFECT.START.MG.rda",
+      "bytes": 10751700,
+      "sha256": "601927d9a0a284ff98a4967fc45aaf21d7940812f5fb672f5c03adfddd21a304",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821530",
+      "path": "AA.EFFECT.START.PG.rda",
+      "bytes": 10866482,
+      "sha256": "3557e27a6220f433ef1fa9823bc6d32130f10e3087afdc71147ab6aba3b0fe4c",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821531",
+      "path": "AA.EFFECT.START.TG.rda",
+      "bytes": 10773579,
+      "sha256": "f858cd0cbd8478110db156feb0373543d13b1c6d8fdeed8b945abbfab1ac0a1a",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821528",
+      "path": "AA.EFFECT.STOP.MG.rda",
+      "bytes": 13736962,
+      "sha256": "57418ec20f764ef694cd41332ae62016dd55be89975fbe5256b58ab7ce6477dc",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821529",
+      "path": "AA.EFFECT.STOP.PG.rda",
+      "bytes": 13757527,
+      "sha256": "dd1e84ac711f90fb3bc114570f0880c1977170a3497e17a94202f6b5dd7f3f33",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821536",
+      "path": "AA.EFFECT.STOP.TG.rda",
+      "bytes": 13724510,
+      "sha256": "106e0d66a1b3e9a703909ff63c563b270af902ecdcccf3e62683ab02a2fb25e5",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821532",
+      "path": "AA.SEQ.rda",
+      "bytes": 1309694,
+      "sha256": "3a42fa994e16b0ba83d5c131b3e35418afac52223709444bbc52b461c38a506b",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821535",
+      "path": "ALL.ACT.gexf",
+      "bytes": 3397512,
+      "sha256": "c0dd7130ac81e3d7f69c07e45843b4b1b042039cbfa97fa38e0c64678910aa2b",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821541",
+      "path": "DT.11P.CODING.rda",
+      "bytes": 18040375,
+      "sha256": "19a216da732be3fd9174c4fda97a19648b61e002b7cfd6c3a88997d763b6d999",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821545",
+      "path": "DT.JOINT.APPEND.rda",
+      "bytes": 15911786,
+      "sha256": "bf4f689cef37de6ee479e864f7473ea1a5ab6b864a25ec18823b8567c47ba9b3",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821537",
+      "path": "DT.JOINT.rda",
+      "bytes": 5689615,
+      "sha256": "45ae9340466a81049e0a797d2a974c7feb934caf974b869fe0c20a95cdb15f2e",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821544",
+      "path": "EFFECT.TABLE.TE.rda",
+      "bytes": 9777676,
+      "sha256": "e893c8dd8881abb51d99631540e778848235b59f9db0b3e67150eaed1a2a2b9e",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821538",
+      "path": "G.INT_ERE.IND_GENO.ADJM.rda",
+      "bytes": 7021,
+      "sha256": "d55b3232fc263454ed0bd87fae3abff1ed5cd407e73ff12c3954f35564b7ecc4",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821539",
+      "path": "G.INT_ERE.IND_GENO.DIST.rda",
+      "bytes": 111650,
+      "sha256": "f476ab5fc5d7d4c13fbe6f5745f592f7b28e99270a95f1bbcb7aa225527e5e9e",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821540",
+      "path": "G.INT_ERE.IND_GENO.NET.rda",
+      "bytes": 24264,
+      "sha256": "2b3ddc5761962d290e31f9a2e53270602752e48a86724db034f89722bc951c6e",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821542",
+      "path": "ME.COEFS.ADJ.rda",
+      "bytes": 1821,
+      "sha256": "fab3ef567093baa8cb09e82d87245eec5549d5417101b27b9b67c19aa4186197",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821543",
+      "path": "ME.COEFS.EFFECT.ADJ.B0.rda",
+      "bytes": 89,
+      "sha256": "a3d08ff2d7bbd5773c1bf240736be82254edc6e35f3d8dda26d5372e57a9348b",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821546",
+      "path": "ME.COEFS.EFFECT.ADJ.S0.rda",
+      "bytes": 107,
+      "sha256": "fb153bf575feb8e10f1f3c951694f28f64488b50a51af6e93f643c113a7fa296",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821547",
+      "path": "ME.L1.CV.rda",
+      "bytes": 1580816,
+      "sha256": "382464948a93112d195ef828e1e43e34d7cf954ee28569f26bf80c5265137a32",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821551",
+      "path": "ME.L1.MODEL.rda",
+      "bytes": 7293339,
+      "sha256": "4abf3a9f37df0d2b45e1c3617011c61946abc0c52a4fe93ba934c02c520d15c5",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821548",
+      "path": "ME.L2.CV.rda",
+      "bytes": 1537404,
+      "sha256": "9eb8f0c269ee7c8f41b9830ec6eebaa5e80a53f054bd9b8f0ce51ce57f7a054c",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821567",
+      "path": "ME.L2.MODEL.rda",
+      "bytes": 8249058,
+      "sha256": "634752fde28f2df5ffd98d67b4458361968ac424a18217fd910359f33b5f831d",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821554",
+      "path": "ME.MATRIX.rda",
+      "bytes": 7223414,
+      "sha256": "4ed5c0a603b5f8e90147be1953201f09f8c69a2a9a313933bfd294762d6388f3",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821550",
+      "path": "ME.ONE.STEP.rda",
+      "bytes": 5315,
+      "sha256": "a5fe695482c9921c2285f0f418d3ad1a659a6021bd2ab0626656d47e4b4949e6",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821549",
+      "path": "ME.TE.ACT.gexf",
+      "bytes": 2614483,
+      "sha256": "e0f91bb9e7184e5debb570a2a784e8d7ff3a43d55ed70732e4eaa6fc8f91516e",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821553",
+      "path": "ME.THRESH.NULL.rda",
+      "bytes": 99,
+      "sha256": "138d5a1473387b12b23c500901c7227db20952d43e7d69d0fb8f99c7391e9220",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821552",
+      "path": "ME.THRESH.WEAK.rda",
+      "bytes": 99,
+      "sha256": "4f40fabd0a13b21bef0e5e4677a25fcd450cf23f29f12ea24db24287f09ec5e0",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821555",
+      "path": "MG.ACT.ADJM.rda",
+      "bytes": 22688,
+      "sha256": "d4a80019c1eaeeed1a8f1bf8636ee7546b759378b19fea0e2b92b14f1c0b892b",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821556",
+      "path": "MG.ACT.DIST.rda",
+      "bytes": 575533,
+      "sha256": "fbbca44ed2c1f8297971ace8e01b360ee65317d9fff2f0d56fb237561baf894f",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821557",
+      "path": "MG.ACT.NET.rda",
+      "bytes": 88222,
+      "sha256": "1371005fca14a8bc60e78292a3c083e985459b1c75b2cd5eeda30b8533c722e7",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821566",
+      "path": "MG.ALL_ERE.ALL_GENO.NEIGHBOR.CLASS.STEP.rda",
+      "bytes": 845223,
+      "sha256": "4d6c5d8d19aad9d5dd75345ef72c5fc67bdf4a0cb75dde4f468797bb378b7cb3",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821572",
+      "path": "MG.ALL_ERE.ALL_GENO.SEL.SIMULATE.N1.rda",
+      "bytes": 476388,
+      "sha256": "68862929820a5e852380a6806dbc07ce3363b7fdaa062ab1f61700a4b6dcc409",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821570",
+      "path": "MG.ALL_ERE.ALL_GENO.SEL.SIMULATE.N10.rda",
+      "bytes": 411461,
+      "sha256": "b77e56f05dc5c05933d87371d6b0af9aeb89410c980edc1d6e746f1df351f436",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821564",
+      "path": "MG.ALL_ERE.ALL_GENO.SEL.SIMULATE.N100.rda",
+      "bytes": 189953,
+      "sha256": "2f29f88ef5548468f2ba86e4094dc0b20c83c87b750380da649f7a220d746369",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821563",
+      "path": "MG.ALL_ERE.ALL_GENO.SEL.SIMULATE.N1000.rda",
+      "bytes": 97664,
+      "sha256": "fee0b92050b430f11245747033eb93a3cfa18d62ce9874689895d54bb78a80b9",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821573",
+      "path": "MG.ALL_ERE.ALL_GENO.SEL.SIMULATE.N10000.rda",
+      "bytes": 94797,
+      "sha256": "fcf88abe625f18474b9c52e28afddf46b763edbf225a1dc74a3a420fdbe0781d",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821559",
+      "path": "MG.ALL_ERE.ALL_GENO.SEL.SIMULATE.N17.rda",
+      "bytes": 371497,
+      "sha256": "ed5e0cfee5ff1b84750695f6969dc7a7f9dc5d8b5f63ba2a8a59e3ed464d01c3",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821562",
+      "path": "MG.ALL_ERE.ALL_GENO.SEL.SIMULATE.N177.rda",
+      "bytes": 146287,
+      "sha256": "c187d25bb7c4f81cb9b067fa9eb40d1094ea5f69c24a9a18ff0eda4e0f66fb4c",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821569",
+      "path": "MG.ALL_ERE.ALL_GENO.SEL.SIMULATE.N1778.rda",
+      "bytes": 95875,
+      "sha256": "43db64868138395fb3b739c01dbfa7822752d5c62d553444843697cb02fb1a46",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821558",
+      "path": "MG.ALL_ERE.ALL_GENO.SEL.SIMULATE.N3.rda",
+      "bytes": 460391,
+      "sha256": "cf318a595fd5ce743ac53b39ce7dd7ee1e7fa511edd6346ead21d5910760061c",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821568",
+      "path": "MG.ALL_ERE.ALL_GENO.SEL.SIMULATE.N31.rda",
+      "bytes": 315543,
+      "sha256": "6c6b3ab02f06c8c5a3de4aa5b7259dd8b19e62c815f2181cb173d41adbe6ea5a",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821575",
+      "path": "MG.ALL_ERE.ALL_GENO.SEL.SIMULATE.N316.rda",
+      "bytes": 117901,
+      "sha256": "8501b549e95718604e819a8514aba1cef2d48f167a70a2a5fa656414db0623de",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821576",
+      "path": "MG.ALL_ERE.ALL_GENO.SEL.SIMULATE.N3162.rda",
+      "bytes": 94553,
+      "sha256": "5a82b7b0c5ca1da1aa53fd77cb1d42a3606edc3028af49ca55c6bfc506ebfa93",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821565",
+      "path": "MG.ALL_ERE.ALL_GENO.SEL.SIMULATE.N5.rda",
+      "bytes": 448419,
+      "sha256": "565af18a2eb773293d69f7f497cb7360bb885461ade96ee2311912b70da65309",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821571",
+      "path": "MG.ALL_ERE.ALL_GENO.SEL.SIMULATE.N5263.rda",
+      "bytes": 94991,
+      "sha256": "13c397f200a9d6d03e71be26b5fe10b30da225c2192d4db3acda1b3aabeda15b",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821561",
+      "path": "MG.ALL_ERE.ALL_GENO.SEL.SIMULATE.N56.rda",
+      "bytes": 250710,
+      "sha256": "05c176227c7588e89e773242aa4f604d71acd6791dfc1f54df8a40ba16999ac8",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821560",
+      "path": "MG.ALL_ERE.ALL_GENO.SEL.SIMULATE.N562.rda",
+      "bytes": 104315,
+      "sha256": "4dcaa2229155f3ee7f82a41e3cf79cd070dbae5da3bbd326ce8a1dc980f131bd",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821574",
+      "path": "MG.ALL_ERE.ALL_GENO.SIMULATE.rda",
+      "bytes": 4108089,
+      "sha256": "11d3cb77f5f8631dbe67c9a4aa98fa50df8764deb61c94f287a3833ab4d2b6b5",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821577",
+      "path": "MG.ERE.DISTINCT.rda",
+      "bytes": 394919,
+      "sha256": "188dd672ed319483ce3dcfd6ec824c71bf30ef8df887264df034688dfbdc0ed6",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821578",
+      "path": "MG.ERE.SRE.DIST.rda",
+      "bytes": 71566,
+      "sha256": "82e9d4cdc2fd3eeaadca11daa16459721e2f4f9af92388dbe64a9f8a593670e3",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821579",
+      "path": "MG.ERE.SRE.MIN.DIST.rda",
+      "bytes": 714,
+      "sha256": "f95b9eb517e1fbf0ab21ce61b7eae7d2650649b5840d04a65a558f13ce8685d5",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821580",
+      "path": "MG.INT_ERE.ALL_GENO.NEIGHBOR.CLASS.STEP.rda",
+      "bytes": 3787875,
+      "sha256": "4888d0c4d06111b41974489afa51b232cb387aefb489c14c00d0e6b038903b2b",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821588",
+      "path": "MG.INT_ERE.ALL_GENO.SIMULATE.rda",
+      "bytes": 18454059,
+      "sha256": "ce5327a8dd247259b6a144ac65477e2032193acdb3e245123d1ce0584bc700c8",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821584",
+      "path": "MG.NUM.PATHS.rda",
+      "bytes": 196658,
+      "sha256": "77f38babf6e2e094369d8d407848988fd61d66e9299266f7be7a9ca93ae5e711",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821581",
+      "path": "MH.ACT.ADJM.rda",
+      "bytes": 17982,
+      "sha256": "305df4483adc6603195dddb5d35f6da4f15540cbe9c591e281858948aa6b210a",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821582",
+      "path": "MH.ACT.DIST.rda",
+      "bytes": 168614,
+      "sha256": "77e21b6e3079ad502dccb0452da7ddd0dc04b9e7b9eab6b422090bb97382ad56",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821587",
+      "path": "MH.ACT.NET.rda",
+      "bytes": 109735,
+      "sha256": "b9caa08d7453135ba78798a1ec1b0869ae4aaa3ffc4b8745d347062ae6fa7aeb",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821586",
+      "path": "MH.ALL_ERE.ALL_GENO.SIMULATE.rda",
+      "bytes": 196186,
+      "sha256": "f34d352dd77d42837a944b71071cfab39982c6cd959bf8bfdc1ee6d9cc1e4731",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821583",
+      "path": "MH.ERE.DISTINCT.rda",
+      "bytes": 51441,
+      "sha256": "bef9cc74024e89f87ffe9c7ffba0e05f637dea0f2fbf316bf5f40ffe57a9921e",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821585",
+      "path": "MH.ERE.SRE.DIST.rda",
+      "bytes": 18491,
+      "sha256": "ff6cacaa8414b24cf529f0fb6300aa9697341ec976df6f6a7910bd9485ba26d6",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821589",
+      "path": "MH.ERE.SRE.MIN.DIST.rda",
+      "bytes": 458,
+      "sha256": "6ee008e9fe0980cc1c94d97f4d1f3f4976d19e3898bbb466401cd3709b6e4c59",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821592",
+      "path": "MH.INT_ERE.ALL_GENO.SIMULATE.rda",
+      "bytes": 887265,
+      "sha256": "16141842cbd03ee20bb6b0a1b877944039d6a2c0c9aa6014aa3fbc2a3d731290",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821590",
+      "path": "MH.NUM.PATHS.rda",
+      "bytes": 35566,
+      "sha256": "1efd683fc1f7099816d946be2b7966eef0094bb4109979402b6f82010021523c",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821596",
+      "path": "NG.ACT.ADJM.rda",
+      "bytes": 13133684,
+      "sha256": "fb4dfa5315033992935d65febb4ccf49966214ead55af42ce15ac124fe4df89a",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821595",
+      "path": "NG.ACT.DIST.rda",
+      "bytes": 1939747,
+      "sha256": "f57924ca41c717f758626ff9e4951280f8b5e2722b2992c1769cabb14fe5ab0f",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821612",
+      "path": "NG.ACT.NET.rda",
+      "bytes": 44716670,
+      "sha256": "46b60e245d74a6641a11f06d9c4ea0a94acec3294d5e042ef09ea0e6e0bf67f6",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821591",
+      "path": "NG.ERE.DISTINCT.rda",
+      "bytes": 119880,
+      "sha256": "5a1b454061d3c3064eaaffa2b0fdbf205032bcf8546df31b262503a141824a1a",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821594",
+      "path": "NG.ERE.SRE.DIST.rda",
+      "bytes": 61353,
+      "sha256": "21071f8b6dc45aead2685c3ef26613455b5a9316b9cb9e9592c4b33dafc13fbc",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821593",
+      "path": "NG.ERE.SRE.MIN.DIST.rda",
+      "bytes": 714,
+      "sha256": "8459bf27b89f2dbc07631b91f7a562a2dba0ba61f38778241c40cfc5e0c2a8a5",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821597",
+      "path": "NG.NUM.PATHS.rda",
+      "bytes": 118204,
+      "sha256": "54bead5efec5213f71de169c49d836c24a4ca3a8ae5f7fcebe72504ac84975b3",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821610",
+      "path": "NH.ACT.ADJM.rda",
+      "bytes": 18285762,
+      "sha256": "a96a374293736f16d5a54195c49398d7f6346fcf7a01ecb5183771c46990b63a",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821598",
+      "path": "NH.ACT.DIST.rda",
+      "bytes": 550378,
+      "sha256": "f48805f9e537acc8e6f39ecfd2335b5bdf69c5465fefa2a753722584cefed184",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821623",
+      "path": "NH.ACT.NET.rda",
+      "bytes": 87325012,
+      "sha256": "934285ecb820e394f3bd71a81e1126fa2b140c03ccc35338b75824c40d948c39",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821599",
+      "path": "NH.ERE.DISTINCT.rda",
+      "bytes": 12167,
+      "sha256": "f0b458771e5b318ddfabf896dd56f9f5109e0257689e8fc4efefe2586a16a126",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821600",
+      "path": "NH.ERE.SRE.DIST.rda",
+      "bytes": 17704,
+      "sha256": "9ca27592372cd9b52d910daf7ff826fd17899a1be4ed37f5b641b42e67247703",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821601",
+      "path": "NH.ERE.SRE.MIN.DIST.rda",
+      "bytes": 458,
+      "sha256": "885339ebd9e02d5afb54646dd2a1e87eeb82f1a460b7578343246d543fcc37f5",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821604",
+      "path": "NH.NUM.PATHS.rda",
+      "bytes": 16134,
+      "sha256": "61372624eaeca020bcae1ac076553388f74ec40c587fcba7cb3ef77d2d0c2a96",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821602",
+      "path": "PE.COEFS.ADJ.rda",
+      "bytes": 51923,
+      "sha256": "9eda2002e5013859b086600d02caa121a40d776c3356e44c85e9282029abd2bf",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821603",
+      "path": "PE.COEFS.EFFECT.ADJ.B0.rda",
+      "bytes": 89,
+      "sha256": "a223ad98c1ad767bfc4dd3dfd528f150576c99ca23598729a82b930b9346a4d6",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821605",
+      "path": "PE.COEFS.EFFECT.ADJ.S0.rda",
+      "bytes": 107,
+      "sha256": "9a9239e621c284dc43319df46a96b98d75a702c85a77278856e3253ee12bcf9e",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821707",
+      "path": "PE.L1.CV.rda",
+      "bytes": 313236244,
+      "sha256": "072cc377d78a0238b5dbbe5bea8a0eab0369bc91ea4302470632398551d7b287",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821609",
+      "path": "PE.L1.MODEL.rda",
+      "bytes": 18602529,
+      "sha256": "8e97d7934ecb3846b5a860fa06ab969aac645cd4fe0cc016db23e7e25e2a14a6",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821708",
+      "path": "PE.L2.CV.rda",
+      "bytes": 308197136,
+      "sha256": "28b3a3d7c8cc4d33f96202cd1f766f5095c53eb4d27a6528cf821829d09f00d0",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821635",
+      "path": "PE.L2.MODEL.rda",
+      "bytes": 50474271,
+      "sha256": "01b6941bdc68e57fb8125ad0dca4e5f322e132541ce3998cfde7d43ee717ec15",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821611",
+      "path": "PE.MATRIX.rda",
+      "bytes": 15994901,
+      "sha256": "bde7c92f95f76b2095f7bc1fb75f308189368706bb366409d68e2b44a17f7743",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821606",
+      "path": "PE.ONE.STEP.rda",
+      "bytes": 17840,
+      "sha256": "188b2146d24b67e43b3b5d23e8c725317f2d55a7040b9656b2afd0725c871ddf",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821607",
+      "path": "PE.THRESH.NULL.rda",
+      "bytes": 99,
+      "sha256": "fe95ab3ce1116e6b4ce2ed9be714509943d1d914b561277b0d51b272c8fe423a",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821608",
+      "path": "PE.THRESH.WEAK.rda",
+      "bytes": 99,
+      "sha256": "7eb970663457e94fcac00d01e70049eb4c0711b663eca14806ff27663feeccf1",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821614",
+      "path": "PG.ACT.ADJM.rda",
+      "bytes": 31815,
+      "sha256": "41443e0b27f365c42c1134e69f674b569303f8473d420515e41a20e87f5e9a03",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821615",
+      "path": "PG.ACT.DIST.rda",
+      "bytes": 1303961,
+      "sha256": "682f066503be7c5bb36ff15ee40a8f403691fc4b7eae9ffdaa6bd1bbbbbf3355",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821616",
+      "path": "PG.ACT.NET.rda",
+      "bytes": 120730,
+      "sha256": "3553f02e8760c5943eb5ef272c072a3e63def2522c739ab0a0fa88f276ebd700",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821619",
+      "path": "PG.ALL_ERE.ALL_GENO.NEIGHBOR.CLASS.STEP.rda",
+      "bytes": 749885,
+      "sha256": "0e069986c741511c5d8cfb2a100398196f442f479d523304c371b25af3d86353",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821617",
+      "path": "PG.ALL_ERE.ALL_GENO.SEL.SIMULATE.N1.rda",
+      "bytes": 467493,
+      "sha256": "e36e64b40e4110a70c7a6c06d23355ee6069472485b9c37c6e9d0f18c4aee476",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821621",
+      "path": "PG.ALL_ERE.ALL_GENO.SEL.SIMULATE.N10.rda",
+      "bytes": 369344,
+      "sha256": "a52c429ebc701f946dde3ff2f4b06667e02a345b3a7f68fd6bd431dc3372486a",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821626",
+      "path": "PG.ALL_ERE.ALL_GENO.SEL.SIMULATE.N100.rda",
+      "bytes": 163726,
+      "sha256": "2495c944cad9eb5d5a593db6ed3bd6306b79e65d4833b3fa39ee2d5f2e34fcca",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821630",
+      "path": "PG.ALL_ERE.ALL_GENO.SEL.SIMULATE.N1000.rda",
+      "bytes": 127044,
+      "sha256": "ae7f48f9d10fc24aafe77793b186a3d18fe78cb82babce80e568a50d7606e8ac",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821634",
+      "path": "PG.ALL_ERE.ALL_GENO.SEL.SIMULATE.N10000.rda",
+      "bytes": 136325,
+      "sha256": "000ee3f01d1f8426338874b49ab292cc882c46f76195cd859fef740386ad9565",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821622",
+      "path": "PG.ALL_ERE.ALL_GENO.SEL.SIMULATE.N17.rda",
+      "bytes": 321416,
+      "sha256": "271a483ccab3c9a633fac2fe679fb77c744650a0b8012e1dfe191fed23619729",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821627",
+      "path": "PG.ALL_ERE.ALL_GENO.SEL.SIMULATE.N177.rda",
+      "bytes": 139423,
+      "sha256": "810c1c325bb0d048f55afea47dd3083ba84c87af314c3ed98aaedd89584c0221",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821631",
+      "path": "PG.ALL_ERE.ALL_GENO.SEL.SIMULATE.N1778.rda",
+      "bytes": 236126,
+      "sha256": "e22b83293bffd9d1eb5758725a62a5745e927b791dcf7ec4610bcd3714fa7e99",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821618",
+      "path": "PG.ALL_ERE.ALL_GENO.SEL.SIMULATE.N3.rda",
+      "bytes": 440761,
+      "sha256": "9a0379c2113b4e0aaed1801de4ec956829b2f4abe37eb3e9eb8f004e06d712a1",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821625",
+      "path": "PG.ALL_ERE.ALL_GENO.SEL.SIMULATE.N31.rda",
+      "bytes": 259895,
+      "sha256": "d5e68abfb7f2f8c7c472fe077c3b921f254a14d492e7221d8678994e9a6c235a",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821628",
+      "path": "PG.ALL_ERE.ALL_GENO.SEL.SIMULATE.N316.rda",
+      "bytes": 125707,
+      "sha256": "5bcb684ab24539c30330921079240ce50f57b97241c439b6e1105dcfba0391eb",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821632",
+      "path": "PG.ALL_ERE.ALL_GENO.SEL.SIMULATE.N3162.rda",
+      "bytes": 135298,
+      "sha256": "f265c5cbdd99b24c08dfd6a889fc10a4da8ac2c1a66bc6da20518782c61d3137",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821620",
+      "path": "PG.ALL_ERE.ALL_GENO.SEL.SIMULATE.N5.rda",
+      "bytes": 415428,
+      "sha256": "56d6a659f3bfe3d86fe792b510ddf82c710f5c5a6633d0b751643fef35d9b609",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821633",
+      "path": "PG.ALL_ERE.ALL_GENO.SEL.SIMULATE.N5263.rda",
+      "bytes": 135904,
+      "sha256": "8913eb35b0bd844cb09595ed27d1d665e44bfbb5735e87ce3064d72967343532",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821624",
+      "path": "PG.ALL_ERE.ALL_GENO.SEL.SIMULATE.N56.rda",
+      "bytes": 203070,
+      "sha256": "65ed8b90638abeccccafe0e403a54b09d4eb46d49138686f9f60581b35797f42",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821629",
+      "path": "PG.ALL_ERE.ALL_GENO.SEL.SIMULATE.N562.rda",
+      "bytes": 120834,
+      "sha256": "acd09d345bee30578c640bdac3f9a7ba6bce534f5682e3eb1eb6e36e89e3ab5d",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821639",
+      "path": "PG.ALL_ERE.ALL_GENO.SIMULATE.rda",
+      "bytes": 3577545,
+      "sha256": "8bd6c83665dda95e24dc8ef7b61c56c48b7ba85a02a5840f74049f61fbe7e862",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821636",
+      "path": "PG.ERE.DISTINCT.rda",
+      "bytes": 893890,
+      "sha256": "091aeca6daa2738d9331f9e0a93e08c4a51c58a9a9b8ca46068ea7d2103472b0",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821637",
+      "path": "PG.ERE.SRE.DIST.rda",
+      "bytes": 163489,
+      "sha256": "9981a21fc975fc036edaf77e1456076bdaaa51d4f3ea83479b0b1aa619f99f64",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821638",
+      "path": "PG.ERE.SRE.MIN.DIST.rda",
+      "bytes": 946,
+      "sha256": "5df4d46ca33ba307290e5373e590e1503bf4439c67f7c3589ed78a244d36db87",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821640",
+      "path": "PG.INT_ERE.ALL_GENO.NEIGHBOR.CLASS.STEP.rda",
+      "bytes": 2744493,
+      "sha256": "5df4d4ba61a93b5d7808d46602af4dda752545e36dc1ea1c7048f1b00a19a8a2",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821650",
+      "path": "PG.INT_ERE.ALL_GENO.SIMULATE.rda",
+      "bytes": 13244897,
+      "sha256": "fc62c03306c837efb1bad670adf6ccddec434ae87bc2701b94d8adc6f7b8693d",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821641",
+      "path": "PG.NUM.PATHS.rda",
+      "bytes": 411565,
+      "sha256": "305090111e08015de4af5d0cd6cd93eabff28f95f9d851f04933eef378147ee5",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821613",
+      "path": "PG_MG.INT_ERE.IND_GENO.STEPS.p.rda",
+      "bytes": 549,
+      "sha256": "7d7b504464888380488338ec68dbea94e3de6f6e878dc584ff28a3c5bc6a9748",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821643",
+      "path": "PH.ACT.ADJM.rda",
+      "bytes": 25409,
+      "sha256": "4d14c303a8eeba61d2ac6e332e7d839ef8629859c40a7b243449f334b7bac02f",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821644",
+      "path": "PH.ACT.DIST.rda",
+      "bytes": 386079,
+      "sha256": "ea4a5202449db2bafcc1eac1a0b7617b885902d58745caf36f76e0bb75f22660",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821645",
+      "path": "PH.ACT.NET.rda",
+      "bytes": 148640,
+      "sha256": "e9ffac90597c61f1c1a31c137a0a332bfcdb00154197207a13fa61fff904d2bb",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821646",
+      "path": "PH.ALL_ERE.ALL_GENO.SIMULATE.rda",
+      "bytes": 284337,
+      "sha256": "f3dac3a5dc32a9d19b338c46eba92d4497b96cb4e5cf5006abeef81a2924a971",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821647",
+      "path": "PH.ERE.DISTINCT.rda",
+      "bytes": 176450,
+      "sha256": "751dcaea4b616fee176e29fbf1e055cacc17044c8084da73c5a01e60e86d8276",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821648",
+      "path": "PH.ERE.SRE.DIST.rda",
+      "bytes": 44596,
+      "sha256": "dfeab898a2a5a587a09fba9247e88eec23e878428dcc5ce0b43245c33508b9aa",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821649",
+      "path": "PH.ERE.SRE.MIN.DIST.rda",
+      "bytes": 647,
+      "sha256": "8249e77caaceafd42ebc2f83a6f95040bce44aee7347b074fc6afe23f07137ff",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821651",
+      "path": "PH.INT_ERE.ALL_GENO.SIMULATE.rda",
+      "bytes": 864597,
+      "sha256": "6657690879b60d8f772346aeb6880e3477e6cbc654fcb24b8f4865ec73da776e",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821652",
+      "path": "PH.NUM.PATHS.rda",
+      "bytes": 98207,
+      "sha256": "b8cfdf4b865506ce72ef6d9706f820d4143a4e04a4ceb03396bf93d23615b5ee",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821642",
+      "path": "PH_MH.INT_ERE.IND_GENO.STEPS.p.rda",
+      "bytes": 634,
+      "sha256": "6916a75b34a4d031a47a506888cb9074c94f35570a307195bc7c503b0b5344a1",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821656",
+      "path": "PREDICT.ME.CLASS.rda",
+      "bytes": 6330939,
+      "sha256": "aa49eee17221db4b40bdc3b4a43fa4669dd2616ba4bbab0bf6b9162fa7b8b72a",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821653",
+      "path": "PREDICT.ME.LINK.rda",
+      "bytes": 2459412,
+      "sha256": "71890d46671bb601056bbacbd532028199be9335b598e7b9ffad361f186b378e",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821655",
+      "path": "PREDICT.PE.CLASS.rda",
+      "bytes": 6275187,
+      "sha256": "54ac63b45da1eacd6e4ee34b501ba897d290d353478a6d4d1b7d85fa6de2ef3d",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821654",
+      "path": "PREDICT.PE.LINK.rda",
+      "bytes": 2459646,
+      "sha256": "a0d3b8bb2b8094696e4f2695ee965f16b33171cb3b2768c26fb7b5842b7a259c",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821659",
+      "path": "PREDICT.TE.CLASS.rda",
+      "bytes": 6400574,
+      "sha256": "8de1730fe62f678d1ca1b61417d6d1491f3091c8f1f778231ed30346d4a3d189",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821658",
+      "path": "PREDICT.TE.LINK.rda",
+      "bytes": 2448006,
+      "sha256": "8c5472fc288280d72756fb28f42f312247a8868f031654fb321f1ecaab72e9da",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821721",
+      "path": "README.md",
+      "bytes": 13670,
+      "sha256": "82bbd5230e82061ac6d8a529d6fbe07ab7b1d62aa007523bfd4941c0efed5cda",
+      "status": "created"
+    },
+    {
+      "file_id": "2821664",
+      "path": "TE.COEF.MATRIX.ADJ.rda",
+      "bytes": 22076415,
+      "sha256": "2252c771ccc88a0a2016fb6d6a5a596bef8b7f1bf267bc7beaa7916ed57d2f4e",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821660",
+      "path": "TE.COEFS.ADJ.rda",
+      "bytes": 657920,
+      "sha256": "de748d63833f78f18767fa13ddb04b59466767ae843115238232f67134fe10c9",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821711",
+      "path": "TE.COEFS.EFFECT.ADJ.B0.rda",
+      "bytes": 89,
+      "sha256": "935127a0b931f24e91e08825ab3e66e13af9bcee75daac304d5e9e65fa7c501a",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821712",
+      "path": "TE.COEFS.EFFECT.ADJ.S0.rda",
+      "bytes": 107,
+      "sha256": "9d7c7de206544af242a89fff7ff4be6f783d76e7bda0a818be575be3fe32f294",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821668",
+      "path": "TE.L1.MODEL.rda",
+      "bytes": 24187326,
+      "sha256": "80a8d4314b82872d308fd1ababbd08add3a2b12ced9fc831b5e20116a877fabe",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821710",
+      "path": "TE.L2.CV.rda",
+      "bytes": 4468643264,
+      "sha256": "804b83d3eae6e3447597e99b8ca3d2c72c214360dda1d6c97b392d122dd95b22",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821709",
+      "path": "TE.L2.MODEL.rda",
+      "bytes": 624676188,
+      "sha256": "5c5c8809f9dcf2441ac2ce78607eb2700362d120b28ff5633af37074dc60f7d7",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821669",
+      "path": "TE.MATRIX.rda",
+      "bytes": 22176512,
+      "sha256": "2a59f34446afe5207dad0662ebafb5d3403165c51d1a905d1201343ea3daaa2b",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821662",
+      "path": "TE.ONE.STEP.rda",
+      "bytes": 26648,
+      "sha256": "708889f1d28548debfaee161f3fd6f83e3dbcd7fe6843debb6984b63f57e9d91",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821661",
+      "path": "TE.THRESH.NULL.rda",
+      "bytes": 99,
+      "sha256": "cc716bc908c7a864c7abc3fbdc6570a8880b01604afcb4a78da316b9dd64521f",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821663",
+      "path": "TE.THRESH.WEAK.rda",
+      "bytes": 99,
+      "sha256": "05e0af73746102661b523143f2f6054ce9b5be8385dcd1074d81f5ba2e80a6b3",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821666",
+      "path": "TG.ACT.ADJM.rda",
+      "bytes": 32614,
+      "sha256": "76e943b3dbd97a33c5610d40d62d47c74d8eecf9e2b6f18491fe84c8eba9e640",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821670",
+      "path": "TG.ACT.DIST.rda",
+      "bytes": 1405090,
+      "sha256": "bec6040ba3c2befdc01c6d461d29c9b28847a753bbcd9fd9a84a27e6fc234be4",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821672",
+      "path": "TG.ACT.NET.rda",
+      "bytes": 123493,
+      "sha256": "0232fb64eb2e1c5b4f4fa6ec6a15fb2ee35b14b1c011759392c060168f7ceb03",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821674",
+      "path": "TG.ALL_ERE.ALL_GENO.NEIGHBOR.CLASS.STEP.rda",
+      "bytes": 798064,
+      "sha256": "66ccaf6adf1cf2fe142a9e2b4dd1ff873248ef507d628594d8d6cffcb36d9b12",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821673",
+      "path": "TG.ALL_ERE.ALL_GENO.SEL.SIMULATE.N1.rda",
+      "bytes": 516896,
+      "sha256": "1e79619a37611391edba681d456fa52e073afb1cab34a302f3e98ee897dd9188",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821677",
+      "path": "TG.ALL_ERE.ALL_GENO.SEL.SIMULATE.N10.rda",
+      "bytes": 406864,
+      "sha256": "b24943291ed5ad205a50af1072167a4c0d55d12c1e6f58ac0511fcef927459a5",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821681",
+      "path": "TG.ALL_ERE.ALL_GENO.SEL.SIMULATE.N100.rda",
+      "bytes": 167665,
+      "sha256": "a1bd956dadc3d5ffa9d77365db282a9208a1148b8902b76c7dce9ac4cb231575",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821683",
+      "path": "TG.ALL_ERE.ALL_GENO.SEL.SIMULATE.N1000.rda",
+      "bytes": 117655,
+      "sha256": "059a99f74a62b39614bb32dea990029c8297179dc4d4c222b356a134e5059a34",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821688",
+      "path": "TG.ALL_ERE.ALL_GENO.SEL.SIMULATE.N10000.rda",
+      "bytes": 112874,
+      "sha256": "39d306124928a5152203c1256061bc3d225df792230258b921a011dd6c14b10a",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821676",
+      "path": "TG.ALL_ERE.ALL_GENO.SEL.SIMULATE.N17.rda",
+      "bytes": 350136,
+      "sha256": "ab0341ce4c6bb9ff1ca5cc144ee3dd6d9e6ed9425ca4525fd90ec11f972f1806",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821680",
+      "path": "TG.ALL_ERE.ALL_GENO.SEL.SIMULATE.N177.rda",
+      "bytes": 139669,
+      "sha256": "3bcccaabc1871392347b1388aa43358b28fa35fcf699579fce483e9021c38d1b",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821685",
+      "path": "TG.ALL_ERE.ALL_GENO.SEL.SIMULATE.N1778.rda",
+      "bytes": 115364,
+      "sha256": "eb19b6ed06cfa9358e25831699788a7a2f199116771c61954e371651fff5f15d",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821671",
+      "path": "TG.ALL_ERE.ALL_GENO.SEL.SIMULATE.N3.rda",
+      "bytes": 486208,
+      "sha256": "e4c7a432f7691e633e5e2bbfaca5a4e4f75389f93ba857d834f8f961808d5776",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821678",
+      "path": "TG.ALL_ERE.ALL_GENO.SEL.SIMULATE.N31.rda",
+      "bytes": 277456,
+      "sha256": "62bd696f941b3df33bb11f47cff0fde455c02d2978a6f6e7d6a068dfd1b9ff88",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821682",
+      "path": "TG.ALL_ERE.ALL_GENO.SEL.SIMULATE.N316.rda",
+      "bytes": 126913,
+      "sha256": "0111738658e54eed6d3d31127796a0b2842cea9df9df9aefb310c6328a4d9216",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821687",
+      "path": "TG.ALL_ERE.ALL_GENO.SEL.SIMULATE.N3162.rda",
+      "bytes": 113874,
+      "sha256": "e440c038722fef876f3a077eed1c8a20338f3accea5eb8eb1f570b60725d801c",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821675",
+      "path": "TG.ALL_ERE.ALL_GENO.SEL.SIMULATE.N5.rda",
+      "bytes": 455949,
+      "sha256": "c899e6b4a107fb78b97b3d1eaa65e68c99cbef213afc621ac508abf7c69b3ee3",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821686",
+      "path": "TG.ALL_ERE.ALL_GENO.SEL.SIMULATE.N5263.rda",
+      "bytes": 114010,
+      "sha256": "75f651ae671097df371f4a30fe0c7895c3c27dc6cf2ca3b40b19457809b39ee6",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821679",
+      "path": "TG.ALL_ERE.ALL_GENO.SEL.SIMULATE.N56.rda",
+      "bytes": 212928,
+      "sha256": "06300b8f77a6f2d498f42b3defacd26d046a0e0c99f69cdb5f50450a8f25b9e9",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821684",
+      "path": "TG.ALL_ERE.ALL_GENO.SEL.SIMULATE.N562.rda",
+      "bytes": 120550,
+      "sha256": "3b1f0302766b5c1a1e100f35638f2896e41f1e18d2855570b6e07fc93b892596",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821690",
+      "path": "TG.ALL_ERE.ALL_GENO.SIMULATE.rda",
+      "bytes": 3991408,
+      "sha256": "cf5ae7183e386f2745e2e17faf82fe17a8e519b1c7a7a644320aac8476d6958b",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821689",
+      "path": "TG.ERE.DISTINCT.rda",
+      "bytes": 925395,
+      "sha256": "c502df4f6020975a423216c3de4091f7b013201042b02b855f2aeecbb5206494",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821691",
+      "path": "TG.ERE.SRE.DIST.rda",
+      "bytes": 172815,
+      "sha256": "b040cd70ff6e710737e5b668ace598541334296a36323ba4e5e2c0ffd622bdd4",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821692",
+      "path": "TG.ERE.SRE.MIN.DIST.rda",
+      "bytes": 948,
+      "sha256": "47224f9c80a8c3935778b33e278840864ff261bf54691377d22e63d036b08efe",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821694",
+      "path": "TG.INT_ERE.ALL_GENO.NEIGHBOR.CLASS.STEP.rda",
+      "bytes": 2880641,
+      "sha256": "3fdc8d32ee2f296847d6bcd89790c1395109d5c4b6abefb1dfb32ea197d4edd3",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821697",
+      "path": "TG.INT_ERE.ALL_GENO.SIMULATE.rda",
+      "bytes": 14495132,
+      "sha256": "fa93c0e6c35bf4f5b32ca0b5de03c22e03c9b79707b066e9b300ee3d9e1c1545",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821693",
+      "path": "TG.NUM.PATHS.rda",
+      "bytes": 417492,
+      "sha256": "ae8d17a11a1accc5af37bcf4552235c278b52821d655ae832ab277e5cbf32e32",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821665",
+      "path": "TG_MG.INT_ERE.IND_GENO.STEPS.p.rda",
+      "bytes": 599,
+      "sha256": "71240818f13e48433df50ed6ea7565b84c30426c5a482d72d1384fc48dacda30",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821667",
+      "path": "TG_PG.INT_ERE.IND_GENO.STEPS.p.rda",
+      "bytes": 893,
+      "sha256": "4b4add26d832a6f0632d80c3f6751bf7efbd734ce8faedd89692309cb05180ae",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821699",
+      "path": "TH.ACT.ADJM.rda",
+      "bytes": 26012,
+      "sha256": "2f3266d5e12b953f26fc02a2dea0b4fdafaa45a5b6ed5b197f15e4936a17709f",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821698",
+      "path": "TH.ACT.DIST.rda",
+      "bytes": 421727,
+      "sha256": "0b300ad6bb12ca58eeab5de2b80bc49b1b2c3d148da9c3d189b15add03ed2282",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821700",
+      "path": "TH.ACT.NET.rda",
+      "bytes": 150174,
+      "sha256": "910d66343e981a6e3f597fb2f1860f1a57a42d217a0e20e11334b374e6c5f807",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821702",
+      "path": "TH.ALL_ERE.ALL_GENO.SIMULATE.rda",
+      "bytes": 280289,
+      "sha256": "dd9ecce22361ffb648190738d5e82eaf2cf57c84aea2329c9a7ec78318a8e4a2",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821701",
+      "path": "TH.ERE.DISTINCT.rda",
+      "bytes": 198488,
+      "sha256": "b32fb1bc2d0cc842760e3b90772ff7c43488fe262dd4a37b04593734a6ceaf60",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821703",
+      "path": "TH.ERE.SRE.DIST.rda",
+      "bytes": 48396,
+      "sha256": "c2967cf8ca49d3cb69b44ac340ebc6976f2f7fa087c82c9b9a587bfec61f15b7",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821705",
+      "path": "TH.ERE.SRE.MIN.DIST.rda",
+      "bytes": 621,
+      "sha256": "f4af6aa41574e9c78305ea7afc28a99ecdae0ef442173b8020b564f6ed11d1ee",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821704",
+      "path": "TH.INT_ERE.ALL_GENO.SIMULATE.rda",
+      "bytes": 883355,
+      "sha256": "dacca845a687d87b5eeabcd90ec03356f8c7209ac9ffd5c2d8a547a027aedaaa",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821706",
+      "path": "TH.NUM.PATHS.rda",
+      "bytes": 107249,
+      "sha256": "ca5caa14dcb5c777ccaf9bc6c09d83431f195cc3ec4af9247ba35e6822597ecc",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821695",
+      "path": "TH_MH.INT_ERE.IND_GENO.STEPS.p.rda",
+      "bytes": 642,
+      "sha256": "0708b2e601351036d567c7e2a5133a9a91c0069715678a1f4cb573fb2447a9d6",
+      "status": "copied"
+    },
+    {
+      "file_id": "2821696",
+      "path": "TH_PH.INT_ERE.IND_GENO.STEPS.p.rda",
+      "bytes": 706,
+      "sha256": "0d9153b280cc2a1fb63cf1066cda447767d41883de9f489da93d56f981373cf5",
+      "status": "copied"
+    }
+  ]
+}

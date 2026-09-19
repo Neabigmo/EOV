@@ -1,0 +1,107 @@
+{
+  "n_pairs": 33,
+  "n_tasks": 14,
+  "systems": [
+    "TEM-1CML",
+    "Wu2020_H3N2_siteB"
+  ],
+  "excluded_system": "Phillips2023_HA_CH65 (not evaluable this round, AMENDMENT-021 \u00a72.1)",
+  "S0_constants": {
+    "chem_tanimoto_AMP_AZT": 0.109756,
+    "conc_scale": "log10, c=0 one-sided -> S_c=0",
+    "year_scale": 10.0,
+    "years": {
+      "HK68": 1968,
+      "Bk79": 1979,
+      "Bei89": 1989,
+      "Mos99": 1999,
+      "Bris07": 2007,
+      "NDako16": 2016
+    },
+    "form": "S_chem * S_c (product, frozen)"
+  },
+  "rho_zero": 0.352725,
+  "cluster_ci": [
+    -0.152019,
+    0.674661
+  ],
+  "naive_pair_ci": [
+    0.04569,
+    0.614291
+  ],
+  "perm": {
+    "p": 0.015999200039998,
+    "n": 20000,
+    "null_q95": 0.2595,
+    "null_q99": 0.3869,
+    "scheme": "within-system descriptor permutation"
+  },
+  "verdict": "NO-GO",
+  "thresholds": {
+    "GO": 0.45,
+    "COND": 0.25
+  },
+  "low_tertile_screening": {
+    "holds": false,
+    "median_T_low": 0.040667,
+    "median_T_high": 0.053222,
+    "operationalisation": "median(T|low)<=0 AND median(T|low)<median(T|high)"
+  },
+  "secondaries": {
+    "tertiles": {
+      "low": {
+        "n": 11,
+        "S0_range": [
+          0.0,
+          0.045
+        ],
+        "T_median": 0.0407,
+        "T_mean": 0.0298,
+        "T_iqr": 0.0931,
+        "T_max": 0.1286
+      },
+      "mid": {
+        "n": 11,
+        "S0_range": [
+          0.0608,
+          0.2999
+        ],
+        "T_median": 0.0073,
+        "T_mean": 0.0189,
+        "T_iqr": 0.0877,
+        "T_max": 0.2008
+      },
+      "high": {
+        "n": 11,
+        "S0_range": [
+          0.3001,
+          0.5516
+        ],
+        "T_median": 0.0532,
+        "T_mean": 0.0646,
+        "T_iqr": 0.0625,
+        "T_max": 0.1522
+      }
+    },
+    "drop_zero_conc": {
+      "n": 28,
+      "rho": 0.2327
+    },
+    "within_system_ranknorm": 0.3603,
+    "per_system": {
+      "TEM-1CML": {
+        "n": 18,
+        "rho": 0.4057
+      },
+      "Wu2020_H3N2_siteB": {
+        "n": 15,
+        "rho": 0.2985
+      }
+    }
+  },
+  "seeds": {
+    "cluster": 20261130,
+    "perm": 20261136
+  },
+  "label": "exploratory/design characterisation (NOT a confirmation)"
+}

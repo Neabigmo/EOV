@@ -1,0 +1,8 @@
+kind,method,protein,budget,n,mean,median,frac_reaching_max,ratio,exact_equal,mine_ge_theirs
+reproduction,single_step_DE,GB1,,829080,0.5081106513851745,0.527509302116491,0.02042263713996237,,,
+reproduction,SSM_recomb_DE,GB1,,34545,0.31661166592442974,0.325299722407439,0.00182370820668693,,,
+reproduction,SSM_top96,GB1,,34545,0.544453037982717,0.5533317205441324,0.02185555073093067,,,
+external_check,greedy_ssm,GB1,24,400,0.270398,0.264978,,0.361889,0.0125,0.015
+external_check,greedy_ssm,GB1,96,400,0.497208,0.51198,,0.665441,0.0675,0.0875
+external_check,greedy_ssm,GB1,384,400,0.614821,0.62555,,0.822848,0.265,0.2975
+external_check,greedy_ssm,GB1,1920,400,0.615066,0.62555,,0.823176,0.2625,0.2975

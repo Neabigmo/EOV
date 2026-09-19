@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-09-19T16:13:16+0800",
+  "seeds": {
+    "shared_seed": 20260919,
+    "exp1_stability": {
+      "eov/exp1_stability.py": 20260919
+    },
+    "exp2_baselines": {
+      "eov/exp2_baselines.py": 20260919,
+      "bootstrap": 20260926
+    },
+    "exp3_tomorrow": {
+      "simulation": 4242,
+      "parent_sampling": 20260919,
+      "bootstrap": 20260930
+    },
+    "exp4_readiness": {
+      "eov/exp4_readiness_vs_eov.py": 20260919
+    },
+    "aux": {
+      "m4_h1_auxiliary.py": [
+        20260924,
+        20260996
+      ],
+      "m4_op4_rep_sensitivity.py": [
+        20260919,
+        20260922
+      ],
+      "m4_layer_decomposition.py": "none (deterministic)",
+      "m4_int1_int3_diagnostic.py": 20260919,
+      "m4_exp3_topk_sensitivity.py": 20260930
+    }
+  }
+}

@@ -1,0 +1,4407 @@
+{
+  "rows": [
+    {
+      "file": "Anderson_MPH_CaPTM.csv",
+      "rows": 28,
+      "n_pos": 5,
+      "value_col": "fitness",
+      "prod": 32,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 28,
+      "complete": false,
+      "deg": 5,
+      "na": 0.0,
+      "n_obs": 28,
+      "op21_tiers": []
+    },
+    {
+      "file": "Anderson_MPH_CdPTM.csv",
+      "rows": 32,
+      "n_pos": 5,
+      "value_col": "fitness",
+      "prod": 32,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 32,
+      "complete": true,
+      "deg": 5,
+      "na": 0.0,
+      "n_obs": 32,
+      "op21_tiers": []
+    },
+    {
+      "file": "Anderson_MPH_CoPTM.csv",
+      "rows": 32,
+      "n_pos": 5,
+      "value_col": "fitness",
+      "prod": 32,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 32,
+      "complete": true,
+      "deg": 5,
+      "na": 0.0,
+      "n_obs": 32,
+      "op21_tiers": []
+    },
+    {
+      "file": "Anderson_MPH_CuPTM.csv",
+      "rows": 32,
+      "n_pos": 5,
+      "value_col": "fitness",
+      "prod": 32,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 32,
+      "complete": true,
+      "deg": 5,
+      "na": 0.0,
+      "n_obs": 32,
+      "op21_tiers": []
+    },
+    {
+      "file": "Anderson_MPH_MgPTM.csv",
+      "rows": 32,
+      "n_pos": 5,
+      "value_col": "fitness",
+      "prod": 32,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 32,
+      "complete": true,
+      "deg": 5,
+      "na": 0.0,
+      "n_obs": 32,
+      "op21_tiers": []
+    },
+    {
+      "file": "Anderson_MPH_MnPTM.csv",
+      "rows": 32,
+      "n_pos": 5,
+      "value_col": "fitness",
+      "prod": 32,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 32,
+      "complete": true,
+      "deg": 5,
+      "na": 0.0,
+      "n_obs": 32,
+      "op21_tiers": []
+    },
+    {
+      "file": "Bakerlee2022_hap_37C.csv",
+      "rows": 1022,
+      "n_pos": 10,
+      "value_col": "fitness",
+      "prod": 1024,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 1022,
+      "complete": false,
+      "deg": 10,
+      "na": 0.0,
+      "n_obs": 1022,
+      "op21_tiers": [
+        24,
+        96
+      ]
+    },
+    {
+      "file": "Bakerlee2022_hap_4NQO.csv",
+      "rows": 1022,
+      "n_pos": 10,
+      "value_col": "fitness",
+      "prod": 1024,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 1022,
+      "complete": false,
+      "deg": 10,
+      "na": 0.0,
+      "n_obs": 1022,
+      "op21_tiers": [
+        24,
+        96
+      ]
+    },
+    {
+      "file": "Bakerlee2022_hap_YPDA.csv",
+      "rows": 1022,
+      "n_pos": 10,
+      "value_col": "fitness",
+      "prod": 1024,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 1022,
+      "complete": false,
+      "deg": 10,
+      "na": 0.0,
+      "n_obs": 1022,
+      "op21_tiers": [
+        24,
+        96
+      ]
+    },
+    {
+      "file": "Bakerlee2022_hap_gu.csv",
+      "rows": 1022,
+      "n_pos": 10,
+      "value_col": "fitness",
+      "prod": 1024,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 1022,
+      "complete": false,
+      "deg": 10,
+      "na": 0.0,
+      "n_obs": 1022,
+      "op21_tiers": [
+        24,
+        96
+      ]
+    },
+    {
+      "file": "Bakerlee2022_hap_salt.csv",
+      "rows": 1022,
+      "n_pos": 10,
+      "value_col": "fitness",
+      "prod": 1024,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 1022,
+      "complete": false,
+      "deg": 10,
+      "na": 0.0,
+      "n_obs": 1022,
+      "op21_tiers": [
+        24,
+        96
+      ]
+    },
+    {
+      "file": "Bakerlee2022_hap_suloc.csv",
+      "rows": 1022,
+      "n_pos": 10,
+      "value_col": "fitness",
+      "prod": 1024,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 1022,
+      "complete": false,
+      "deg": 10,
+      "na": 0.0,
+      "n_obs": 1022,
+      "op21_tiers": [
+        24,
+        96
+      ]
+    },
+    {
+      "file": "Bakerlee2022_hom_37C.csv",
+      "rows": 1022,
+      "n_pos": 10,
+      "value_col": "fitness",
+      "prod": 1024,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 1022,
+      "complete": false,
+      "deg": 10,
+      "na": 0.0,
+      "n_obs": 1022,
+      "op21_tiers": [
+        24,
+        96
+      ]
+    },
+    {
+      "file": "Bakerlee2022_hom_4NQO.csv",
+      "rows": 1022,
+      "n_pos": 10,
+      "value_col": "fitness",
+      "prod": 1024,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 1022,
+      "complete": false,
+      "deg": 10,
+      "na": 0.0,
+      "n_obs": 1022,
+      "op21_tiers": [
+        24,
+        96
+      ]
+    },
+    {
+      "file": "Bakerlee2022_hom_YPDA.csv",
+      "rows": 1022,
+      "n_pos": 10,
+      "value_col": "fitness",
+      "prod": 1024,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 1022,
+      "complete": false,
+      "deg": 10,
+      "na": 0.0,
+      "n_obs": 1022,
+      "op21_tiers": [
+        24,
+        96
+      ]
+    },
+    {
+      "file": "Bakerlee2022_hom_gu.csv",
+      "rows": 1022,
+      "n_pos": 10,
+      "value_col": "fitness",
+      "prod": 1024,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 1022,
+      "complete": false,
+      "deg": 10,
+      "na": 0.0,
+      "n_obs": 1022,
+      "op21_tiers": [
+        24,
+        96
+      ]
+    },
+    {
+      "file": "Bakerlee2022_hom_salt.csv",
+      "rows": 1022,
+      "n_pos": 10,
+      "value_col": "fitness",
+      "prod": 1024,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 1022,
+      "complete": false,
+      "deg": 10,
+      "na": 0.0,
+      "n_obs": 1022,
+      "op21_tiers": [
+        24,
+        96
+      ]
+    },
+    {
+      "file": "Bakerlee2022_hom_suloc.csv",
+      "rows": 1022,
+      "n_pos": 10,
+      "value_col": "fitness",
+      "prod": 1024,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 1022,
+      "complete": false,
+      "deg": 10,
+      "na": 0.0,
+      "n_obs": 1022,
+      "op21_tiers": [
+        24,
+        96
+      ]
+    },
+    {
+      "file": "Bank2016a.csv",
+      "rows": 640,
+      "n_pos": 9,
+      "value_col": "fitness",
+      "prod": 640,
+      "states": [
+        1,
+        2,
+        1,
+        4,
+        2,
+        2,
+        5,
+        4,
+        1
+      ],
+      "n_unique_seq": 640,
+      "complete": true,
+      "deg": 13,
+      "na": 0.0,
+      "n_obs": 640,
+      "op21_tiers": [
+        24,
+        96
+      ]
+    },
+    {
+      "file": "Bank2016b.csv",
+      "rows": 64,
+      "n_pos": 0,
+      "value_col": "fitness",
+      "complete": null
+    },
+    {
+      "file": "Bendixsen2019_hdv.csv",
+      "rows": 16384,
+      "n_pos": 14,
+      "value_col": "fitness",
+      "prod": 16384,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 16384,
+      "complete": true,
+      "deg": 14,
+      "na": 0.0,
+      "n_obs": 16384,
+      "op21_tiers": [
+        24,
+        96,
+        384
+      ]
+    },
+    {
+      "file": "Bendixsen2019_ligase.csv",
+      "rows": 16384,
+      "n_pos": 14,
+      "value_col": "fitness",
+      "prod": 16384,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 16384,
+      "complete": true,
+      "deg": 14,
+      "na": 0.0,
+      "n_obs": 16384,
+      "op21_tiers": [
+        24,
+        96,
+        384
+      ]
+    },
+    {
+      "file": "Bridgham2009.csv",
+      "rows": 16,
+      "n_pos": 0,
+      "value_col": "fitness",
+      "complete": null
+    },
+    {
+      "file": "Centurion2019.csv",
+      "rows": 3072,
+      "n_pos": 11,
+      "value_col": "fitness",
+      "prod": 3072,
+      "states": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 3072,
+      "complete": true,
+      "deg": 12,
+      "na": 0.0,
+      "n_obs": 3072,
+      "op21_tiers": [
+        24,
+        96,
+        384
+      ]
+    },
+    {
+      "file": "Chou2011.csv",
+      "rows": 16,
+      "n_pos": 4,
+      "value_col": "fitness",
+      "prod": 16,
+      "states": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 16,
+      "complete": true,
+      "deg": 4,
+      "na": 0.0,
+      "n_obs": 16,
+      "op21_tiers": []
+    },
+    {
+      "file": "Diaz-Colunga_colorants.csv",
+      "rows": 256,
+      "n_pos": 8,
+      "value_col": "fitness",
+      "prod": 256,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 256,
+      "complete": true,
+      "deg": 8,
+      "na": 0.0,
+      "n_obs": 256,
+      "op21_tiers": [
+        24
+      ]
+    },
+    {
+      "file": "Diaz-Colunga_pseudo.csv",
+      "rows": 256,
+      "n_pos": 8,
+      "value_col": "fitness",
+      "prod": 256,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 256,
+      "complete": true,
+      "deg": 8,
+      "na": 0.0,
+      "n_obs": 256,
+      "op21_tiers": [
+        24
+      ]
+    },
+    {
+      "file": "Domingo2018.csv",
+      "rows": 4176,
+      "n_pos": 10,
+      "value_col": "fitness",
+      "prod": 5184,
+      "states": [
+        2,
+        3,
+        3,
+        2,
+        2,
+        2,
+        3,
+        2,
+        3,
+        2
+      ],
+      "n_unique_seq": 4176,
+      "complete": false,
+      "deg": 14,
+      "na": 0.0,
+      "n_obs": 4176,
+      "op21_tiers": [
+        24,
+        96,
+        384
+      ]
+    },
+    {
+      "file": "Frohlich21_OXA-48_ic50_CAZtraj1.csv",
+      "rows": 16,
+      "n_pos": 4,
+      "value_col": "fitness",
+      "prod": 16,
+      "states": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 16,
+      "complete": true,
+      "deg": 4,
+      "na": 0.0,
+      "n_obs": 16,
+      "op21_tiers": []
+    },
+    {
+      "file": "Frohlich21_OXA-48_ic50_CAZtraj2.csv",
+      "rows": 64,
+      "n_pos": 6,
+      "value_col": "fitness",
+      "prod": 64,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 64,
+      "complete": true,
+      "deg": 6,
+      "na": 0.0,
+      "n_obs": 64,
+      "op21_tiers": []
+    },
+    {
+      "file": "Frohlich21_OXA-48_ic50_CAZtraj3.csv",
+      "rows": 64,
+      "n_pos": 6,
+      "value_col": "fitness",
+      "prod": 64,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 64,
+      "complete": true,
+      "deg": 6,
+      "na": 0.0,
+      "n_obs": 64,
+      "op21_tiers": []
+    },
+    {
+      "file": "Frohlich21_OXA-48_ic50_PIPtraj1.csv",
+      "rows": 16,
+      "n_pos": 4,
+      "value_col": "fitness",
+      "prod": 16,
+      "states": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 16,
+      "complete": true,
+      "deg": 4,
+      "na": 0.0,
+      "n_obs": 16,
+      "op21_tiers": []
+    },
+    {
+      "file": "Frohlich21_OXA-48_ic50_PIPtraj2.csv",
+      "rows": 64,
+      "n_pos": 6,
+      "value_col": "fitness",
+      "prod": 64,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 64,
+      "complete": true,
+      "deg": 6,
+      "na": 0.0,
+      "n_obs": 64,
+      "op21_tiers": []
+    },
+    {
+      "file": "Frohlich21_OXA-48_ic50_PIPtraj3.csv",
+      "rows": 64,
+      "n_pos": 6,
+      "value_col": "fitness",
+      "prod": 64,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 64,
+      "complete": true,
+      "deg": 6,
+      "na": 0.0,
+      "n_obs": 64,
+      "op21_tiers": []
+    },
+    {
+      "file": "Guerrero2019_C_muridarum_GroEL.csv",
+      "rows": 8,
+      "n_pos": 3,
+      "value_col": "fitness",
+      "prod": 8,
+      "states": [
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 8,
+      "complete": true,
+      "deg": 3,
+      "na": 0.0,
+      "n_obs": 8,
+      "op21_tiers": []
+    },
+    {
+      "file": "Guerrero2019_C_muridarum_LON.csv",
+      "rows": 8,
+      "n_pos": 3,
+      "value_col": "fitness",
+      "prod": 8,
+      "states": [
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 8,
+      "complete": true,
+      "deg": 3,
+      "na": 0.0,
+      "n_obs": 8,
+      "op21_tiers": []
+    },
+    {
+      "file": "Guerrero2019_C_muridarum_WT.csv",
+      "rows": 8,
+      "n_pos": 3,
+      "value_col": "fitness",
+      "prod": 8,
+      "states": [
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 8,
+      "complete": true,
+      "deg": 3,
+      "na": 0.0,
+      "n_obs": 8,
+      "op21_tiers": []
+    },
+    {
+      "file": "Guerrero2019_E_coli_GroEL.csv",
+      "rows": 8,
+      "n_pos": 3,
+      "value_col": "fitness",
+      "prod": 8,
+      "states": [
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 8,
+      "complete": true,
+      "deg": 3,
+      "na": 0.0,
+      "n_obs": 8,
+      "op21_tiers": []
+    },
+    {
+      "file": "Guerrero2019_E_coli_LON.csv",
+      "rows": 8,
+      "n_pos": 3,
+      "value_col": "fitness",
+      "prod": 8,
+      "states": [
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 8,
+      "complete": true,
+      "deg": 3,
+      "na": 0.0,
+      "n_obs": 8,
+      "op21_tiers": []
+    },
+    {
+      "file": "Guerrero2019_E_coli_WT.csv",
+      "rows": 8,
+      "n_pos": 3,
+      "value_col": "fitness",
+      "prod": 8,
+      "states": [
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 8,
+      "complete": true,
+      "deg": 3,
+      "na": 0.0,
+      "n_obs": 8,
+      "op21_tiers": []
+    },
+    {
+      "file": "Guerrero2019_L_grayi_GroEL.csv",
+      "rows": 8,
+      "n_pos": 3,
+      "value_col": "fitness",
+      "prod": 8,
+      "states": [
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 8,
+      "complete": true,
+      "deg": 3,
+      "na": 0.0,
+      "n_obs": 8,
+      "op21_tiers": []
+    },
+    {
+      "file": "Guerrero2019_L_grayi_LON.csv",
+      "rows": 8,
+      "n_pos": 3,
+      "value_col": "fitness",
+      "prod": 8,
+      "states": [
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 8,
+      "complete": true,
+      "deg": 3,
+      "na": 0.0,
+      "n_obs": 8,
+      "op21_tiers": []
+    },
+    {
+      "file": "Guerrero2019_L_grayi_WT.csv",
+      "rows": 8,
+      "n_pos": 3,
+      "value_col": "fitness",
+      "prod": 8,
+      "states": [
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 8,
+      "complete": true,
+      "deg": 3,
+      "na": 0.0,
+      "n_obs": 8,
+      "op21_tiers": []
+    },
+    {
+      "file": "Hall2010_diploid.csv",
+      "rows": 64,
+      "n_pos": 6,
+      "value_col": "fitness",
+      "prod": 64,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 64,
+      "complete": true,
+      "deg": 6,
+      "na": 0.0,
+      "n_obs": 64,
+      "op21_tiers": []
+    },
+    {
+      "file": "Hall2010_haploid.csv",
+      "rows": 64,
+      "n_pos": 6,
+      "value_col": "fitness",
+      "prod": 64,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 64,
+      "complete": true,
+      "deg": 6,
+      "na": 0.0,
+      "n_obs": 64,
+      "op21_tiers": []
+    },
+    {
+      "file": "Hall2019_Acetate.csv",
+      "rows": 32,
+      "n_pos": 5,
+      "value_col": "fitness",
+      "prod": 32,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 32,
+      "complete": true,
+      "deg": 5,
+      "na": 0.0,
+      "n_obs": 32,
+      "op21_tiers": []
+    },
+    {
+      "file": "Hall2019_Beef.csv",
+      "rows": 32,
+      "n_pos": 5,
+      "value_col": "fitness",
+      "prod": 32,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 32,
+      "complete": true,
+      "deg": 5,
+      "na": 0.0,
+      "n_obs": 32,
+      "op21_tiers": []
+    },
+    {
+      "file": "Hall2019_Casamino.csv",
+      "rows": 32,
+      "n_pos": 5,
+      "value_col": "fitness",
+      "prod": 32,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 32,
+      "complete": true,
+      "deg": 5,
+      "na": 0.0,
+      "n_obs": 32,
+      "op21_tiers": []
+    },
+    {
+      "file": "Hall2019_Glucose.csv",
+      "rows": 32,
+      "n_pos": 5,
+      "value_col": "fitness",
+      "prod": 32,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 32,
+      "complete": true,
+      "deg": 5,
+      "na": 0.0,
+      "n_obs": 32,
+      "op21_tiers": []
+    },
+    {
+      "file": "Hall2019_Milk.csv",
+      "rows": 32,
+      "n_pos": 5,
+      "value_col": "fitness",
+      "prod": 32,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 32,
+      "complete": true,
+      "deg": 5,
+      "na": 0.0,
+      "n_obs": 32,
+      "op21_tiers": []
+    },
+    {
+      "file": "Hall2019_NAG.csv",
+      "rows": 32,
+      "n_pos": 5,
+      "value_col": "fitness",
+      "prod": 32,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 32,
+      "complete": true,
+      "deg": 5,
+      "na": 0.0,
+      "n_obs": 32,
+      "op21_tiers": []
+    },
+    {
+      "file": "Hall2019_Rhamnose.csv",
+      "rows": 32,
+      "n_pos": 5,
+      "value_col": "fitness",
+      "prod": 32,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 32,
+      "complete": true,
+      "deg": 5,
+      "na": 0.0,
+      "n_obs": 32,
+      "op21_tiers": []
+    },
+    {
+      "file": "Hall2019_Trypsin.csv",
+      "rows": 32,
+      "n_pos": 5,
+      "value_col": "fitness",
+      "prod": 32,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 32,
+      "complete": true,
+      "deg": 5,
+      "na": 0.0,
+      "n_obs": 32,
+      "op21_tiers": []
+    },
+    {
+      "file": "Hall2020_NfsA_ec50_2039.csv",
+      "rows": 128,
+      "n_pos": 7,
+      "value_col": "fitness",
+      "prod": 128,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 128,
+      "complete": true,
+      "deg": 7,
+      "na": 0.0,
+      "n_obs": 128,
+      "op21_tiers": [
+        24
+      ]
+    },
+    {
+      "file": "Hall2020_NfsA_ec50_3637.csv",
+      "rows": 128,
+      "n_pos": 7,
+      "value_col": "fitness",
+      "prod": 128,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 128,
+      "complete": true,
+      "deg": 7,
+      "na": 0.0,
+      "n_obs": 128,
+      "op21_tiers": [
+        24
+      ]
+    },
+    {
+      "file": "Jalal2020_NBS.csv",
+      "rows": 160000,
+      "n_pos": 4,
+      "value_col": "fitness",
+      "prod": 160000,
+      "states": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "n_unique_seq": 160000,
+      "complete": true,
+      "deg": 76,
+      "na": 0.0,
+      "n_obs": 160000,
+      "op21_tiers": [
+        24,
+        96,
+        384
+      ]
+    },
+    {
+      "file": "Jalal2020_parS.csv",
+      "rows": 160000,
+      "n_pos": 4,
+      "value_col": "fitness",
+      "prod": 160000,
+      "states": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "n_unique_seq": 160000,
+      "complete": true,
+      "deg": 76,
+      "na": 0.0,
+      "n_obs": 160000,
+      "op21_tiers": [
+        24,
+        96,
+        384
+      ]
+    },
+    {
+      "file": "Johnston2024_TrpB3A.csv",
+      "rows": 7971,
+      "n_pos": 3,
+      "value_col": "fitness",
+      "prod": 8000,
+      "states": [
+        20,
+        20,
+        20
+      ],
+      "n_unique_seq": 7971,
+      "complete": false,
+      "deg": 57,
+      "na": 0.0,
+      "n_obs": 7971,
+      "op21_tiers": [
+        24,
+        96,
+        384
+      ]
+    },
+    {
+      "file": "Johnston2024_TrpB3B.csv",
+      "rows": 7996,
+      "n_pos": 3,
+      "value_col": "fitness",
+      "prod": 8000,
+      "states": [
+        20,
+        20,
+        20
+      ],
+      "n_unique_seq": 7996,
+      "complete": false,
+      "deg": 57,
+      "na": 0.0,
+      "n_obs": 7996,
+      "op21_tiers": [
+        24,
+        96,
+        384
+      ]
+    },
+    {
+      "file": "Johnston2024_TrpB3C.csv",
+      "rows": 7994,
+      "n_pos": 3,
+      "value_col": "fitness",
+      "prod": 8000,
+      "states": [
+        20,
+        20,
+        20
+      ],
+      "n_unique_seq": 7994,
+      "complete": false,
+      "deg": 57,
+      "na": 0.0,
+      "n_obs": 7994,
+      "op21_tiers": [
+        24,
+        96,
+        384
+      ]
+    },
+    {
+      "file": "Johnston2024_TrpB3D.csv",
+      "rows": 7763,
+      "n_pos": 3,
+      "value_col": "fitness",
+      "prod": 8000,
+      "states": [
+        20,
+        20,
+        20
+      ],
+      "n_unique_seq": 7763,
+      "complete": false,
+      "deg": 57,
+      "na": 0.0,
+      "n_obs": 7763,
+      "op21_tiers": [
+        24,
+        96,
+        384
+      ]
+    },
+    {
+      "file": "Johnston2024_TrpB3E.csv",
+      "rows": 7964,
+      "n_pos": 3,
+      "value_col": "fitness",
+      "prod": 8000,
+      "states": [
+        20,
+        20,
+        20
+      ],
+      "n_unique_seq": 7964,
+      "complete": false,
+      "deg": 57,
+      "na": 0.0,
+      "n_obs": 7964,
+      "op21_tiers": [
+        24,
+        96,
+        384
+      ]
+    },
+    {
+      "file": "Johnston2024_TrpB3F.csv",
+      "rows": 7737,
+      "n_pos": 3,
+      "value_col": "fitness",
+      "prod": 8000,
+      "states": [
+        20,
+        20,
+        20
+      ],
+      "n_unique_seq": 7737,
+      "complete": false,
+      "deg": 57,
+      "na": 0.0,
+      "n_obs": 7737,
+      "op21_tiers": [
+        24,
+        96,
+        384
+      ]
+    },
+    {
+      "file": "Johnston2024_TrpB3G.csv",
+      "rows": 7891,
+      "n_pos": 3,
+      "value_col": "fitness",
+      "prod": 8000,
+      "states": [
+        20,
+        20,
+        20
+      ],
+      "n_unique_seq": 7891,
+      "complete": false,
+      "deg": 57,
+      "na": 0.0,
+      "n_obs": 7891,
+      "op21_tiers": [
+        24,
+        96,
+        384
+      ]
+    },
+    {
+      "file": "Johnston2024_TrpB3H.csv",
+      "rows": 7716,
+      "n_pos": 3,
+      "value_col": "fitness",
+      "prod": 8000,
+      "states": [
+        20,
+        20,
+        20
+      ],
+      "n_unique_seq": 7716,
+      "complete": false,
+      "deg": 57,
+      "na": 0.0,
+      "n_obs": 7716,
+      "op21_tiers": [
+        24,
+        96,
+        384
+      ]
+    },
+    {
+      "file": "Johnston2024_TrpB3I.csv",
+      "rows": 7784,
+      "n_pos": 3,
+      "value_col": "fitness",
+      "prod": 8000,
+      "states": [
+        20,
+        20,
+        20
+      ],
+      "n_unique_seq": 7784,
+      "complete": false,
+      "deg": 57,
+      "na": 0.0,
+      "n_obs": 7784,
+      "op21_tiers": [
+        24,
+        96,
+        384
+      ]
+    },
+    {
+      "file": "Johnston2024_TrpB4.csv",
+      "rows": 159129,
+      "n_pos": 4,
+      "value_col": "fitness",
+      "prod": 160000,
+      "states": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "n_unique_seq": 159129,
+      "complete": false,
+      "deg": 76,
+      "na": 0.0,
+      "n_obs": 159129,
+      "op21_tiers": [
+        24,
+        96,
+        384
+      ]
+    },
+    {
+      "file": "Khan2011Flynn2013_DM25.csv",
+      "rows": 32,
+      "n_pos": 5,
+      "value_col": "fitness",
+      "prod": 32,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 32,
+      "complete": true,
+      "deg": 5,
+      "na": 0.0,
+      "n_obs": 32,
+      "op21_tiers": []
+    },
+    {
+      "file": "Khan2011Flynn2013_DM25_EGTA.csv",
+      "rows": 32,
+      "n_pos": 5,
+      "value_col": "fitness",
+      "prod": 32,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 32,
+      "complete": true,
+      "deg": 5,
+      "na": 0.0,
+      "n_obs": 32,
+      "op21_tiers": []
+    },
+    {
+      "file": "Khan2011Flynn2013_DM25_guanazole.csv",
+      "rows": 32,
+      "n_pos": 5,
+      "value_col": "fitness",
+      "prod": 32,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 32,
+      "complete": true,
+      "deg": 5,
+      "na": 0.0,
+      "n_obs": 32,
+      "op21_tiers": []
+    },
+    {
+      "file": "Kuo2020.csv",
+      "rows": 197890,
+      "n_pos": 9,
+      "value_col": "fitness",
+      "prod": 262144,
+      "states": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "n_unique_seq": 197890,
+      "complete": false,
+      "deg": 27,
+      "na": 0.0,
+      "n_obs": 197890,
+      "op21_tiers": [
+        24,
+        96,
+        384
+      ]
+    },
+    {
+      "file": "Lite2020_ParD2.csv",
+      "rows": 7882,
+      "n_pos": 3,
+      "value_col": "fitness",
+      "prod": 8000,
+      "states": [
+        20,
+        20,
+        20
+      ],
+      "n_unique_seq": 7882,
+      "complete": false,
+      "deg": 57,
+      "na": 0.0,
+      "n_obs": 7882,
+      "op21_tiers": [
+        24,
+        96,
+        384
+      ]
+    },
+    {
+      "file": "Lite2020_ParD3.csv",
+      "rows": 7882,
+      "n_pos": 3,
+      "value_col": "fitness",
+      "prod": 8000,
+      "states": [
+        20,
+        20,
+        20
+      ],
+      "n_unique_seq": 7882,
+      "complete": false,
+      "deg": 57,
+      "na": 0.0,
+      "n_obs": 7882,
+      "op21_tiers": [
+        24,
+        96,
+        384
+      ]
+    },
+    {
+      "file": "Lozovsky2009Jiang2013_Jiang2013.csv",
+      "rows": 16,
+      "n_pos": 4,
+      "value_col": "fitness",
+      "prod": 16,
+      "states": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 16,
+      "complete": true,
+      "deg": 4,
+      "na": 0.0,
+      "n_obs": 16,
+      "op21_tiers": []
+    },
+    {
+      "file": "Lozovsky2009Jiang2013_Lozovsky2009.csv",
+      "rows": 16,
+      "n_pos": 4,
+      "value_col": "fitness",
+      "prod": 16,
+      "states": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 16,
+      "complete": true,
+      "deg": 4,
+      "na": 0.0,
+      "n_obs": 16,
+      "op21_tiers": []
+    },
+    {
+      "file": "Lozovsky_DHFR_ic50_c57.csv",
+      "rows": 16,
+      "n_pos": 4,
+      "value_col": "fitness",
+      "prod": 16,
+      "states": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 16,
+      "complete": true,
+      "deg": 4,
+      "na": 0.0,
+      "n_obs": 16,
+      "op21_tiers": []
+    },
+    {
+      "file": "Lozovsky_DHFR_ic50_c58.csv",
+      "rows": 16,
+      "n_pos": 4,
+      "value_col": "fitness",
+      "prod": 16,
+      "states": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 16,
+      "complete": true,
+      "deg": 4,
+      "na": 0.0,
+      "n_obs": 16,
+      "op21_tiers": []
+    },
+    {
+      "file": "Lozovsky_DHFR_ic50_c59.csv",
+      "rows": 16,
+      "n_pos": 4,
+      "value_col": "fitness",
+      "prod": 16,
+      "states": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 16,
+      "complete": true,
+      "deg": 4,
+      "na": 0.0,
+      "n_obs": 16,
+      "op21_tiers": []
+    },
+    {
+      "file": "Lozovsky_DHFR_ic50_c60.csv",
+      "rows": 16,
+      "n_pos": 4,
+      "value_col": "fitness",
+      "prod": 16,
+      "states": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 16,
+      "complete": true,
+      "deg": 4,
+      "na": 0.0,
+      "n_obs": 16,
+      "op21_tiers": []
+    },
+    {
+      "file": "Lozovsky_DHFR_ic50_c61.csv",
+      "rows": 16,
+      "n_pos": 4,
+      "value_col": "fitness",
+      "prod": 16,
+      "states": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 16,
+      "complete": true,
+      "deg": 4,
+      "na": 0.0,
+      "n_obs": 16,
+      "op21_tiers": []
+    },
+    {
+      "file": "Lunzer2005_fitness.csv",
+      "rows": 512,
+      "n_pos": 6,
+      "value_col": "fitness",
+      "prod": 512,
+      "states": [
+        2,
+        4,
+        8,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 512,
+      "complete": true,
+      "deg": 14,
+      "na": 0.0,
+      "n_obs": 512,
+      "op21_tiers": [
+        24,
+        96
+      ]
+    },
+    {
+      "file": "Lunzer2005_nad.csv",
+      "rows": 512,
+      "n_pos": 6,
+      "value_col": "fitness",
+      "prod": 512,
+      "states": [
+        2,
+        4,
+        8,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 512,
+      "complete": true,
+      "deg": 14,
+      "na": 0.0,
+      "n_obs": 512,
+      "op21_tiers": [
+        24,
+        96
+      ]
+    },
+    {
+      "file": "Lunzer2005_nadp.csv",
+      "rows": 512,
+      "n_pos": 6,
+      "value_col": "fitness",
+      "prod": 512,
+      "states": [
+        2,
+        4,
+        8,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 512,
+      "complete": true,
+      "deg": 14,
+      "na": 0.0,
+      "n_obs": 512,
+      "op21_tiers": [
+        24,
+        96
+      ]
+    },
+    {
+      "file": "Malcolm1990.csv",
+      "rows": 8,
+      "n_pos": 3,
+      "value_col": "fitness",
+      "prod": 8,
+      "states": [
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 8,
+      "complete": true,
+      "deg": 3,
+      "na": 0.0,
+      "n_obs": 8,
+      "op21_tiers": []
+    },
+    {
+      "file": "Meini2015.csv",
+      "rows": 16,
+      "n_pos": 4,
+      "value_col": "fitness",
+      "prod": 16,
+      "states": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 16,
+      "complete": true,
+      "deg": 4,
+      "na": 0.0,
+      "n_obs": 16,
+      "op21_tiers": []
+    },
+    {
+      "file": "Michael2024_LamB.csv",
+      "rows": 512,
+      "n_pos": 9,
+      "value_col": "fitness",
+      "prod": 512,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 512,
+      "complete": true,
+      "deg": 9,
+      "na": 0.0,
+      "n_obs": 512,
+      "op21_tiers": [
+        24,
+        96
+      ]
+    },
+    {
+      "file": "Michael2024_Lspec.csv",
+      "rows": 512,
+      "n_pos": 9,
+      "value_col": "fitness",
+      "prod": 512,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 512,
+      "complete": true,
+      "deg": 9,
+      "na": 0.095703125,
+      "n_obs": 463,
+      "op21_tiers": [
+        24,
+        96
+      ]
+    },
+    {
+      "file": "Michael2024_OmpF.csv",
+      "rows": 512,
+      "n_pos": 9,
+      "value_col": "fitness",
+      "prod": 512,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 512,
+      "complete": true,
+      "deg": 9,
+      "na": 0.318359375,
+      "n_obs": 349,
+      "op21_tiers": [
+        24,
+        96
+      ]
+    },
+    {
+      "file": "Michael2024_Ospec.csv",
+      "rows": 512,
+      "n_pos": 9,
+      "value_col": "fitness",
+      "prod": 512,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 512,
+      "complete": true,
+      "deg": 9,
+      "na": 0.0390625,
+      "n_obs": 492,
+      "op21_tiers": [
+        24,
+        96
+      ]
+    },
+    {
+      "file": "Michael2024_base.csv",
+      "rows": 512,
+      "n_pos": 9,
+      "value_col": "fitness",
+      "prod": 512,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 512,
+      "complete": true,
+      "deg": 9,
+      "na": 0.16015625,
+      "n_obs": 430,
+      "op21_tiers": [
+        24,
+        96
+      ]
+    },
+    {
+      "file": "Mira2015_TEM_AM.csv",
+      "rows": 16,
+      "n_pos": 4,
+      "value_col": "fitness",
+      "prod": 16,
+      "states": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 16,
+      "complete": true,
+      "deg": 4,
+      "na": 0.0,
+      "n_obs": 16,
+      "op21_tiers": []
+    },
+    {
+      "file": "Mira2015_TEM_AMC.csv",
+      "rows": 16,
+      "n_pos": 4,
+      "value_col": "fitness",
+      "prod": 16,
+      "states": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 16,
+      "complete": true,
+      "deg": 4,
+      "na": 0.0,
+      "n_obs": 16,
+      "op21_tiers": []
+    },
+    {
+      "file": "Mira2015_TEM_AMP.csv",
+      "rows": 16,
+      "n_pos": 4,
+      "value_col": "fitness",
+      "prod": 16,
+      "states": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 16,
+      "complete": true,
+      "deg": 4,
+      "na": 0.0,
+      "n_obs": 16,
+      "op21_tiers": []
+    },
+    {
+      "file": "Mira2015_TEM_CAZ.csv",
+      "rows": 16,
+      "n_pos": 4,
+      "value_col": "fitness",
+      "prod": 16,
+      "states": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 16,
+      "complete": true,
+      "deg": 4,
+      "na": 0.0,
+      "n_obs": 16,
+      "op21_tiers": []
+    },
+    {
+      "file": "Mira2015_TEM_CEC.csv",
+      "rows": 16,
+      "n_pos": 4,
+      "value_col": "fitness",
+      "prod": 16,
+      "states": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 16,
+      "complete": true,
+      "deg": 4,
+      "na": 0.0,
+      "n_obs": 16,
+      "op21_tiers": []
+    },
+    {
+      "file": "Mira2015_TEM_CPD.csv",
+      "rows": 16,
+      "n_pos": 4,
+      "value_col": "fitness",
+      "prod": 16,
+      "states": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 16,
+      "complete": true,
+      "deg": 4,
+      "na": 0.0,
+      "n_obs": 16,
+      "op21_tiers": []
+    },
+    {
+      "file": "Mira2015_TEM_CPR.csv",
+      "rows": 16,
+      "n_pos": 4,
+      "value_col": "fitness",
+      "prod": 16,
+      "states": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 16,
+      "complete": true,
+      "deg": 4,
+      "na": 0.0,
+      "n_obs": 16,
+      "op21_tiers": []
+    },
+    {
+      "file": "Mira2015_TEM_CRO.csv",
+      "rows": 16,
+      "n_pos": 4,
+      "value_col": "fitness",
+      "prod": 16,
+      "states": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 16,
+      "complete": true,
+      "deg": 4,
+      "na": 0.0,
+      "n_obs": 16,
+      "op21_tiers": []
+    },
+    {
+      "file": "Mira2015_TEM_CTT.csv",
+      "rows": 16,
+      "n_pos": 4,
+      "value_col": "fitness",
+      "prod": 16,
+      "states": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 16,
+      "complete": true,
+      "deg": 4,
+      "na": 0.0,
+      "n_obs": 16,
+      "op21_tiers": []
+    },
+    {
+      "file": "Mira2015_TEM_CTX.csv",
+      "rows": 16,
+      "n_pos": 4,
+      "value_col": "fitness",
+      "prod": 16,
+      "states": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 16,
+      "complete": true,
+      "deg": 4,
+      "na": 0.0,
+      "n_obs": 16,
+      "op21_tiers": []
+    },
+    {
+      "file": "Mira2015_TEM_CXM.csv",
+      "rows": 16,
+      "n_pos": 4,
+      "value_col": "fitness",
+      "prod": 16,
+      "states": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 16,
+      "complete": true,
+      "deg": 4,
+      "na": 0.0,
+      "n_obs": 16,
+      "op21_tiers": []
+    },
+    {
+      "file": "Mira2015_TEM_FEP.csv",
+      "rows": 16,
+      "n_pos": 4,
+      "value_col": "fitness",
+      "prod": 16,
+      "states": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 16,
+      "complete": true,
+      "deg": 4,
+      "na": 0.0,
+      "n_obs": 16,
+      "op21_tiers": []
+    },
+    {
+      "file": "Mira2015_TEM_SAM.csv",
+      "rows": 16,
+      "n_pos": 4,
+      "value_col": "fitness",
+      "prod": 16,
+      "states": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 16,
+      "complete": true,
+      "deg": 4,
+      "na": 0.0,
+      "n_obs": 16,
+      "op21_tiers": []
+    },
+    {
+      "file": "Mira2015_TEM_TZP.csv",
+      "rows": 16,
+      "n_pos": 4,
+      "value_col": "fitness",
+      "prod": 16,
+      "states": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 16,
+      "complete": true,
+      "deg": 4,
+      "na": 0.0,
+      "n_obs": 16,
+      "op21_tiers": []
+    },
+    {
+      "file": "Mira2015_TEM_ZOX.csv",
+      "rows": 16,
+      "n_pos": 4,
+      "value_col": "fitness",
+      "prod": 16,
+      "states": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 16,
+      "complete": true,
+      "deg": 4,
+      "na": 0.0,
+      "n_obs": 16,
+      "op21_tiers": []
+    },
+    {
+      "file": "Moulana2022_ACE2.csv",
+      "rows": 32768,
+      "n_pos": 15,
+      "value_col": "fitness",
+      "prod": 32768,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 32768,
+      "complete": true,
+      "deg": 15,
+      "na": 0.006195068359375,
+      "n_obs": 32565,
+      "op21_tiers": [
+        24,
+        96,
+        384
+      ]
+    },
+    {
+      "file": "Moulana2023_CB6.csv",
+      "rows": 32768,
+      "n_pos": 15,
+      "value_col": "fitness",
+      "prod": 32768,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 32768,
+      "complete": true,
+      "deg": 15,
+      "na": 0.496124267578125,
+      "n_obs": 16511,
+      "op21_tiers": [
+        24,
+        96,
+        384
+      ]
+    },
+    {
+      "file": "Moulana2023_CoV555.csv",
+      "rows": 32768,
+      "n_pos": 15,
+      "value_col": "fitness",
+      "prod": 32768,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 32768,
+      "complete": true,
+      "deg": 15,
+      "na": 0.393707275390625,
+      "n_obs": 19867,
+      "op21_tiers": [
+        24,
+        96,
+        384
+      ]
+    },
+    {
+      "file": "Moulana2023_REGN10987.csv",
+      "rows": 32768,
+      "n_pos": 15,
+      "value_col": "fitness",
+      "prod": 32768,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 32768,
+      "complete": true,
+      "deg": 15,
+      "na": 0.27716064453125,
+      "n_obs": 23686,
+      "op21_tiers": [
+        24,
+        96,
+        384
+      ]
+    },
+    {
+      "file": "Moulana2023_S309.csv",
+      "rows": 32768,
+      "n_pos": 15,
+      "value_col": "fitness",
+      "prod": 32768,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 32768,
+      "complete": true,
+      "deg": 15,
+      "na": 0.0,
+      "n_obs": 32768,
+      "op21_tiers": [
+        24,
+        96,
+        384
+      ]
+    },
+    {
+      "file": "NEW_Chen2023_CreiLOV.csv",
+      "rows": 165428,
+      "n_pos": 20,
+      "value_col": "fitness",
+      "prod": 1048576,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 165428,
+      "complete": false,
+      "deg": 20,
+      "na": 0.0,
+      "n_obs": 165428,
+      "op21_tiers": [
+        24,
+        96,
+        384
+      ]
+    },
+    {
+      "file": "NEW_Rotrattanadumrong2022_F1*U(m)_Experimental exploration of a ribozyme neutral network using evolutionary algorithm and deep learning.csv",
+      "err": "fetch"
+    },
+    {
+      "file": "Ogbunugafor22_cyc.csv",
+      "rows": 15,
+      "n_pos": 4,
+      "value_col": "fitness",
+      "prod": 16,
+      "states": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 15,
+      "complete": false,
+      "deg": 4,
+      "na": 0.0,
+      "n_obs": 15,
+      "op21_tiers": []
+    },
+    {
+      "file": "Ogbunugafor22_pyr.csv",
+      "rows": 15,
+      "n_pos": 4,
+      "value_col": "fitness",
+      "prod": 16,
+      "states": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 15,
+      "complete": false,
+      "deg": 4,
+      "na": 0.0,
+      "n_obs": 15,
+      "op21_tiers": []
+    },
+    {
+      "file": "Palmer2015.csv",
+      "rows": 64,
+      "n_pos": 6,
+      "value_col": "fitness",
+      "prod": 64,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 64,
+      "complete": true,
+      "deg": 6,
+      "na": 0.0,
+      "n_obs": 64,
+      "op21_tiers": []
+    },
+    {
+      "file": "Palmer_DHFR_ic75.csv",
+      "rows": 64,
+      "n_pos": 6,
+      "value_col": "fitness",
+      "prod": 64,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 64,
+      "complete": true,
+      "deg": 6,
+      "na": 0.0,
+      "n_obs": 64,
+      "op21_tiers": []
+    },
+    {
+      "file": "Papkou2023_DHFR.csv",
+      "rows": 135178,
+      "n_pos": 9,
+      "value_col": "fitness",
+      "prod": 262144,
+      "states": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "n_unique_seq": 135178,
+      "complete": false,
+      "deg": 27,
+      "na": 0.0,
+      "n_obs": 135178,
+      "op21_tiers": [
+        24,
+        96,
+        384
+      ]
+    },
+    {
+      "file": "Phillips2021_CR6261_h1.csv",
+      "rows": 1917,
+      "n_pos": 11,
+      "value_col": "fitness",
+      "prod": 2048,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 1917,
+      "complete": false,
+      "deg": 11,
+      "na": 0.01564945226917058,
+      "n_obs": 1887,
+      "op21_tiers": [
+        24,
+        96,
+        384
+      ]
+    },
+    {
+      "file": "Phillips2021_CR6261_h9.csv",
+      "rows": 1917,
+      "n_pos": 11,
+      "value_col": "fitness",
+      "prod": 2048,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 1917,
+      "complete": false,
+      "deg": 11,
+      "na": 0.03912363067292645,
+      "n_obs": 1842,
+      "op21_tiers": [
+        24,
+        96,
+        384
+      ]
+    },
+    {
+      "file": "Phillips2021_CR9114_fluB.csv",
+      "rows": 65536,
+      "n_pos": 16,
+      "value_col": "fitness",
+      "prod": 65536,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 65536,
+      "complete": true,
+      "deg": 16,
+      "na": 3.0517578125e-05,
+      "n_obs": 65534,
+      "op21_tiers": [
+        24,
+        96,
+        384
+      ]
+    },
+    {
+      "file": "Phillips2021_CR9114_h1.csv",
+      "rows": 65536,
+      "n_pos": 16,
+      "value_col": "fitness",
+      "prod": 65536,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 65536,
+      "complete": true,
+      "deg": 16,
+      "na": 0.006744384765625,
+      "n_obs": 65094,
+      "op21_tiers": [
+        24,
+        96,
+        384
+      ]
+    },
+    {
+      "file": "Phillips2021_CR9114_h3.csv",
+      "rows": 65536,
+      "n_pos": 16,
+      "value_col": "fitness",
+      "prod": 65536,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 65536,
+      "complete": true,
+      "deg": 16,
+      "na": 1.52587890625e-05,
+      "n_obs": 65535,
+      "op21_tiers": [
+        24,
+        96,
+        384
+      ]
+    },
+    {
+      "file": "Phillips2023_G189E.csv",
+      "rows": 65536,
+      "n_pos": 16,
+      "value_col": "fitness",
+      "prod": 65536,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 65536,
+      "complete": true,
+      "deg": 16,
+      "na": 9.1552734375e-05,
+      "n_obs": 65530,
+      "op21_tiers": [
+        24,
+        96,
+        384
+      ]
+    },
+    {
+      "file": "Phillips2023_MA90.csv",
+      "rows": 65536,
+      "n_pos": 16,
+      "value_col": "fitness",
+      "prod": 65536,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 65536,
+      "complete": true,
+      "deg": 16,
+      "na": 9.1552734375e-05,
+      "n_obs": 65530,
+      "op21_tiers": [
+        24,
+        96,
+        384
+      ]
+    },
+    {
+      "file": "Phillips2023_SI06.csv",
+      "rows": 65536,
+      "n_pos": 16,
+      "value_col": "fitness",
+      "prod": 65536,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 65536,
+      "complete": true,
+      "deg": 16,
+      "na": 0.00042724609375,
+      "n_obs": 65508,
+      "op21_tiers": [
+        24,
+        96,
+        384
+      ]
+    },
+    {
+      "file": "Podgornaia2015_PhoQ.csv",
+      "rows": 140517,
+      "n_pos": 4,
+      "value_col": "fitness",
+      "prod": 160000,
+      "states": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "n_unique_seq": 140517,
+      "complete": false,
+      "deg": 76,
+      "na": 0.0,
+      "n_obs": 140517,
+      "op21_tiers": [
+        24,
+        96,
+        384
+      ]
+    },
+    {
+      "file": "Poelwijk2019.csv",
+      "rows": 8192,
+      "n_pos": 13,
+      "value_col": "fitness",
+      "prod": 8192,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 8192,
+      "complete": true,
+      "deg": 13,
+      "na": 0.0,
+      "n_obs": 8192,
+      "op21_tiers": [
+        24,
+        96,
+        384
+      ]
+    },
+    {
+      "file": "Schulz2025.csv",
+      "rows": 1024,
+      "n_pos": 10,
+      "value_col": "fitness",
+      "prod": 1024,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 1024,
+      "complete": true,
+      "deg": 10,
+      "na": 0.0,
+      "n_obs": 1024,
+      "op21_tiers": [
+        24,
+        96
+      ]
+    },
+    {
+      "file": "Skwara2023_Butyrate.csv",
+      "rows": 1561,
+      "n_pos": 25,
+      "value_col": "fitness",
+      "prod": 33554432,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 577,
+      "complete": false,
+      "deg": 25,
+      "na": 0.0,
+      "n_obs": 1561,
+      "op21_tiers": [
+        24,
+        96,
+        384
+      ]
+    },
+    {
+      "file": "Skwara2023_GE_biomass.csv",
+      "rows": 279,
+      "n_pos": 8,
+      "value_col": "fitness",
+      "prod": 256,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 160,
+      "complete": false,
+      "deg": 8,
+      "na": 0.0,
+      "n_obs": 279,
+      "op21_tiers": [
+        24
+      ]
+    },
+    {
+      "file": "Skwara2023_Kehe_data.csv",
+      "rows": 21198,
+      "n_pos": 14,
+      "value_col": "fitness",
+      "prod": 16384,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 4239,
+      "complete": false,
+      "deg": 14,
+      "na": 0.0,
+      "n_obs": 21198,
+      "op21_tiers": [
+        24,
+        96,
+        384
+      ]
+    },
+    {
+      "file": "Skwara2023_Langenheder.csv",
+      "rows": 63,
+      "n_pos": 6,
+      "value_col": "fitness",
+      "prod": 64,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 63,
+      "complete": false,
+      "deg": 6,
+      "na": 0.0,
+      "n_obs": 63,
+      "op21_tiers": []
+    },
+    {
+      "file": "Skwara2023_pyoverdine.csv",
+      "rows": 614,
+      "n_pos": 8,
+      "value_col": "fitness",
+      "prod": 256,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 225,
+      "complete": false,
+      "deg": 8,
+      "na": 0.0,
+      "n_obs": 614,
+      "op21_tiers": [
+        24
+      ]
+    },
+    {
+      "file": "Skwara2023_starch_data.csv",
+      "rows": 54,
+      "n_pos": 6,
+      "value_col": "fitness",
+      "prod": 64,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 54,
+      "complete": false,
+      "deg": 6,
+      "na": 0.0,
+      "n_obs": 54,
+      "op21_tiers": []
+    },
+    {
+      "file": "Soo2021_30C.csv",
+      "rows": 65536,
+      "n_pos": 8,
+      "value_col": "fitness",
+      "prod": 65536,
+      "states": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "n_unique_seq": 65536,
+      "complete": true,
+      "deg": 24,
+      "na": 0.02313232421875,
+      "n_obs": 64020,
+      "op21_tiers": [
+        24,
+        96,
+        384
+      ]
+    },
+    {
+      "file": "Soo2021_37C.csv",
+      "rows": 65536,
+      "n_pos": 8,
+      "value_col": "fitness",
+      "prod": 65536,
+      "states": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "n_unique_seq": 65536,
+      "complete": true,
+      "deg": 24,
+      "na": 0.01507568359375,
+      "n_obs": 64548,
+      "op21_tiers": [
+        24,
+        96,
+        384
+      ]
+    },
+    {
+      "file": "Sunden_AP.csv",
+      "rows": 32,
+      "n_pos": 5,
+      "value_col": "fitness",
+      "prod": 32,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 32,
+      "complete": true,
+      "deg": 5,
+      "na": 0.0,
+      "n_obs": 32,
+      "op21_tiers": []
+    },
+    {
+      "file": "Tamer_DHFR_kcat_trajg.csv",
+      "rows": 32,
+      "n_pos": 5,
+      "value_col": "fitness",
+      "prod": 32,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 32,
+      "complete": true,
+      "deg": 5,
+      "na": 0.0,
+      "n_obs": 32,
+      "op21_tiers": []
+    },
+    {
+      "file": "Tamer_DHFR_kcat_trajr.csv",
+      "rows": 32,
+      "n_pos": 5,
+      "value_col": "fitness",
+      "prod": 32,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 32,
+      "complete": true,
+      "deg": 5,
+      "na": 0.0,
+      "n_obs": 32,
+      "op21_tiers": []
+    },
+    {
+      "file": "Tamer_DHFR_ki_trajg.csv",
+      "rows": 32,
+      "n_pos": 5,
+      "value_col": "fitness",
+      "prod": 32,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 32,
+      "complete": true,
+      "deg": 5,
+      "na": 0.0,
+      "n_obs": 32,
+      "op21_tiers": []
+    },
+    {
+      "file": "Tamer_DHFR_ki_trajr.csv",
+      "rows": 32,
+      "n_pos": 5,
+      "value_col": "fitness",
+      "prod": 32,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 32,
+      "complete": true,
+      "deg": 5,
+      "na": 0.0,
+      "n_obs": 32,
+      "op21_tiers": []
+    },
+    {
+      "file": "Tu2022_T7.csv",
+      "rows": 6725,
+      "n_pos": 3,
+      "value_col": "fitness",
+      "prod": 8000,
+      "states": [
+        20,
+        20,
+        20
+      ],
+      "n_unique_seq": 6725,
+      "complete": false,
+      "deg": 57,
+      "na": 0.0,
+      "n_obs": 6725,
+      "op21_tiers": [
+        24,
+        96,
+        384
+      ]
+    },
+    {
+      "file": "Tu2022_TEV.csv",
+      "rows": 159132,
+      "n_pos": 4,
+      "value_col": "fitness",
+      "prod": 160000,
+      "states": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "n_unique_seq": 159132,
+      "complete": false,
+      "deg": 76,
+      "na": 0.0,
+      "n_obs": 159132,
+      "op21_tiers": [
+        24,
+        96,
+        384
+      ]
+    },
+    {
+      "file": "Weinreich2006Tan2011_Tan2011.csv",
+      "rows": 32,
+      "n_pos": 5,
+      "value_col": "fitness",
+      "prod": 32,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 32,
+      "complete": true,
+      "deg": 5,
+      "na": 0.0,
+      "n_obs": 32,
+      "op21_tiers": []
+    },
+    {
+      "file": "Weinreich2006Tan2011_Weinreich2006.csv",
+      "rows": 32,
+      "n_pos": 5,
+      "value_col": "fitness",
+      "prod": 32,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 32,
+      "complete": true,
+      "deg": 5,
+      "na": 0.0,
+      "n_obs": 32,
+      "op21_tiers": []
+    },
+    {
+      "file": "Westmann2024.csv",
+      "rows": 17765,
+      "n_pos": 8,
+      "value_col": "fitness",
+      "prod": 65536,
+      "states": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "n_unique_seq": 17765,
+      "complete": false,
+      "deg": 24,
+      "na": 0.0,
+      "n_obs": 17765,
+      "op21_tiers": [
+        24,
+        96,
+        384
+      ]
+    },
+    {
+      "file": "Whitlock2000.csv",
+      "rows": 32,
+      "n_pos": 5,
+      "value_col": "fitness",
+      "prod": 32,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 32,
+      "complete": true,
+      "deg": 5,
+      "na": 0.0,
+      "n_obs": 32,
+      "op21_tiers": []
+    },
+    {
+      "file": "Wong2018_brca2.csv",
+      "rows": 32768,
+      "n_pos": 9,
+      "value_col": "fitness",
+      "prod": 32768,
+      "states": [
+        4,
+        4,
+        4,
+        1,
+        2,
+        4,
+        4,
+        4,
+        4
+      ],
+      "n_unique_seq": 32768,
+      "complete": true,
+      "deg": 22,
+      "na": 0.009002685546875,
+      "n_obs": 32473,
+      "op21_tiers": [
+        24,
+        96,
+        384
+      ]
+    },
+    {
+      "file": "Wong2018_ikbkap.csv",
+      "rows": 32768,
+      "n_pos": 9,
+      "value_col": "fitness",
+      "prod": 32768,
+      "states": [
+        4,
+        4,
+        4,
+        1,
+        2,
+        4,
+        4,
+        4,
+        4
+      ],
+      "n_unique_seq": 32768,
+      "complete": true,
+      "deg": 22,
+      "na": 0.02069091796875,
+      "n_obs": 32090,
+      "op21_tiers": [
+        24,
+        96,
+        384
+      ]
+    },
+    {
+      "file": "Wong2018_smn1.csv",
+      "rows": 32768,
+      "n_pos": 9,
+      "value_col": "fitness",
+      "prod": 32768,
+      "states": [
+        4,
+        4,
+        4,
+        1,
+        2,
+        4,
+        4,
+        4,
+        4
+      ],
+      "n_unique_seq": 32768,
+      "complete": true,
+      "deg": 22,
+      "na": 0.0621337890625,
+      "n_obs": 30732,
+      "op21_tiers": [
+        24,
+        96,
+        384
+      ]
+    },
+    {
+      "file": "Wu2016_GB1.csv",
+      "rows": 149361,
+      "n_pos": 4,
+      "value_col": "fitness",
+      "prod": 160000,
+      "states": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "n_unique_seq": 149361,
+      "complete": false,
+      "deg": 76,
+      "na": 0.0,
+      "n_obs": 149361,
+      "op21_tiers": [
+        24,
+        96,
+        384
+      ]
+    },
+    {
+      "file": "Wu2020_Bei89.csv",
+      "rows": 576,
+      "n_pos": 6,
+      "value_col": "fitness",
+      "prod": 576,
+      "states": [
+        4,
+        4,
+        3,
+        2,
+        3,
+        2
+      ],
+      "n_unique_seq": 576,
+      "complete": true,
+      "deg": 12,
+      "na": 0.0,
+      "n_obs": 576,
+      "op21_tiers": [
+        24,
+        96
+      ]
+    },
+    {
+      "file": "Wu2020_Bk79.csv",
+      "rows": 576,
+      "n_pos": 6,
+      "value_col": "fitness",
+      "prod": 576,
+      "states": [
+        4,
+        4,
+        3,
+        2,
+        3,
+        2
+      ],
+      "n_unique_seq": 576,
+      "complete": true,
+      "deg": 12,
+      "na": 0.0,
+      "n_obs": 576,
+      "op21_tiers": [
+        24,
+        96
+      ]
+    },
+    {
+      "file": "Wu2020_Bris07L194.csv",
+      "rows": 576,
+      "n_pos": 6,
+      "value_col": "fitness",
+      "prod": 576,
+      "states": [
+        4,
+        4,
+        3,
+        2,
+        3,
+        2
+      ],
+      "n_unique_seq": 576,
+      "complete": true,
+      "deg": 12,
+      "na": 0.0,
+      "n_obs": 576,
+      "op21_tiers": [
+        24,
+        96
+      ]
+    },
+    {
+      "file": "Wu2020_Bris07P194.csv",
+      "rows": 576,
+      "n_pos": 6,
+      "value_col": "fitness",
+      "prod": 576,
+      "states": [
+        4,
+        4,
+        3,
+        2,
+        3,
+        2
+      ],
+      "n_unique_seq": 576,
+      "complete": true,
+      "deg": 12,
+      "na": 0.0,
+      "n_obs": 576,
+      "op21_tiers": [
+        24,
+        96
+      ]
+    },
+    {
+      "file": "Wu2020_HK68.csv",
+      "rows": 576,
+      "n_pos": 6,
+      "value_col": "fitness",
+      "prod": 576,
+      "states": [
+        4,
+        4,
+        3,
+        2,
+        3,
+        2
+      ],
+      "n_unique_seq": 576,
+      "complete": true,
+      "deg": 12,
+      "na": 0.0,
+      "n_obs": 576,
+      "op21_tiers": [
+        24,
+        96
+      ]
+    },
+    {
+      "file": "Wu2020_Mos99.csv",
+      "rows": 576,
+      "n_pos": 6,
+      "value_col": "fitness",
+      "prod": 576,
+      "states": [
+        4,
+        4,
+        3,
+        2,
+        3,
+        2
+      ],
+      "n_unique_seq": 576,
+      "complete": true,
+      "deg": 12,
+      "na": 0.0,
+      "n_obs": 576,
+      "op21_tiers": [
+        24,
+        96
+      ]
+    },
+    {
+      "file": "Wu2020_NDako16.csv",
+      "rows": 576,
+      "n_pos": 6,
+      "value_col": "fitness",
+      "prod": 576,
+      "states": [
+        4,
+        4,
+        3,
+        2,
+        3,
+        2
+      ],
+      "n_unique_seq": 576,
+      "complete": true,
+      "deg": 12,
+      "na": 0.0,
+      "n_obs": 576,
+      "op21_tiers": [
+        24,
+        96
+      ]
+    },
+    {
+      "file": "daSilva2010_CCR5.csv",
+      "rows": 32,
+      "n_pos": 5,
+      "value_col": "fitness",
+      "prod": 32,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 32,
+      "complete": true,
+      "deg": 5,
+      "na": 0.0,
+      "n_obs": 32,
+      "op21_tiers": []
+    },
+    {
+      "file": "daSilva2010_CXCR5.csv",
+      "rows": 32,
+      "n_pos": 5,
+      "value_col": "fitness",
+      "prod": 32,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 32,
+      "complete": true,
+      "deg": 5,
+      "na": 0.0,
+      "n_obs": 32,
+      "op21_tiers": []
+    },
+    {
+      "file": "deVisser2009.csv",
+      "rows": 32,
+      "n_pos": 5,
+      "value_col": "fitness",
+      "prod": 32,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 32,
+      "complete": true,
+      "deg": 5,
+      "na": 0.0,
+      "n_obs": 32,
+      "op21_tiers": []
+    },
+    {
+      "file": "new_PTE_catact_2NH.csv",
+      "rows": 64,
+      "n_pos": 6,
+      "value_col": "fitness",
+      "prod": 64,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 64,
+      "complete": true,
+      "deg": 6,
+      "na": 0.0,
+      "n_obs": 64,
+      "op21_tiers": []
+    },
+    {
+      "file": "new_PTE_catact_butyrate.csv",
+      "rows": 64,
+      "n_pos": 6,
+      "value_col": "fitness",
+      "prod": 64,
+      "states": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_unique_seq": 64,
+      "complete": true,
+      "deg": 6,
+      "na": 0.0,
+      "n_obs": 64,
+      "op21_tiers": []
+    }
+  ],
+  "groups": [
+    {
+      "group": "Anderson",
+      "n_files": 6,
+      "n_pos": 5,
+      "prod": 32,
+      "same_space": true,
+      "deg": 5,
+      "op21_tiers": [],
+      "tasks_passing_op18": 5,
+      "pairs": 10,
+      "verdict": "10 pairs < 10",
+      "tasks": [
+        {
+          "f": "Anderson_MPH_CdPTM.csv",
+          "na": 0.0
+        },
+        {
+          "f": "Anderson_MPH_CoPTM.csv",
+          "na": 0.0
+        },
+        {
+          "f": "Anderson_MPH_CuPTM.csv",
+          "na": 0.0
+        },
+        {
+          "f": "Anderson_MPH_MgPTM.csv",
+          "na": 0.0
+        },
+        {
+          "f": "Anderson_MPH_MnPTM.csv",
+          "na": 0.0
+        }
+      ]
+    },
+    {
+      "group": "Bakerlee2022",
+      "n_files": 12,
+      "n_pos": null,
+      "prod": null,
+      "same_space": false,
+      "deg": null,
+      "op21_tiers": [],
+      "tasks_passing_op18": 0,
+      "pairs": 0,
+      "verdict": "no",
+      "tasks": []
+    },
+    {
+      "group": "Frohlich21",
+      "n_files": 6,
+      "n_pos": 4,
+      "prod": 16,
+      "same_space": false,
+      "deg": 4,
+      "op21_tiers": [],
+      "tasks_passing_op18": 0,
+      "pairs": 0,
+      "verdict": "no",
+      "tasks": [
+        {
+          "f": "Frohlich21_OXA-48_ic50_CAZtraj1.csv",
+          "na": 0.0
+        },
+        {
+          "f": "Frohlich21_OXA-48_ic50_CAZtraj2.csv",
+          "na": 0.0
+        },
+        {
+          "f": "Frohlich21_OXA-48_ic50_CAZtraj3.csv",
+          "na": 0.0
+        },
+        {
+          "f": "Frohlich21_OXA-48_ic50_PIPtraj1.csv",
+          "na": 0.0
+        },
+        {
+          "f": "Frohlich21_OXA-48_ic50_PIPtraj2.csv",
+          "na": 0.0
+        },
+        {
+          "f": "Frohlich21_OXA-48_ic50_PIPtraj3.csv",
+          "na": 0.0
+        }
+      ]
+    },
+    {
+      "group": "Guerrero2019",
+      "n_files": 9,
+      "n_pos": 3,
+      "prod": 8,
+      "same_space": true,
+      "deg": 3,
+      "op21_tiers": [],
+      "tasks_passing_op18": 9,
+      "pairs": 36,
+      "verdict": "36 pairs < 10",
+      "tasks": [
+        {
+          "f": "Guerrero2019_C_muridarum_GroEL.csv",
+          "na": 0.0
+        },
+        {
+          "f": "Guerrero2019_C_muridarum_LON.csv",
+          "na": 0.0
+        },
+        {
+          "f": "Guerrero2019_C_muridarum_WT.csv",
+          "na": 0.0
+        },
+        {
+          "f": "Guerrero2019_E_coli_GroEL.csv",
+          "na": 0.0
+        },
+        {
+          "f": "Guerrero2019_E_coli_LON.csv",
+          "na": 0.0
+        },
+        {
+          "f": "Guerrero2019_E_coli_WT.csv",
+          "na": 0.0
+        },
+        {
+          "f": "Guerrero2019_L_grayi_GroEL.csv",
+          "na": 0.0
+        },
+        {
+          "f": "Guerrero2019_L_grayi_LON.csv",
+          "na": 0.0
+        },
+        {
+          "f": "Guerrero2019_L_grayi_WT.csv",
+          "na": 0.0
+        }
+      ]
+    },
+    {
+      "group": "Hall2019",
+      "n_files": 8,
+      "n_pos": 5,
+      "prod": 32,
+      "same_space": true,
+      "deg": 5,
+      "op21_tiers": [],
+      "tasks_passing_op18": 8,
+      "pairs": 28,
+      "verdict": "28 pairs < 10",
+      "tasks": [
+        {
+          "f": "Hall2019_Acetate.csv",
+          "na": 0.0
+        },
+        {
+          "f": "Hall2019_Beef.csv",
+          "na": 0.0
+        },
+        {
+          "f": "Hall2019_Casamino.csv",
+          "na": 0.0
+        },
+        {
+          "f": "Hall2019_Glucose.csv",
+          "na": 0.0
+        },
+        {
+          "f": "Hall2019_Milk.csv",
+          "na": 0.0
+        },
+        {
+          "f": "Hall2019_NAG.csv",
+          "na": 0.0
+        },
+        {
+          "f": "Hall2019_Rhamnose.csv",
+          "na": 0.0
+        },
+        {
+          "f": "Hall2019_Trypsin.csv",
+          "na": 0.0
+        }
+      ]
+    },
+    {
+      "group": "Johnston2024",
+      "n_files": 10,
+      "n_pos": null,
+      "prod": null,
+      "same_space": false,
+      "deg": null,
+      "op21_tiers": [],
+      "tasks_passing_op18": 0,
+      "pairs": 0,
+      "verdict": "no",
+      "tasks": []
+    },
+    {
+      "group": "Khan2011Flynn2013",
+      "n_files": 3,
+      "n_pos": 5,
+      "prod": 32,
+      "same_space": true,
+      "deg": 5,
+      "op21_tiers": [],
+      "tasks_passing_op18": 3,
+      "pairs": 3,
+      "verdict": "3 pairs < 10",
+      "tasks": [
+        {
+          "f": "Khan2011Flynn2013_DM25.csv",
+          "na": 0.0
+        },
+        {
+          "f": "Khan2011Flynn2013_DM25_EGTA.csv",
+          "na": 0.0
+        },
+        {
+          "f": "Khan2011Flynn2013_DM25_guanazole.csv",
+          "na": 0.0
+        }
+      ]
+    },
+    {
+      "group": "Lozovsky",
+      "n_files": 5,
+      "n_pos": 4,
+      "prod": 16,
+      "same_space": true,
+      "deg": 4,
+      "op21_tiers": [],
+      "tasks_passing_op18": 5,
+      "pairs": 10,
+      "verdict": "10 pairs < 10",
+      "tasks": [
+        {
+          "f": "Lozovsky_DHFR_ic50_c57.csv",
+          "na": 0.0
+        },
+        {
+          "f": "Lozovsky_DHFR_ic50_c58.csv",
+          "na": 0.0
+        },
+        {
+          "f": "Lozovsky_DHFR_ic50_c59.csv",
+          "na": 0.0
+        },
+        {
+          "f": "Lozovsky_DHFR_ic50_c60.csv",
+          "na": 0.0
+        },
+        {
+          "f": "Lozovsky_DHFR_ic50_c61.csv",
+          "na": 0.0
+        }
+      ]
+    },
+    {
+      "group": "Lunzer2005",
+      "n_files": 3,
+      "n_pos": 6,
+      "prod": 512,
+      "same_space": true,
+      "deg": 14,
+      "op21_tiers": [
+        24,
+        96
+      ],
+      "tasks_passing_op18": 3,
+      "pairs": 3,
+      "verdict": "3 pairs < 10",
+      "tasks": [
+        {
+          "f": "Lunzer2005_fitness.csv",
+          "na": 0.0
+        },
+        {
+          "f": "Lunzer2005_nad.csv",
+          "na": 0.0
+        },
+        {
+          "f": "Lunzer2005_nadp.csv",
+          "na": 0.0
+        }
+      ]
+    },
+    {
+      "group": "Michael2024",
+      "n_files": 5,
+      "n_pos": 9,
+      "prod": 512,
+      "same_space": true,
+      "deg": 9,
+      "op21_tiers": [
+        24,
+        96
+      ],
+      "tasks_passing_op18": 4,
+      "pairs": 6,
+      "verdict": "6 pairs < 10",
+      "tasks": [
+        {
+          "f": "Michael2024_LamB.csv",
+          "na": 0.0
+        },
+        {
+          "f": "Michael2024_Lspec.csv",
+          "na": 0.0957
+        },
+        {
+          "f": "Michael2024_OmpF.csv",
+          "na": 0.3184
+        },
+        {
+          "f": "Michael2024_Ospec.csv",
+          "na": 0.0391
+        },
+        {
+          "f": "Michael2024_base.csv",
+          "na": 0.1602
+        }
+      ]
+    },
+    {
+      "group": "Mira2015",
+      "n_files": 15,
+      "n_pos": 4,
+      "prod": 16,
+      "same_space": true,
+      "deg": 4,
+      "op21_tiers": [],
+      "tasks_passing_op18": 15,
+      "pairs": 105,
+      "verdict": "105 pairs < 10",
+      "tasks": [
+        {
+          "f": "Mira2015_TEM_AM.csv",
+          "na": 0.0
+        },
+        {
+          "f": "Mira2015_TEM_AMC.csv",
+          "na": 0.0
+        },
+        {
+          "f": "Mira2015_TEM_AMP.csv",
+          "na": 0.0
+        },
+        {
+          "f": "Mira2015_TEM_CAZ.csv",
+          "na": 0.0
+        },
+        {
+          "f": "Mira2015_TEM_CEC.csv",
+          "na": 0.0
+        },
+        {
+          "f": "Mira2015_TEM_CPD.csv",
+          "na": 0.0
+        },
+        {
+          "f": "Mira2015_TEM_CPR.csv",
+          "na": 0.0
+        },
+        {
+          "f": "Mira2015_TEM_CRO.csv",
+          "na": 0.0
+        },
+        {
+          "f": "Mira2015_TEM_CTT.csv",
+          "na": 0.0
+        },
+        {
+          "f": "Mira2015_TEM_CTX.csv",
+          "na": 0.0
+        },
+        {
+          "f": "Mira2015_TEM_CXM.csv",
+          "na": 0.0
+        },
+        {
+          "f": "Mira2015_TEM_FEP.csv",
+          "na": 0.0
+        },
+        {
+          "f": "Mira2015_TEM_SAM.csv",
+          "na": 0.0
+        },
+        {
+          "f": "Mira2015_TEM_TZP.csv",
+          "na": 0.0
+        },
+        {
+          "f": "Mira2015_TEM_ZOX.csv",
+          "na": 0.0
+        }
+      ]
+    },
+    {
+      "group": "Moulana2023",
+      "n_files": 4,
+      "n_pos": 15,
+      "prod": 32768,
+      "same_space": true,
+      "deg": 15,
+      "op21_tiers": [
+        24,
+        96,
+        384
+      ],
+      "tasks_passing_op18": 1,
+      "pairs": 0,
+      "verdict": "no",
+      "tasks": [
+        {
+          "f": "Moulana2023_CB6.csv",
+          "na": 0.4961
+        },
+        {
+          "f": "Moulana2023_CoV555.csv",
+          "na": 0.3937
+        },
+        {
+          "f": "Moulana2023_REGN10987.csv",
+          "na": 0.2772
+        },
+        {
+          "f": "Moulana2023_S309.csv",
+          "na": 0.0
+        }
+      ]
+    },
+    {
+      "group": "Phillips2021",
+      "n_files": 5,
+      "n_pos": 16,
+      "prod": 65536,
+      "same_space": true,
+      "deg": 16,
+      "op21_tiers": [
+        24,
+        96,
+        384
+      ],
+      "tasks_passing_op18": 3,
+      "pairs": 3,
+      "verdict": "3 pairs < 10",
+      "tasks": [
+        {
+          "f": "Phillips2021_CR9114_fluB.csv",
+          "na": 0.0
+        },
+        {
+          "f": "Phillips2021_CR9114_h1.csv",
+          "na": 0.0067
+        },
+        {
+          "f": "Phillips2021_CR9114_h3.csv",
+          "na": 0.0
+        }
+      ]
+    },
+    {
+      "group": "Phillips2023",
+      "n_files": 3,
+      "n_pos": 16,
+      "prod": 65536,
+      "same_space": true,
+      "deg": 16,
+      "op21_tiers": [
+        24,
+        96,
+        384
+      ],
+      "tasks_passing_op18": 3,
+      "pairs": 3,
+      "verdict": "3 pairs < 10",
+      "tasks": [
+        {
+          "f": "Phillips2023_G189E.csv",
+          "na": 0.0001
+        },
+        {
+          "f": "Phillips2023_MA90.csv",
+          "na": 0.0001
+        },
+        {
+          "f": "Phillips2023_SI06.csv",
+          "na": 0.0004
+        }
+      ]
+    },
+    {
+      "group": "Skwara2023",
+      "n_files": 6,
+      "n_pos": null,
+      "prod": null,
+      "same_space": false,
+      "deg": null,
+      "op21_tiers": [],
+      "tasks_passing_op18": 0,
+      "pairs": 0,
+      "verdict": "no",
+      "tasks": []
+    },
+    {
+      "group": "Tamer",
+      "n_files": 4,
+      "n_pos": 5,
+      "prod": 32,
+      "same_space": true,
+      "deg": 5,
+      "op21_tiers": [],
+      "tasks_passing_op18": 4,
+      "pairs": 6,
+      "verdict": "6 pairs < 10",
+      "tasks": [
+        {
+          "f": "Tamer_DHFR_kcat_trajg.csv",
+          "na": 0.0
+        },
+        {
+          "f": "Tamer_DHFR_kcat_trajr.csv",
+          "na": 0.0
+        },
+        {
+          "f": "Tamer_DHFR_ki_trajg.csv",
+          "na": 0.0
+        },
+        {
+          "f": "Tamer_DHFR_ki_trajr.csv",
+          "na": 0.0
+        }
+      ]
+    },
+    {
+      "group": "Wong2018",
+      "n_files": 3,
+      "n_pos": 9,
+      "prod": 32768,
+      "same_space": true,
+      "deg": 22,
+      "op21_tiers": [
+        24,
+        96,
+        384
+      ],
+      "tasks_passing_op18": 3,
+      "pairs": 3,
+      "verdict": "3 pairs < 10",
+      "tasks": [
+        {
+          "f": "Wong2018_brca2.csv",
+          "na": 0.009
+        },
+        {
+          "f": "Wong2018_ikbkap.csv",
+          "na": 0.0207
+        },
+        {
+          "f": "Wong2018_smn1.csv",
+          "na": 0.0621
+        }
+      ]
+    },
+    {
+      "group": "Wu2020",
+      "n_files": 7,
+      "n_pos": 6,
+      "prod": 576,
+      "same_space": true,
+      "deg": 12,
+      "op21_tiers": [
+        24,
+        96
+      ],
+      "tasks_passing_op18": 7,
+      "pairs": 21,
+      "verdict": "ELIGIBLE",
+      "tasks": [
+        {
+          "f": "Wu2020_Bei89.csv",
+          "na": 0.0
+        },
+        {
+          "f": "Wu2020_Bk79.csv",
+          "na": 0.0
+        },
+        {
+          "f": "Wu2020_Bris07L194.csv",
+          "na": 0.0
+        },
+        {
+          "f": "Wu2020_Bris07P194.csv",
+          "na": 0.0
+        },
+        {
+          "f": "Wu2020_HK68.csv",
+          "na": 0.0
+        },
+        {
+          "f": "Wu2020_Mos99.csv",
+          "na": 0.0
+        },
+        {
+          "f": "Wu2020_NDako16.csv",
+          "na": 0.0
+        }
+      ]
+    }
+  ],
+  "eligible": [
+    "Wu2020"
+  ]
+}

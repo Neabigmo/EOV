@@ -1,0 +1,16 @@
+# Core runtime — enough to run `pytest tests` and the zero-download verifiers.
+numpy>=1.24
+pandas>=2.0
+
+# --- Needed only for the FULL pipeline (raw third-party inputs) -------------
+# Install with:  pip install -e ".[full]"
+#
+# scipy>=1.10          # bootstrap / permutation helpers
+# openpyxl>=3.1        # reading the Wu2020 journal Source Data (.xlsx)
+# rdkit>=2023.9        # ECFP4 fingerprints for M7-B task descriptors
+# rdata>=1.0           # reading R .rda objects (AncSR1 eligibility audit)
+# pyreadr>=0.5
+# pyarrow>=14          # parquet I/O for data/processed/M2_measurements.parquet
+
+# --- Development ------------------------------------------------------------
+pytest>=7.4

@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "eov"
+version = "1.0.0"
+description = "Evolutionary Option Value: starting-point value is budget-stable but task-conditional, and its transferability is governed by landscape similarity"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+keywords = ["fitness-landscape", "protein-engineering", "directed-evolution",
+            "transferability", "preregistration", "reproducibility"]
+classifiers = [
+  "Intended Audience :: Science/Research",
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering :: Bio-Informatics",
+]
+
+dependencies = [
+  "numpy>=1.24",
+  "pandas>=2.0",
+]
+
+[project.optional-dependencies]
+# Needed only for the FULL pipeline that re-consumes raw third-party files.
+full = [
+  "scipy>=1.10",
+  "openpyxl>=3.1",     # journal Source Data .xlsx (Wu2020)
+  "rdkit>=2023.9",     # ECFP4 fingerprints (M7-B task descriptors)
+  "rdata>=1.0",        # reading R .rda objects (AncSR1 eligibility audit)
+  "pyreadr>=0.5",
+  "pyarrow>=14",       # parquet I/O for the measurement table
+]
+dev = ["pytest>=7.4"]
+
+[tool.setuptools]
+packages = ["eov"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+filterwarnings = ["ignore::UserWarning"]

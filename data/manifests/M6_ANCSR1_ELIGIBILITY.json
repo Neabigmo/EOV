@@ -1,0 +1,198 @@
+{
+  "sequence_sets": {
+    "DT.JOINT": 160000,
+    "DT.11P.CODING": 160000,
+    "intersection": 160000,
+    "jaccard": 1.0
+  },
+  "per_re": {
+    "E": {
+      "n_rows": 160000,
+      "n_unique_seq": 160000,
+      "meanF_notna": 147349,
+      "SE_notna": 158777,
+      "class_notna": 147349
+    },
+    "S": {
+      "n_rows": 160000,
+      "n_unique_seq": 160000,
+      "meanF_notna": 148994,
+      "SE_notna": 159650,
+      "class_notna": 148994
+    }
+  },
+  "geometry": {
+    "NH.ACT.ADJM.rda": {
+      "Dim": [
+        160000,
+        160000
+      ],
+      "n_nodes": 160000,
+      "nnz": 12160000,
+      "deg_min": 76,
+      "deg_max": 76,
+      "deg_mean": 76.0,
+      "n_full_deg": 160000,
+      "deg_hist_head": {
+        "76": 160000
+      }
+    },
+    "NG.ACT.ADJM.rda": {
+      "Dim": [
+        194481,
+        194481
+      ],
+      "n_nodes": 194481,
+      "nnz": 5704776,
+      "deg_min": 20,
+      "deg_max": 48,
+      "deg_mean": 29.333333333333332,
+      "n_full_deg": 0,
+      "deg_hist_head": {
+        "20": 1,
+        "21": 24,
+        "22": 244,
+        "23": 1380,
+        "24": 4838,
+        "25": 11272,
+        "26": 18730,
+        "27": 24052,
+        "28": 25777,
+        "29": 24288,
+        "30": 21032,
+        "31": 17584,
+        "32": 14165,
+        "33": 10648,
+        "34": 7556,
+        "35": 5044,
+        "36": 3178,
+        "37": 2028,
+        "38": 1230,
+        "39": 676,
+        "40": 379,
+        "41": 184,
+        "42": 88,
+        "43": 52,
+        "44": 18,
+        "45": 8,
+        "46": 4,
+        "48": 1
+      }
+    },
+    "MG.ACT.ADJM.rda": {
+      "Dim": [
+        1080,
+        1080
+      ],
+      "n_nodes": 1080,
+      "nnz": 9454,
+      "deg_min": 1,
+      "deg_max": 22,
+      "deg_mean": 8.753703703703703,
+      "n_full_deg": 0,
+      "deg_hist_head": {
+        "1": 4,
+        "2": 23,
+        "3": 34,
+        "4": 48,
+        "5": 81,
+        "6": 119,
+        "7": 114,
+        "8": 151,
+        "9": 97,
+        "10": 111,
+        "11": 72,
+        "12": 54,
+        "13": 44,
+        "14": 50,
+        "15": 31,
+        "16": 19,
+        "17": 6,
+        "18": 11,
+        "19": 5,
+        "20": 2,
+        "21": 2,
+        "22": 2
+      }
+    }
+  },
+  "thresh_null": {
+    "ME": [
+      -9.420210723619627
+    ],
+    "PE": [
+      -9.534216105497011
+    ],
+    "TE": [
+      -8.211960671466167
+    ]
+  },
+  "informativeness": {
+    "E": {
+      "n_rows": 160000,
+      "usable_frac": 0.92093125,
+      "class_non_null_frac": 0.08668125,
+      "class_counts": {
+        "null": 146131,
+        "weak": 941,
+        "strong": 277
+      },
+      "SE_n_unique": 30
+    },
+    "S": {
+      "n_rows": 160000,
+      "usable_frac": 0.9312125,
+      "class_non_null_frac": 0.08935,
+      "class_counts": {
+        "null": 145704,
+        "weak": 2225,
+        "strong": 1065
+      },
+      "SE_n_unique": 30
+    }
+  },
+  "tasks": {
+    "tasks": [
+      "ERE",
+      "SRE"
+    ],
+    "n_tasks": 2,
+    "n_pairs": 1
+  },
+  "budget": {
+    "space": 160000,
+    "op21_cap": 40000,
+    "tiers": [
+      24,
+      96,
+      384
+    ]
+  },
+  "E1_E6": {
+    "E1_tasks_ge_3": {
+      "pass": false,
+      "note": "n_tasks=2 (need >=3)"
+    },
+    "E2_pairs_ge_10": {
+      "pass": false,
+      "note": "n_pairs=1 (need >=10)"
+    },
+    "E3_space_definable": {
+      "pass": true,
+      "note": "complete product space 20^4, observed=160000"
+    },
+    "E4_aa_hamming1_definable": {
+      "pass": true,
+      "note": "NH degree min=76 max=76 (expect 76=4*19)"
+    },
+    "E5_graph_eligible": {
+      "pass": true,
+      "note": "role=strict_multi_task (multi-task, combinatorial neighborhood present)"
+    },
+    "E6_budget_ge_2": {
+      "pass": true,
+      "note": "admissible tiers=[24, 96, 384]"
+    }
+  },
+  "overall": "FAIL"
+}

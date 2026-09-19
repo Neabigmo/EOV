@@ -1,0 +1,9 @@
+# data manifest (PHASE1_PROTOCOL.md L272)
+# path: data/processed/M2_measurements.parquet
+# sha256: fa3bba9fcf35e373146ccb06168a3005b128bf1efa8e301d658f71e4eb041df2
+# bytes: 87910047
+# recorded_at: 2026-09-19T16:13:16+0800
+# role: M2 物化产物
+# source_dataset: TEM-1CML / Phillips2023_HA_CH65 / Phillips2021_CR9114
+# produced_by: eov/ (M2 materialization)
+# note: 四态语义 schema v1.4

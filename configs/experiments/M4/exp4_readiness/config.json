@@ -1,0 +1,25 @@
+{
+  "script": "eov/exp4_readiness_vs_eov.py",
+  "dataset": "TEM-1CML",
+  "today": "AMP 全浓度族",
+  "futures": [
+    "AZT@0.44",
+    "AZT@36.0"
+  ],
+  "space_size": 55296,
+  "topology_degree": 18,
+  "policies": [
+    "random",
+    "greedy_ssm",
+    "mlde_ridge"
+  ],
+  "budgets": [
+    24,
+    96,
+    384
+  ],
+  "split": "sha256('eov-m4-split|'+genotype_id) parity 50/50 (OP-9)",
+  "match_tolerance": "2 x median(sigma_u) = 0.152235 (M4 实际; OP-8 默认见 _OP8.csv)",
+  "n_boot": 2000,
+  "output": "data_registry/M4_EXP4_*.csv"
+}

@@ -1,0 +1,108 @@
+{
+  "experiment": "exp4_readiness",
+  "generated_at": "2026-09-19T16:13:16+0800",
+  "protocol_refs": [
+    "PHASE1_PROTOCOL.md L39",
+    "PHASE1_PROTOCOL.md L40"
+  ],
+  "tis_definition": "同一 TIS。匹配对的容差由噪声决定，不人工调 ε。",
+  "allowed_today_pairs": [
+    [
+      "AMP",
+      "0.0"
+    ],
+    [
+      "AMP",
+      "3.1"
+    ],
+    [
+      "AMP",
+      "12.2"
+    ],
+    [
+      "AMP",
+      "48.8"
+    ],
+    [
+      "AMP",
+      "195.0"
+    ],
+    [
+      "AMP",
+      "781.0"
+    ]
+  ],
+  "forbidden_access": [
+    "任何 future task 的测量（列于 config.json 的 futures）"
+  ],
+  "inputs": [
+    {
+      "path": "data/processed/M2_measurements.parquet",
+      "sha256": "fa3bba9fcf35e373146ccb06168a3005b128bf1efa8e301d658f71e4eb041df2",
+      "bytes": 87910047
+    },
+    {
+      "path": "data/processed/M4_EXP2_V.npz",
+      "sha256": "ad40966dc98df837f7dc56c606a6d972db95c3397b74cf6083373483cc2eb7e2",
+      "bytes": 361342
+    }
+  ],
+  "features": [
+    "current_fitness",
+    "known_family_mean",
+    "known_family_worst",
+    "local_robustness",
+    "neighbor_informative_frac",
+    "dist_to_best",
+    "n_better_neighbors",
+    "local_ruggedness",
+    "proxy_eov_today"
+  ],
+  "isolation_audit": {
+    "arrs_holds_future_keys": false,
+    "data_level_firewall": "满足（不自己构造特征）",
+    "type_level_firewall": "满足（特征由 exp2 的 NPZ 提供，而那份由 TIS 产出）",
+    "note": "exp4 **不构造 Day-0 特征**，直接读 `M4_EXP2_V.npz` 里由 TIS 产出的 `feat_*`。故 L39 对它无需额外改动。"
+  },
+  "l39_status": {
+    "satisfied": true,
+    "implementation": "eov/tis.py —— `TIS` 类 + 模块级 `TODAY_SPEC`（τ₀ 白名单的**唯一**权威定义）",
+    "enforcement": [
+      "唯一的公开构造入口 `TIS.for_dataset(dataset_id, arrs, ctx, space)`：**没有任何参数可以扩大白名单**",
+      "`TIS.value(key)` / `TIS.u(key, z)`：白名单外的键一律 `TISViolation`",
+      "`TIS.features(parents)`：签名只接受 TIS 实例 —— 调用方无法把 future 数组传进来",
+      "`TIS.without(key)`：只能取白名单的子集，不扩大访问面"
+    ],
+    "evidence": "tests/test_tis.py（7 项全通过）",
+    "evidence_detail": [
+      "T1 拒绝测试：stray 键 → `TISViolation`；未知数据集 → `TISViolation`",
+      "T2 **逐位复现**：TIS 重建的 8 个特征与 `M4_EXP2_V.npz` 落盘的 `feat_*` 相比 `max|diff| == 0`",
+      "T3 **迁移惰性**：与迁移前的 exp3 实现相比，5 个 leave-one-out 变体全部 `max|diff| < 1e-12` 且 argmax 不变",
+      "T2b 注入测试：把 AZT 数组替换为全 999，特征逐位不变"
+    ],
+    "migrated": [
+      "eov/exp2_baselines.py（L198）",
+      "eov/exp3_tomorrow_test.py（S1 与 S3 两处）"
+    ],
+    "not_applicable": [
+      "eov/exp1_stability.py（不使用 Day-0 特征）",
+      "eov/exp4_readiness_vs_eov.py（读 exp2 NPZ 的 `feat_*`，不自行构造）"
+    ],
+    "migration_verification": {
+      "end_to_end": true,
+      "method": "迁移后**完整重跑** exp2（2,106 s）与 exp3 --s1-only（1,575 s），与迁移前产物做 sha256 比对",
+      "result": "**全部 6 个产物逐字节相同（IDENTICAL）**",
+      "identical_artifacts": [
+        "data_registry/M4_EXP2_LADDER.csv (09bcb6b9a523e606)",
+        "data_registry/M4_EXP2_FEATURES.csv (0a23bb36b4107927)",
+        "data_registry/M4_EXP2_SCALE_SENSITIVITY.csv (b6b4b8b42a125f45)",
+        "data/processed/M4_EXP2_V.npz (ad40966dc98df837)",
+        "data_registry/M4_EXP3_S1_MODEL_SELECTION.csv (50003378fcc6a63d)",
+        "data/processed/M4_EXP3_S1_R.npz (bf2b972602f66237)"
+      ],
+      "note": "这不仅证明特征惰性，还证明**整条搜索模拟路径**惰性（含 MLDE 与策略随机流未被推移）。"
+    },
+    "residual_risk": "无（端到端重跑已逐字节复现）。"
+  },
+  "feature_interface_note": "L39 要求 TIS 特征函数**在类型/接口层面无法访问 τ**。**已满足**：唯一的特征入口是 `eov/tis.py` 的 `TIS.features(parents)`，签名只接受 TIS 实例；τ₀ 白名单硬编码在该模块的 `TODAY_SPEC` 内，调用方没有任何参数可以扩大它。证据见 `l39_status.evidence`。本实验的具体情况：exp4 **不构造 Day-0 特征**，直接读 `M4_EXP2_V.npz` 里由 TIS 产出的 `feat_*`。故 L39 对它无需额外改动。"
+}

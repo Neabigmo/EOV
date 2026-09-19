@@ -1,0 +1,29 @@
+{
+  "n_checks": 85,
+  "n_fail": 0,
+  "perm_null": {
+    "median": 0.0,
+    "q95": 0.43571428571428555,
+    "q99": 0.5964285714285712,
+    "p_perm": 0.0008499575021248938,
+    "n_perm": 20000,
+    "label": "post-hoc descriptive, not a decision rule"
+  },
+  "cells_used_per_pair": {
+    "Bei89~Bk79": 5,
+    "Bei89~Bris07": 5,
+    "Bei89~HK68": 5,
+    "Bei89~Mos99": 5,
+    "Bei89~NDako16": 5,
+    "Bk79~Bris07": 5,
+    "Bk79~HK68": 5,
+    "Bk79~Mos99": 5,
+    "Bk79~NDako16": 5,
+    "Bris07~HK68": 5,
+    "Bris07~Mos99": 5,
+    "Bris07~NDako16": 5,
+    "HK68~Mos99": 5,
+    "HK68~NDako16": 5,
+    "Mos99~NDako16": 5
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "script": "eov/exp3_tomorrow_test.py",
+  "dataset": "TEM-1CML",
+  "today": "AMP 全浓度族",
+  "futures": [
+    "AZT@0.44 (primary)",
+    "AZT@36.0 (replication)"
+  ],
+  "space_size": 55296,
+  "topology_degree": 18,
+  "policies": [
+    "random",
+    "greedy_ssm",
+    "mlde_ridge"
+  ],
+  "budgets": [
+    24,
+    96,
+    384
+  ],
+  "n_boot": 2000,
+  "frozen_selector_file": "data_registry/M4_EXP3_FROZEN_SELECTOR.md",
+  "output": "data_registry/M4_EXP3_*.csv"
+}

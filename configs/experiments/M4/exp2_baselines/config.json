@@ -1,0 +1,26 @@
+{
+  "script": "eov/exp2_baselines.py",
+  "dataset": "TEM-1CML",
+  "today": "AMP 全浓度族",
+  "futures": [
+    "AZT@0.44 (primary)",
+    "AZT@36.0 (replication)"
+  ],
+  "space_size": 55296,
+  "topology_degree": 18,
+  "policies": [
+    "random",
+    "greedy_ssm",
+    "mlde_ridge"
+  ],
+  "budgets": [
+    24,
+    96,
+    384
+  ],
+  "utility": "PROTOCOL §3.3 OP-12 (no clip); AMENDMENT-014 §3 全栈统一尺度",
+  "n_parents": 1000,
+  "n_noise_reps": 3,
+  "n_boot": 2000,
+  "output": "data_registry/M4_EXP2_*.csv"
+}
