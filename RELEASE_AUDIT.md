@@ -4,16 +4,23 @@ Pre-push audit of the public EOV release.
 Generated 2026-09-19.
 
 ```
-remote      https://github.com/Neabigmo/EOV.git   (public)
-commit      7d2d6b6   branch main
-tracked     183 files / 2.74 MB
-largest     654,300 bytes   results/tables/M4_LAYER_DECOMPOSITION.csv
-history     3 commits, fresh repository — no prior history anywhere
+remote      https://github.com/Neabigmo/EOV.git   (public, MIT)
+commit      6d92a05   branch main
+tracked     184 files / 2.75 MB
+            verify:  git ls-files | wc -l
+largest     654,300 bytes (639.0 KiB)
+            results/tables/M4_LAYER_DECOMPOSITION.csv
+history     5 commits, fresh repository — no prior history anywhere
 ```
 
-> Counting note: the file count in this header includes this file itself, which
-> is why the figure here (183) differs from the 182 quoted at the bottom of
-> §8's clone table (measured before this file was added).
+> **On hand-copied counts.** Any file count written into a document is a snapshot
+> taken at some moment, and this one moved three times while the release was
+> being finalised (182 → 183 → 184) as files were added — including this file
+> itself. The number above is therefore paired with the command that reproduces
+> it, and the earlier values are not quietly overwritten but explained in §8's
+> clone table and §12.1. Silent count drift across documents is a known failure
+> mode in this project; this note exists so that a future reader can tell a stale
+> snapshot from an error.
 
 ---
 
@@ -222,14 +229,19 @@ A fresh `git clone https://github.com/Neabigmo/EOV.git` into an empty directory:
 | `eov/m7b_zero_measurement_gate.py` | **`ρ_zero = +0.3527`**, CI `[−0.1520, +0.6747]`, `p = 0.01600`, `NO-GO` — identical to the pre-package result |
 | `LICENSE` / `CITATION.cff` on GitHub | copyright holder and repository URL present, no placeholders in active fields |
 
-### 12.1 Two audit numbers that were wrong on first write, and are now fixed
+### 12.1 Audit numbers that were wrong on first write, and are now fixed
 
-1. **File count.** The header originally said 182; that was the count *before
-   this file existed*. It is now 183, and the discrepancy is explained inline
-   rather than silently corrected — cross-file count drift is a known failure
-   mode in this project.
+1. **File count.** Written three times, each time correct only for the instant it
+   was measured (182 → 183 → 184) because files were still being added, including
+   this one. The header now pairs the number with the command that reproduces it.
+   Cross-document count drift is a known failure mode in this project; the values
+   are reconciled here rather than silently overwritten.
 2. **Largest object.** First reported as "639 KB"; the same file is 654.3 KB
-   decimal. The two figures differ only by the divisor (1024 vs 1000), and are
-   now stated as **654,300 bytes (639.0 KiB)** to be unambiguous.
+   decimal. The figures differ only by the divisor (1024 vs 1000) and are now
+   stated as **654,300 bytes (639.0 KiB)** to be unambiguous.
+3. **GitHub license detection.** The first `LICENSE` had a "scope" appendix
+   appended to the MIT text, which made GitHub report `NOASSERTION`. The appendix
+   moved to `LICENSE-SCOPE.md` and GitHub now reports **MIT**.
+
 
 
